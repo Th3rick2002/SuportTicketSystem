@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hIO6EKW0AP8=",
+  "dgSpecHash": "chG8zKHUxR4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erick MArtinez\\source\\repos\\SoportTicketSystem\\CommonLayer\\CommonLayer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/erick/RiderProjects/SuportTicketSystem/CommonLayer/CommonLayer.csproj",
+  "expectedPackageFiles": [
+    "/home/erick/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
