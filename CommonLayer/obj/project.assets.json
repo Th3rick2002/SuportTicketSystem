@@ -8,24 +8,27 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/erick/.nuget/packages/": {}
+    "C:\\Users\\MINEDUCYT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/erick/RiderProjects/SuportTicketSystem/CommonLayer/CommonLayer.csproj",
+      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
       "projectName": "CommonLayer",
-      "projectPath": "/home/erick/RiderProjects/SuportTicketSystem/CommonLayer/CommonLayer.csproj",
-      "packagesPath": "/home/erick/.nuget/packages/",
-      "outputPath": "/home/erick/RiderProjects/SuportTicketSystem/CommonLayer/obj/",
+      "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+      "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\SuportTicketSystem\\CommonLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/erick/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,18 +62,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.8, 8.0.8]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
