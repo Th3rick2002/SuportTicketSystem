@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\saritmar\\documents\\programacio orientada a eventos\\suportticketsystem\\presentationlayer\\forms\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\saritmar\\documents\\programacio orientada a eventos\\suportticketsystem\\presentationlayer\\forms\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\saritmar\\documents\\programacio orientada a eventos\\suportticketsystem\\presentationlayer\\forms\\formagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\saritmar\\documents\\programacio orientada a eventos\\suportticketsystem\\presentationlayer\\forms\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\saritmar\\documents\\programacio orientada a eventos\\suportticketsystem\\presentationlayer\\forms\\formagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\saritmar\\documents\\programacio orientada a eventos\\suportticketsystem\\presentationlayer\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\presentationlayer\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\presentationlayer\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\saritmar\\documents\\programacio orientada a eventos\\suportticketsystem\\presentationlayer\\forms\\formadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\saritmar\\documents\\programacio orientada a eventos\\suportticketsystem\\presentationlayer\\forms\\registerticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\registerticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\saritmar\\documents\\programacio orientada a eventos\\suportticketsystem\\presentationlayer\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\presentationlayer\\forms\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,105 +30,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TicketForm.cs",
-              "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\TicketForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\TicketForm.cs",
-              "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\TicketForm.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\TicketForm.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBUAAAAMAAAA",
+              "Title": "FormAgent.cs",
+              "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\FormAgent.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormAgent.cs",
+              "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\FormAgent.cs",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormAgent.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:31:23.701Z",
+              "WhenOpened": "2024-10-23T21:09:51.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TicketForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\TicketForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\TicketForm.cs",
-              "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\TicketForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\TicketForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:30:52.285Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FormClient.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient.cs",
               "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentationLayer\\forms\\FormClient.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:30:29.887Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-23T20:43:23.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormAgent.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\FormAgent.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormAgent.cs",
-              "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\FormAgent.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormAgent.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:30:27.532Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormAdministrator.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\FormAdministrator.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormAdministrator.cs",
-              "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\FormAdministrator.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormAdministrator.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:30:14.456Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\RegisterTicket.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\RegisterTicket.cs",
-              "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\RegisterTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\RegisterTicket.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T21:18:27.079Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LoginForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\LoginForm.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\forms\\LoginForm.cs",
               "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\LoginForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentationLayer\\forms\\LoginForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T21:17:11.932Z",
+              "WhenOpened": "2024-10-23T20:18:45.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormAgent.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\FormAgent.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormAgent.cs",
+              "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\FormAgent.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormAgent.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T19:44:24.263Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\LoginForm.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\LoginForm.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAgAAAA",
+              "DocumentIndex": 2,
+              "Title": "registerForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\registerForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\registerForm.cs",
+              "ToolTip": "C:\\Users\\Saritmar\\Documents\\Programacio Orientada A Eventos\\SuportTicketSystem\\PresentationLayer\\forms\\registerForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\forms\\registerForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T21:17:15.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T19:10:36.5Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

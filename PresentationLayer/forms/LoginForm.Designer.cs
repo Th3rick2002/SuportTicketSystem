@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             labelStartOfSection = new Label();
             buttonAccess = new Button();
             btnUser = new Button();
@@ -35,13 +36,18 @@
             textBoxMail = new TextBox();
             labelPasword = new Label();
             textBoxPasword = new TextBox();
+            groupBoxLogin = new GroupBox();
+            pictureBoxLogin = new PictureBox();
+            groupBoxLogin.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxLogin).BeginInit();
             SuspendLayout();
             // 
             // labelStartOfSection
             // 
             labelStartOfSection.AutoSize = true;
             labelStartOfSection.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelStartOfSection.Location = new Point(347, 52);
+            labelStartOfSection.ForeColor = SystemColors.ActiveBorder;
+            labelStartOfSection.Location = new Point(102, 17);
             labelStartOfSection.Name = "labelStartOfSection";
             labelStartOfSection.Size = new Size(244, 37);
             labelStartOfSection.TabIndex = 0;
@@ -49,32 +55,36 @@
             // 
             // buttonAccess
             // 
+            buttonAccess.BackColor = Color.LightSteelBlue;
             buttonAccess.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            buttonAccess.Location = new Point(395, 321);
+            buttonAccess.Location = new Point(150, 290);
             buttonAccess.Margin = new Padding(3, 4, 3, 4);
             buttonAccess.Name = "buttonAccess";
             buttonAccess.Size = new Size(119, 33);
             buttonAccess.TabIndex = 3;
             buttonAccess.Text = "acceder";
-            buttonAccess.UseVisualStyleBackColor = true;
+            buttonAccess.UseVisualStyleBackColor = false;
+            buttonAccess.Click += buttonAccess_Click;
             // 
             // btnUser
             // 
+            btnUser.BackColor = Color.LightSteelBlue;
             btnUser.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnUser.Location = new Point(395, 363);
+            btnUser.Location = new Point(150, 354);
             btnUser.Margin = new Padding(3, 4, 3, 4);
             btnUser.Name = "btnUser";
             btnUser.Size = new Size(119, 33);
             btnUser.TabIndex = 4;
             btnUser.Text = "crear usuario";
-            btnUser.UseVisualStyleBackColor = true;
+            btnUser.UseVisualStyleBackColor = false;
             btnUser.Click += btnUser_Click;
             // 
             // labelMail
             // 
             labelMail.AutoSize = true;
             labelMail.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelMail.Location = new Point(296, 147);
+            labelMail.ForeColor = SystemColors.ActiveBorder;
+            labelMail.Location = new Point(51, 112);
             labelMail.Name = "labelMail";
             labelMail.Size = new Size(51, 23);
             labelMail.TabIndex = 16;
@@ -82,7 +92,7 @@
             // 
             // textBoxMail
             // 
-            textBoxMail.Location = new Point(296, 171);
+            textBoxMail.Location = new Point(51, 145);
             textBoxMail.Margin = new Padding(3, 4, 3, 4);
             textBoxMail.Name = "textBoxMail";
             textBoxMail.Size = new Size(350, 27);
@@ -92,7 +102,8 @@
             // 
             labelPasword.AutoSize = true;
             labelPasword.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelPasword.Location = new Point(296, 232);
+            labelPasword.ForeColor = SystemColors.ActiveBorder;
+            labelPasword.Location = new Point(51, 206);
             labelPasword.Name = "labelPasword";
             labelPasword.Size = new Size(97, 23);
             labelPasword.TabIndex = 18;
@@ -100,29 +111,53 @@
             // 
             // textBoxPasword
             // 
-            textBoxPasword.Location = new Point(296, 256);
+            textBoxPasword.Location = new Point(51, 230);
             textBoxPasword.Margin = new Padding(3, 4, 3, 4);
             textBoxPasword.Name = "textBoxPasword";
             textBoxPasword.Size = new Size(350, 27);
             textBoxPasword.TabIndex = 17;
             // 
+            // groupBoxLogin
+            // 
+            groupBoxLogin.BackColor = Color.MediumPurple;
+            groupBoxLogin.Controls.Add(btnUser);
+            groupBoxLogin.Controls.Add(labelPasword);
+            groupBoxLogin.Controls.Add(labelStartOfSection);
+            groupBoxLogin.Controls.Add(textBoxPasword);
+            groupBoxLogin.Controls.Add(buttonAccess);
+            groupBoxLogin.Controls.Add(labelMail);
+            groupBoxLogin.Controls.Add(textBoxMail);
+            groupBoxLogin.Location = new Point(234, 160);
+            groupBoxLogin.Name = "groupBoxLogin";
+            groupBoxLogin.Size = new Size(435, 417);
+            groupBoxLogin.TabIndex = 19;
+            groupBoxLogin.TabStop = false;
+            // 
+            // pictureBoxLogin
+            // 
+            pictureBoxLogin.Image = (Image)resources.GetObject("pictureBoxLogin.Image");
+            pictureBoxLogin.Location = new Point(372, 23);
+            pictureBoxLogin.Name = "pictureBoxLogin";
+            pictureBoxLogin.Size = new Size(148, 117);
+            pictureBoxLogin.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxLogin.TabIndex = 20;
+            pictureBoxLogin.TabStop = false;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.DarkCyan;
             ClientSize = new Size(914, 600);
-            Controls.Add(labelPasword);
-            Controls.Add(textBoxPasword);
-            Controls.Add(labelMail);
-            Controls.Add(textBoxMail);
-            Controls.Add(btnUser);
-            Controls.Add(buttonAccess);
-            Controls.Add(labelStartOfSection);
+            Controls.Add(pictureBoxLogin);
+            Controls.Add(groupBoxLogin);
             Margin = new Padding(3, 4, 3, 4);
             Name = "LoginForm";
             Text = "LoginForm";
+            groupBoxLogin.ResumeLayout(false);
+            groupBoxLogin.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxLogin).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -134,5 +169,7 @@
         private TextBox textBoxMail;
         private Label labelPasword;
         private TextBox textBoxPasword;
+        private GroupBox groupBoxLogin;
+        private PictureBox pictureBoxLogin;
     }
 }
