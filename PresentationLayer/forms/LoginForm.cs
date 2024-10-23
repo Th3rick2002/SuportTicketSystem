@@ -21,6 +21,11 @@ namespace PresentationLayer.forms
         {
             registerForm formRegister = new registerForm();
 
+            this.Hide();
+
+            formRegister.FormClosed += (s, args) => this.Show();
+
+            
             formRegister.Show();
         }
     }

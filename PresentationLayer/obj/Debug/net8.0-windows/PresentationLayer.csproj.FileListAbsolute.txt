@@ -19,3 +19,26 @@ C:\Users\MINEDUCYT\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0
 C:\Users\MINEDUCYT\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.pdb
 C:\Users\MINEDUCYT\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.genruntimeconfig.cache
 C:\Users\MINEDUCYT\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\ref\PresentationLayer.dll
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormAdministrator.resources
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormAgent.resources
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormClient.resources
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.LoginForm.resources
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.registerForm.resources
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.RegisterTicket.resources
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.TicketForm.resources
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.AssemblyInfo.cs
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.sourcelink.json
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.dll
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\refint\PresentationLayer.dll
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.pdb
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.exe
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.deps.json
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.runtimeconfig.json
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.dll
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.pdb
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.genruntimeconfig.cache
+C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\ref\PresentationLayer.dll

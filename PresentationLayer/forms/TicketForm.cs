@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PresentationLayer.forms
 {
-    public partial class AdminForm : Form
+    public partial class TicketForm : Form
     {
-        public AdminForm()
+        public TicketForm()
         {
             InitializeComponent();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PresentationLayer.forms
 {
-    public partial class RequestForm : Form
+    public partial class RegisterTicket : Form
     {
-        public RequestForm()
+        public RegisterTicket()
         {
             InitializeComponent();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

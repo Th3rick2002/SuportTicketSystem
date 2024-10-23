@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="forms\AdminForm.cs">
+    <Compile Update="forms\FormAdministrator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\AgentForm.cs">
+    <Compile Update="forms\FormAgent.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="forms\LoginForm.cs">
@@ -13,7 +13,13 @@
     <Compile Update="forms\registerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\RequestForm.cs">
+    <Compile Update="forms\RegisterTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\FormClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\TicketForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

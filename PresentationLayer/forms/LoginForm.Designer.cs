@@ -28,88 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            button1 = new Button();
+            labelStartOfSection = new Label();
+            buttonAccess = new Button();
             btnUser = new Button();
-            label3 = new Label();
-            textBox5 = new TextBox();
-            label2 = new Label();
-            textBox1 = new TextBox();
+            labelMail = new Label();
+            textBoxMail = new TextBox();
+            labelPasword = new Label();
+            textBoxPasword = new TextBox();
             SuspendLayout();
             // 
-            // label1
+            // labelStartOfSection
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(304, 39);
-            label1.Name = "label1";
-            label1.Size = new Size(193, 30);
-            label1.TabIndex = 0;
-            label1.Text = "INICIO DE SESION";
+            labelStartOfSection.AutoSize = true;
+            labelStartOfSection.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelStartOfSection.Location = new Point(347, 52);
+            labelStartOfSection.Name = "labelStartOfSection";
+            labelStartOfSection.Size = new Size(244, 37);
+            labelStartOfSection.TabIndex = 0;
+            labelStartOfSection.Text = "INICIO DE SESION";
             // 
-            // button1
+            // buttonAccess
             // 
-            button1.Location = new Point(346, 241);
-            button1.Name = "button1";
-            button1.Size = new Size(104, 25);
-            button1.TabIndex = 3;
-            button1.Text = "acceder";
-            button1.UseVisualStyleBackColor = true;
+            buttonAccess.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            buttonAccess.Location = new Point(395, 321);
+            buttonAccess.Margin = new Padding(3, 4, 3, 4);
+            buttonAccess.Name = "buttonAccess";
+            buttonAccess.Size = new Size(119, 33);
+            buttonAccess.TabIndex = 3;
+            buttonAccess.Text = "acceder";
+            buttonAccess.UseVisualStyleBackColor = true;
             // 
             // btnUser
             // 
-            btnUser.Location = new Point(346, 272);
+            btnUser.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            btnUser.Location = new Point(395, 363);
+            btnUser.Margin = new Padding(3, 4, 3, 4);
             btnUser.Name = "btnUser";
-            btnUser.Size = new Size(104, 25);
+            btnUser.Size = new Size(119, 33);
             btnUser.TabIndex = 4;
             btnUser.Text = "crear usuario";
             btnUser.UseVisualStyleBackColor = true;
             btnUser.Click += btnUser_Click;
             // 
-            // label3
+            // labelMail
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(259, 110);
-            label3.Name = "label3";
-            label3.Size = new Size(36, 15);
-            label3.TabIndex = 16;
-            label3.Text = "Email";
+            labelMail.AutoSize = true;
+            labelMail.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            labelMail.Location = new Point(296, 147);
+            labelMail.Name = "labelMail";
+            labelMail.Size = new Size(51, 23);
+            labelMail.TabIndex = 16;
+            labelMail.Text = "Email";
             // 
-            // textBox5
+            // textBoxMail
             // 
-            textBox5.Location = new Point(259, 128);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(307, 23);
-            textBox5.TabIndex = 15;
+            textBoxMail.Location = new Point(296, 171);
+            textBoxMail.Margin = new Padding(3, 4, 3, 4);
+            textBoxMail.Name = "textBoxMail";
+            textBoxMail.Size = new Size(350, 27);
+            textBoxMail.TabIndex = 15;
             // 
-            // label2
+            // labelPasword
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(259, 174);
-            label2.Name = "label2";
-            label2.Size = new Size(67, 15);
-            label2.TabIndex = 18;
-            label2.Text = "Contraseña";
+            labelPasword.AutoSize = true;
+            labelPasword.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            labelPasword.Location = new Point(296, 232);
+            labelPasword.Name = "labelPasword";
+            labelPasword.Size = new Size(97, 23);
+            labelPasword.TabIndex = 18;
+            labelPasword.Text = "Contraseña";
             // 
-            // textBox1
+            // textBoxPasword
             // 
-            textBox1.Location = new Point(259, 192);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(307, 23);
-            textBox1.TabIndex = 17;
+            textBoxPasword.Location = new Point(296, 256);
+            textBoxPasword.Margin = new Padding(3, 4, 3, 4);
+            textBoxPasword.Name = "textBoxPasword";
+            textBoxPasword.Size = new Size(350, 27);
+            textBoxPasword.TabIndex = 17;
             // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label2);
-            Controls.Add(textBox1);
-            Controls.Add(label3);
-            Controls.Add(textBox5);
+            ClientSize = new Size(914, 600);
+            Controls.Add(labelPasword);
+            Controls.Add(textBoxPasword);
+            Controls.Add(labelMail);
+            Controls.Add(textBoxMail);
             Controls.Add(btnUser);
-            Controls.Add(button1);
-            Controls.Add(label1);
+            Controls.Add(buttonAccess);
+            Controls.Add(labelStartOfSection);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "LoginForm";
             Text = "LoginForm";
             ResumeLayout(false);
@@ -118,12 +127,12 @@
 
         #endregion
 
-        private Label label1;
-        private Button button1;
+        private Label labelStartOfSection;
+        private Button buttonAccess;
         private Button btnUser;
-        private Label label3;
-        private TextBox textBox5;
-        private Label label2;
-        private TextBox textBox1;
+        private Label labelMail;
+        private TextBox textBoxMail;
+        private Label labelPasword;
+        private TextBox textBoxPasword;
     }
 }
