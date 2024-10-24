@@ -74,7 +74,7 @@
             dataGridViewClient.Margin = new Padding(4, 5, 4, 5);
             dataGridViewClient.Name = "dataGridViewClient";
             dataGridViewClient.RowHeadersWidth = 51;
-            dataGridViewClient.Size = new Size(860, 484);
+            dataGridViewClient.Size = new Size(860, 638);
             dataGridViewClient.TabIndex = 37;
             // 
             // lblClient
@@ -86,7 +86,7 @@
             lblClient.Location = new Point(13, 22);
             lblClient.Margin = new Padding(4, 0, 4, 0);
             lblClient.Name = "lblClient";
-            lblClient.Size = new Size(383, 47);
+            lblClient.Size = new Size(313, 38);
             lblClient.TabIndex = 29;
             lblClient.Text = "Panel De Cliente";
             // 
@@ -107,7 +107,7 @@
             textBox2.Location = new Point(998, 89);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(322, 601);
+            textBox2.Size = new Size(322, 660);
             textBox2.TabIndex = 41;
             // 
             // pictureBox1
@@ -123,9 +123,9 @@
             // 
             // FormClient
             // 
-            AutoScaleDimensions = new SizeF(10F, 23F);
+            AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1320, 690);
+            ClientSize = new Size(1320, 749);
             Controls.Add(pictureBox1);
             Controls.Add(btnExit);
             Controls.Add(btnAdd);

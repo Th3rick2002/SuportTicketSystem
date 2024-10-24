@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PresentationLayer"
+    "\\PresentationLayer",
+    "\\PresentationLayer\\forms"
   ],
-  "SelectedNode": "\\PresentationLayer\\PresentationLayer.csproj",
+  "SelectedNode": "\\PresentationLayer\\forms\\FormAgent.cs",
   "PreviewInSolutionExplorer": false
 }
