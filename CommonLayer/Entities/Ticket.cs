@@ -7,6 +7,8 @@ public class Ticket
     public string DescriptionTicket { get; set; }
     public string Priority { get; set; } 
     public string Status { get; set; } 
+    public int categorie { get; set; }
+    public int tag { get; set; }
     public int IdClient { get; set; }
     public int? IdAgent { get; set; }  // null
 }
