@@ -14,7 +14,7 @@ public class TicketRepository
         _dbConnection = new SqlDataAccess();
     }
     
-    //metodo para ver los ticket desde la vista
+    //metodo para ver los ticket
     public DataTable GetTicketsByClient()
     {
         DataTable ticketsTable = new DataTable();
@@ -31,7 +31,7 @@ public class TicketRepository
         return ticketsTable;
     }
 
-    //metodo para agregar ticket desde client
+    //metodo para agregar ticket
     public void AddTicked(Ticket ticket, Client client)
     {
         using (var connection = _dbConnection.GetConnection())
@@ -51,23 +51,7 @@ public class TicketRepository
         }
     }
 
-    //metodo para actualizar descripcion y prioridad (client)
-    public void UpdateTicketByClient(Ticket ticket)
-    {
-        using (var connection = _dbConnection.GetConnection())
-        {
-            string query = "UPDATE Ticket SET Description = @Description, Priority = @Priority WHERE Id_Client = @Id_Client";
-            SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@Description", ticket.DescriptionTicket);
-            command.Parameters.AddWithValue("@Priority", ticket.Priority);
-            connection.Open();
-            
-            command.ExecuteNonQuery();
-        }
-        
-    }
-
-    //metodo para actualizar ticket (administrador)
+    //metodo para actualizar ticket
     public void UpdateTicketByAdmin(Ticket ticket, Agent agent)
     {
         using (var connection = _dbConnection.GetConnection())
@@ -80,6 +64,20 @@ public class TicketRepository
             command.Parameters.AddWithValue("@Categorie", ticket.categorie);
             command.Parameters.AddWithValue("@Tag", ticket.tag);
             command.Parameters.AddWithValue("@Id_Agent", agent.IdAgent);
+            connection.Open();
+            
+            command.ExecuteNonQuery();
+        }
+    }
+
+    
+    public void DeleteTicketByAdmin(Ticket ticket, Agent agent)
+    {
+        using (var connection = _dbConnection.GetConnection())
+        {
+            string query = "DELETE FROM Ticket WHERE Id_Client = @Id_Client";
+            Sqlcommand command = new Sqlcommand(query, connection);
+            command.Parameters.AddWithValue("@Id_Client", ticket.IdClient);
             connection.Open();
             
             command.ExecuteNonQuery();

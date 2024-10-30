@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ja/NMHj4igg=",
+  "dgSpecHash": "rtPBJdRSro0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/erick/RiderProjects/SuportTicketSystem/BussisnesLayer/BussisnesLayer.csproj",
+  "expectedPackageFiles": [
+    "/home/erick/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

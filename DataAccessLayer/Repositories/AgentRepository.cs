@@ -1,5 +1,6 @@
 using System.Data;
 using System.Data.SqlClient;
+using CommonLayer.Entities;
 using DataAccessLayer.DbConnection;
 
 namespace DataAccessLayer.Repositories;
@@ -31,21 +32,53 @@ public class AgentRepository
         
         return agentsTable;
     }
-    
-    //metodo para validar email y password (agent)
-    public bool ValidationAgentLogin(string email, string password)
+
+    //metodo para insertar agentes
+    public void InsertAgent(Agent agent)
     {
         using (var connection = _dbConnection.GetConnection())
         {
-            string query = "SELECT COUNT(1) FROM Agent WHERE Email = @Email AND Password = @Password";
-            SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@Email", email);
-            command.Parameters.AddWithValue("@Password", password);
+            string quey = "INSERT INTO Agent(FirstName, LastName, Email, Password, availability, IdRol) VALUES (@FirstName, @LastName, @Email, @Password, 0, 2)";
+            SqlCommand command = new SqlCommand(quey, connection);
+            command.Parameters.AddWithValue("@FirstName", agent.FirstName);
+            command.Parameters.AddWithValue("@LastName", agent.LastName);
+            command.Parameters.AddWithValue("@Email", agent.Email);
+            command.Parameters.AddWithValue("@Password", agent.Password);
             connection.Open();
             
-            int count = (int)command.ExecuteScalar();
+            command.ExecuteNonQuery();
+        }
+    }
+
+    //metodo para actualizar agentes
+    public void UpdateAgent(Agent agent)
+    {
+        using (var connection = _dbConnection.GetConnection())
+        {
+            string query = "UPDATE Agent SET FirstName = @FirstName, LastName = @LastName, Email = @Email, Password = @Password, availability = @availability WHERE Id = @Id";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@FirstName", agent.FirstName);
+            command.Parameters.AddWithValue("@LastName", agent.LastName);
+            command.Parameters.AddWithValue("@Email", agent.Email);
+            command.Parameters.AddWithValue("@Password", agent.Password);
+            command.Parameters.AddWithValue("@availability", agent.availability);
+            connection.Open();
             
-            return count == 1;
+            command.ExecuteNonQuery();
+        }
+    }
+
+    //metodo para eliminar agentes
+    public void DeleteAgent(int id)
+    {
+        using (var connection = _dbConnection.GetConnection())
+        {
+            string query = "DELETE FROM Agent WHERE Id = @Id";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@Id", id);
+            connection.Open();
+            
+            command.ExecuteNonQuery();
         }
     }
 }

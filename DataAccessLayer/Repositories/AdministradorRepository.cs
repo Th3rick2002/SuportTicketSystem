@@ -1,5 +1,6 @@
 using System.Data;
 using System.Data.SqlClient;
+using CommonLayer.Entities;
 using DataAccessLayer.DbConnection;
 
 namespace DataAccessLayer.Repositories;
@@ -13,7 +14,7 @@ public class AdministradorRepository
         _dbConnection = new SqlDataAccess();
     }
 
-    //motodo para obtener los datos del administrador
+    //metodo para obtener los datos del administrador
     public DataTable GetAdmins()
     {
         DataTable dataTable = new DataTable();
@@ -27,21 +28,36 @@ public class AdministradorRepository
         }
         return dataTable;
     }
-    
-    //metodo para validar email y password (administrador)
-    public bool ValidationAdministradorLogin(string email, string password)
+
+    public void AddAdministrador(administrador administrador)
     {
         using (var connection = _dbConnection.GetConnection())
         {
-            string query = "SELECT COUNT(1) FROM Administrador WHERE Email = @Email AND Password = @Password";
+            string query = "INSERT INTO Administrador(FirstName, LastName, Email, Password, IdRol) VALUES(@FirstName, @LastName, @Email, @Password, 1)";
             SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@Email", email);
-            command.Parameters.AddWithValue("@Password", password);
+            command.Parameters.AddWithValue("@FirstName", administrador.FirstName);
+            command.Parameters.AddWithValue("@LastName", administrador.LastName);
+            command.Parameters.AddWithValue("@Email", administrador.Email);
+            command.Parameters.AddWithValue("@Password", administrador.Password);
             connection.Open();
             
-            int count = (int)command.ExecuteScalar();
+            command.ExecuteNonQuery();
+        }
+    }
+
+    public void UpdateAdministrador(administrador administrador)
+    {
+        using (var connection = _dbConnection.GetConnection())
+        {
+            string query = "UPDATE Administrador SET FirstName = @FirstName, LastName = @LastName, Email = @Email, Password = @Password WHERE Id = @Id";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@FirstName", administrador.FirstName);
+            command.Parameters.AddWithValue("@LastName", administrador.LastName);
+            command.Parameters.AddWithValue("@Email", administrador.Email);
+            command.Parameters.AddWithValue("@Password", administrador.Password);
+            connection.Open();
             
-            return count == 1;
+            command.ExecuteNonQuery();
         }
     }
 }
