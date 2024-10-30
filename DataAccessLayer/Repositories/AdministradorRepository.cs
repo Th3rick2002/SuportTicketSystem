@@ -1,3 +1,4 @@
+using System.Data;
 using System.Data.SqlClient;
 using DataAccessLayer.DbConnection;
 
@@ -10,6 +11,21 @@ public class AdministradorRepository
     public AdministradorRepository()
     {
         _dbConnection = new SqlDataAccess();
+    }
+
+    //motodo para obtener los datos del administrador
+    public DataTable GetAdmins()
+    {
+        DataTable dataTable = new DataTable();
+
+        using (var connection = _dbConnection.GetConnection())
+        {
+            string query = "SELECT * FROM Administrador";
+            SqlCommand command = new SqlCommand(query, connection);
+            
+            connection.Open();
+        }
+        return dataTable;
     }
     
     //metodo para validar email y password (administrador)
