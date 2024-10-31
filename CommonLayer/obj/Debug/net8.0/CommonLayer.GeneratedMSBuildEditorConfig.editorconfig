@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CommonLayer
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\
+=======
+build_property.ProjectDir = /home/erick/RiderProjects/SuportTicketSystem/CommonLayer/
+>>>>>>> 19dab0942545a7f9af1e89f862eb40eb58c11ff2
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

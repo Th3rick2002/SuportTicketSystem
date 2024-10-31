@@ -1,8 +1,8 @@
 namespace CommonLayer.Entities;
 
-public class Client
+public class administrador
 {
-    public int IdClient { get; set; }
+    public int IdAgent { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string Email { get; set; }

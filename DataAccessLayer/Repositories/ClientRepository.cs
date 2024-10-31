@@ -49,14 +49,14 @@ public class ClientRepository
             command.ExecuteNonQuery();
         }
     }
-
-    //metodo para actualizar cliente
-    public void UpdateClient(Client client)
+    
+    //metodo para insertar clientes
+    public void InsertClient(Client client)
     {
         using (var connection = _dbConnection.GetConnection())
         {
-            string query = "UPDATE Client SET FirstName = @FirstName, LastName = @LastName, Email = @Email, Password = @Password WHERE Id = @Id";
-            SqlCommand command = new SqlCommand(query, connection);
+            string quey = "INSERT INTO Client(FirstName, LastName, Email, Password, IdRol) VALUES (@FirstName, @LastName, @Email, @Password, 3)";
+            SqlCommand command = new SqlCommand(quey, connection);
             command.Parameters.AddWithValue("@FirstName", client.FirstName);
             command.Parameters.AddWithValue("@LastName", client.LastName);
             command.Parameters.AddWithValue("@Email", client.Email);
@@ -64,7 +64,25 @@ public class ClientRepository
             connection.Open();
             
             command.ExecuteNonQuery();
-        }   
+        }
+    }
+    
+    //metodo para actualizar clientes
+    public void UpdateClient(Client client)
+    {
+        using (var connection = _dbConnection.GetConnection())
+        {
+            string query = "UPDATE Client SET FirstName = @FirstName, LastName = @LastName, Email = @Email, Password = @Password WHERE Id = @Id";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@Id", client.IdClient);
+            command.Parameters.AddWithValue("@FirstName", client.FirstName);
+            command.Parameters.AddWithValue("@LastName", client.LastName);
+            command.Parameters.AddWithValue("@Email", client.Email);
+            command.Parameters.AddWithValue("@Password", client.Password);
+            connection.Open();
+            
+            command.ExecuteNonQuery();
+        }
     }
 
     //metodo para eliminar cliente
@@ -78,23 +96,6 @@ public class ClientRepository
             connection.Open();
             
             command.ExecuteNonQuery();
-        }
-    }
-
-    //metodo para validar email y password (client)
-    public bool ValidationClientLogin(string email, string password)
-    {
-        using (var connection = _dbConnection.GetConnection())
-        {
-            string query = "SELECT COUNT(1) FROM Client WHERE Email = @Email AND Password = @Password";
-            SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@Email", email);
-            command.Parameters.AddWithValue("@Password", password);
-            connection.Open();
-            
-            int count = (int)command.ExecuteScalar();
-            
-            return count == 1;
         }
     }
 }

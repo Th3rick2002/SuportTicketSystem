@@ -1,5 +1,6 @@
 using System.Data;
 using System.Data.SqlClient;
+using CommonLayer.Entities;
 using DataAccessLayer.DbConnection;
 
 namespace DataAccessLayer.Repositories;
@@ -10,86 +11,73 @@ public class TicketRepository
 
     public TicketRepository()
     {
-        _dataAccess = new SqlDataAccess();
+        _dbConnection = new SqlDataAccess();
     }
     
-    //metodo para ver los ticket desde la vista (client o agent)
+    //metodo para ver los ticket
     public DataTable GetTicketsByClient()
     {
         DataTable ticketsTable = new DataTable();
 
         using (var connection = _dbConnection.GetConnection())
         {
-            string query = "SELECT  NameTicket, DescriptionTicket, Priority, Status FROM Tickets";
+            string query = "SELECT  NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Client, Id_Agent FROM Tickets";
             SqlCommand command = new SqlCommand(query, connection);
             connection.Open();
 
             SqlDataReader reader = command.ExecuteReader();
             ticketsTable.Load(reader);
         }
-        return ticketTable;
-    }
-
-    //metodo para ver los ticket desde la vista (administrador)
-    public DataTable GetTicketsByAdmin()
-    {
-        DataTable ticketsTable = new DataTable();
-
-        using (var connection = _dbConnection.GetConnection())
-        {
-            string query = "SELECT NameTicket, DescriptionTicket, Priority, Status, Id_Client, Id_Agent FROM Tickets";
-            SqlCommand command = new SqlCommand(query, connection);
-            connection.Open();
-            
-            SqlDateReader = command.ExecuteReader();
-            ticketsTable.Load(reader);
-        }
         return ticketsTable;
     }
 
-    //metodo para agregar ticket desde client
+    //metodo para agregar ticket
     public void AddTicked(Ticket ticket, Client client)
     {
         using (var connection = _dbConnection.GetConnection())
         {
-            string query = "INSERT INTO Ticket(NameTicket, DescriptionTicket, Priority, Status, Id_Client) VALUES (@NameTicket, @DescriptionTicket, @Priority, @Status, @Id_Client)";
+            string query = "INSERT INTO Ticket(NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Client) VALUES (@NameTicket, @DescriptionTicket, @Priority, @Status, @Categorie, @Tag, @Id_Client)";
             SqlCommand command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@NameTicket", ticket.NameTicket);
             command.Parameters.AddWithValue("@DescriptionTicket", ticket.DescriptionTicket);
             command.Parameters.AddWithValue("@Priority", ticket.Priority);
+            command.Parameters.AddWithValue("@Categorie", ticket.categorie);
+            command.Parameters.AddWithValue("@Tag", ticket.tag);
             command.Parameters.AddWithValue("@Status", ticket.Status);
-            command.Parameters.AddWithValue("@Id_Client", client.Id);
+            command.Parameters.AddWithValue("@Id_Client", client.IdClient);
             connection.Open();
             
             command.ExecuteNonQuery();
         }
     }
 
-    //metodo para actualizar descripcion y prioridad (client)
-    public void UpdateTicketByClient(int Id, string Description, string Priority)
+    //metodo para actualizar ticket
+    public void UpdateTicketByAdmin(Ticket ticket, Agent agent)
     {
         using (var connection = _dbConnection.GetConnection())
         {
-            string query = "UPDATE Ticket SET Description = @Description, Priority = @Priority WHERE Id_Client = @Id_Client";
+            string query = "UPDATE Ticket SET NameTicket = @NameTicket, DescriptionTicket = @DescriptionTicket, Priority = @Priority, Categorie = @Categorie, Tag = @Tag, Id_Agent = @Id_Agent WHERE Id_Client = @Id_Client";
             SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@Description", Description);
-            command.Parameters.AddWithValue("@Priority", Priority);
+            command.Parameters.AddWithValue("@NameTicket", ticket.NameTicket );
+            command.Parameters.AddWithValue("@DescriptionTicket", ticket.DescriptionTicket);
+            command.Parameters.AddWithValue("@Priority", ticket.Priority);
+            command.Parameters.AddWithValue("@Categorie", ticket.categorie);
+            command.Parameters.AddWithValue("@Tag", ticket.tag);
+            command.Parameters.AddWithValue("@Id_Agent", agent.IdAgent);
             connection.Open();
             
             command.ExecuteNonQuery();
         }
-        
     }
 
-    //metodo para actualizar estado y id_Agent (administrador)
-    public void UpdateTicketByAdmin(int Id, string Status, int Id_Agent)
+    
+    public void DeleteTicketByAdmin(Ticket ticket, Agent agent)
     {
         using (var connection = _dbConnection.GetConnection())
         {
-            string query = "UPDATE Ticket SET Status = @Status, Id_Agent = @Id_Agent WHERE Id_Client = @Id_Client";
+            string query = "DELETE FROM Ticket WHERE Id_Client = @Id_Client";
             SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@Status", Status);
-            command.Parameters.AddWithValue("@Id_Agent", Id_Agent);
+            command.Parameters.AddWithValue("@Id_Client", ticket.IdClient);
             connection.Open();
             
             command.ExecuteNonQuery();
