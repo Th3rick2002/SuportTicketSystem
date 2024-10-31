@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj": {}
+    "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj": {
+    "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
         "projectName": "PresentationLayer",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
-        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\PresentationLayer\\obj\\",
+        "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+        "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

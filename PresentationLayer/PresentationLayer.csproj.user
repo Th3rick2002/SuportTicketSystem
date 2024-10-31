@@ -4,7 +4,13 @@
     <Compile Update="forms\FormAdministrator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\FormAgent.cs">
+    <Compile Update="forms\FormsAgent\AgentPanelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\FormsAgent\DashboardAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\FormsAgent\HomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="forms\LoginForm.cs">

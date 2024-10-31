@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {}
+    "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {
+    "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
         "projectName": "BussisnesLayer",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
-        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\BussisnesLayer\\obj\\",
+        "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
+        "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

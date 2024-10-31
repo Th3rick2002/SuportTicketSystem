@@ -1,8 +1,8 @@
 ﻿namespace PresentationLayer.forms
 {
-    public partial class FormAgent : Form
+    public partial class AgentPanelForm : Form
     {
-        public FormAgent()
+        public AgentPanelForm()
         {
             InitializeComponent();
 

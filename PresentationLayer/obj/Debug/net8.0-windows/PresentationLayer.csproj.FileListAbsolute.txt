@@ -43,3 +43,54 @@ C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\P
 C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.genruntimeconfig.cache
 C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\ref\PresentationLayer.dll
 C:\Users\Saritmar\Documents\Programacio Orientada A Eventos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.Properties.Resources.resources
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.exe
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.deps.json
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.runtimeconfig.json
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.dll
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.pdb
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormAdministrator.resources
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormClient.resources
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.AgentPanel.resources
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormAgent.DashboardAgent.resources
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.LoginForm.resources
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.registerForm.resources
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.RegisterTicket.resources
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.TicketForm.resources
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.Properties.Resources.resources
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.AssemblyInfo.cs
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.sourcelink.json
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.dll
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\refint\PresentationLayer.dll
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.pdb
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.genruntimeconfig.cache
+C:\Users\Saritmar\Downloads\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\ref\PresentationLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.exe
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.deps.json
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.runtimeconfig.json
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.pdb
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormAdministrator.resources
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormClient.resources
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormAgent.DashboardAgent.resources
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.LoginForm.resources
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.registerForm.resources
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.RegisterTicket.resources
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.TicketForm.resources
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.Properties.Resources.resources
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.AssemblyInfo.cs
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.sourcelink.json
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\refint\PresentationLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.pdb
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.genruntimeconfig.cache
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\ref\PresentationLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.AgentPanelForm.resources
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.HomeForm.resources

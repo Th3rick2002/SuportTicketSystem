@@ -1,0 +1,12 @@
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.deps.json
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.dll
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.pdb
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.AssemblyInfoInputs.cache
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.AssemblyInfo.cs
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.sourcelink.json
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.dll
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\refint\BussisnesLayer.dll
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.pdb
+C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\ref\BussisnesLayer.dll

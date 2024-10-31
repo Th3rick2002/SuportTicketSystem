@@ -1,0 +1,6 @@
+C:\Users\Saritmar\Downloads\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Saritmar\Downloads\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saritmar\Downloads\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Saritmar\Downloads\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Saritmar\Downloads\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Saritmar\Downloads\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json

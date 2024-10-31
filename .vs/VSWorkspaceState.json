@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\PresentationLayer",
-    "\\PresentationLayer\\forms"
+    "\\PresentationLayer\\forms",
+    "\\PresentationLayer\\forms\\FormsAgent"
   ],
-  "SelectedNode": "\\PresentationLayer\\forms\\FormAgent.cs",
+  "SelectedNode": "\\PresentationLayer\\forms\\FormsAgent\\DashboardAgent.cs",
   "PreviewInSolutionExplorer": false
 }

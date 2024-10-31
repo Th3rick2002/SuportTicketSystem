@@ -28,198 +28,257 @@
         /// </summary>
         private void InitializeComponent()
         {
-            labelID = new Label();
-            labelName = new Label();
-            labelPriority = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
-            comboBoxState = new ComboBox();
-            comboBoxAgent = new ComboBox();
-            dataGridViewAdministrator = new DataGridView();
-            btnSave = new Button();
-            btnDelete = new Button();
-            label1 = new Label();
-            labelAdministrator = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAdministrator).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAdministrator));
+            pictureBox3 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox1 = new PictureBox();
+            labelAgent = new Label();
+            labelIdTicket = new Label();
+            texIdLabel = new Label();
+            textBox2 = new TextBox();
+            LabelNombre = new Label();
+            labelNombreTicket = new Label();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
+            btnExit = new Button();
+            btnFinish = new Button();
+            btnStart = new Button();
+            dataGridViewAdmin = new DataGridView();
+            textBox1 = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewAdmin).BeginInit();
             SuspendLayout();
             // 
-            // labelID
+            // pictureBox3
             // 
-            labelID.AutoSize = true;
-            labelID.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelID.Location = new Point(41, 113);
-            labelID.Name = "labelID";
-            labelID.Size = new Size(25, 23);
-            labelID.TabIndex = 1;
-            labelID.Text = "Id";
+            pictureBox3.BackColor = Color.DarkSlateGray;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(835, 252);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(38, 32);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 55;
+            pictureBox3.TabStop = false;
             // 
-            // labelName
+            // pictureBox2
             // 
-            labelName.AutoSize = true;
-            labelName.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelName.Location = new Point(41, 172);
-            labelName.Name = "labelName";
-            labelName.Size = new Size(73, 23);
-            labelName.TabIndex = 2;
-            labelName.Text = "Nombre";
+            pictureBox2.BackColor = Color.DarkSlateGray;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(835, 328);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(38, 32);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 54;
+            pictureBox2.TabStop = false;
             // 
-            // labelPriority
+            // pictureBox1
             // 
-            labelPriority.AutoSize = true;
-            labelPriority.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelPriority.Location = new Point(41, 235);
-            labelPriority.Name = "labelPriority";
-            labelPriority.Size = new Size(88, 23);
-            labelPriority.TabIndex = 3;
-            labelPriority.Text = "Propiedad";
-            // 
-            // labelState
-            // 
-            
+            pictureBox1.Image = Properties.Resources.salvado;
+            pictureBox1.Location = new Point(835, 407);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(38, 37);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 53;
+            pictureBox1.TabStop = false;
             // 
             // labelAgent
             // 
-           
+            labelAgent.AutoSize = true;
+            labelAgent.BackColor = Color.ForestGreen;
+            labelAgent.Font = new Font("Stencil", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelAgent.ForeColor = Color.MintCream;
+            labelAgent.Location = new Point(31, 16);
+            labelAgent.Name = "labelAgent";
+            labelAgent.Size = new Size(528, 44);
+            labelAgent.TabIndex = 40;
+            labelAgent.Text = "Panel de Administracion";
             // 
-            // label7
+            // labelIdTicket
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(158, 113);
-            label7.Name = "label7";
-            label7.Size = new Size(18, 20);
-            label7.TabIndex = 6;
-            label7.Text = "#";
+            labelIdTicket.AutoSize = true;
+            labelIdTicket.BackColor = Color.DarkSlateGray;
+            labelIdTicket.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            labelIdTicket.ForeColor = Color.MintCream;
+            labelIdTicket.Location = new Point(897, 105);
+            labelIdTicket.Name = "labelIdTicket";
+            labelIdTicket.Size = new Size(55, 23);
+            labelIdTicket.TabIndex = 44;
+            labelIdTicket.Text = "label3";
             // 
-            // label8
+            // texIdLabel
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(158, 172);
-            label8.Name = "label8";
-            label8.Size = new Size(18, 20);
-            label8.TabIndex = 7;
-            label8.Text = "#";
+            texIdLabel.AutoSize = true;
+            texIdLabel.BackColor = Color.DarkSlateGray;
+            texIdLabel.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            texIdLabel.ForeColor = Color.MintCream;
+            texIdLabel.Location = new Point(830, 105);
+            texIdLabel.Name = "texIdLabel";
+            texIdLabel.Size = new Size(36, 23);
+            texIdLabel.TabIndex = 45;
+            texIdLabel.Text = "ID :";
             // 
-            // label9
+            // textBox2
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(158, 235);
-            label9.Name = "label9";
-            label9.Size = new Size(18, 20);
-            label9.TabIndex = 8;
-            label9.Text = "#";
+            textBox2.BackColor = Color.DarkSlateGray;
+            textBox2.Location = new Point(799, 93);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(266, 47);
+            textBox2.TabIndex = 50;
             // 
-            // comboBoxState
+            // LabelNombre
             // 
-            comboBoxState.FormattingEnabled = true;
-            comboBoxState.Location = new Point(158, 285);
-            comboBoxState.Margin = new Padding(3, 4, 3, 4);
-            comboBoxState.Name = "comboBoxState";
-            comboBoxState.Size = new Size(138, 28);
-            comboBoxState.TabIndex = 9;
+            LabelNombre.AutoSize = true;
+            LabelNombre.BackColor = Color.DarkSlateGray;
+            LabelNombre.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            LabelNombre.ForeColor = Color.MintCream;
+            LabelNombre.Location = new Point(811, 181);
+            LabelNombre.Name = "LabelNombre";
+            LabelNombre.Size = new Size(82, 23);
+            LabelNombre.TabIndex = 47;
+            LabelNombre.Text = "Nombre :";
             // 
-            // comboBoxAgent
+            // labelNombreTicket
             // 
-            comboBoxAgent.FormattingEnabled = true;
-            comboBoxAgent.Location = new Point(158, 343);
-            comboBoxAgent.Margin = new Padding(3, 4, 3, 4);
-            comboBoxAgent.Name = "comboBoxAgent";
-            comboBoxAgent.Size = new Size(138, 28);
-            comboBoxAgent.TabIndex = 10;
+            labelNombreTicket.AutoSize = true;
+            labelNombreTicket.BackColor = Color.DarkSlateGray;
+            labelNombreTicket.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            labelNombreTicket.ForeColor = Color.MintCream;
+            labelNombreTicket.Location = new Point(899, 181);
+            labelNombreTicket.Name = "labelNombreTicket";
+            labelNombreTicket.Size = new Size(55, 23);
+            labelNombreTicket.TabIndex = 48;
+            labelNombreTicket.Text = "label3";
             // 
-            // dataGridViewAdministrator
+            // textBox3
             // 
-            dataGridViewAdministrator.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAdministrator.Location = new Point(329, 80);
-            dataGridViewAdministrator.Margin = new Padding(3, 4, 3, 4);
-            dataGridViewAdministrator.Name = "dataGridViewAdministrator";
-            dataGridViewAdministrator.RowHeadersWidth = 51;
-            dataGridViewAdministrator.Size = new Size(688, 421);
-            dataGridViewAdministrator.TabIndex = 11;
+            textBox3.BackColor = Color.DarkSlateGray;
+            textBox3.Location = new Point(799, 168);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(263, 47);
+            textBox3.TabIndex = 51;
             // 
-            // btnSave
+            // textBox4
             // 
-            btnSave.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnSave.Location = new Point(41, 424);
-            btnSave.Margin = new Padding(3, 4, 3, 4);
-            btnSave.Name = "btnSave";
-            btnSave.Size = new Size(86, 77);
-            btnSave.TabIndex = 12;
-            btnSave.Text = "Guardar";
-            btnSave.UseVisualStyleBackColor = true;
+            textBox4.BackColor = Color.ForestGreen;
+            textBox4.Dock = DockStyle.Top;
+            textBox4.Location = new Point(0, 0);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(1065, 87);
+            textBox4.TabIndex = 52;
             // 
-            // btnDelete
+            // btnExit
             // 
-            btnDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnDelete.Location = new Point(179, 424);
-            btnDelete.Margin = new Padding(3, 4, 3, 4);
-            btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(86, 77);
-            btnDelete.TabIndex = 13;
-            btnDelete.Text = "Eliminar";
-            btnDelete.UseVisualStyleBackColor = true;
+            btnExit.BackColor = Color.DarkSlateGray;
+            btnExit.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            btnExit.ForeColor = Color.MintCream;
+            btnExit.Location = new Point(802, 317);
+            btnExit.Margin = new Padding(3, 4, 3, 4);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(266, 57);
+            btnExit.TabIndex = 46;
+            btnExit.Text = "Salir";
+            btnExit.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // btnFinish
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            label1.Location = new Point(352, 12);
-            label1.Name = "label1";
-            label1.Size = new Size(0, 23);
-            label1.TabIndex = 0;
+            btnFinish.BackColor = Color.DarkSlateGray;
+            btnFinish.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            btnFinish.ForeColor = Color.MintCream;
+            btnFinish.Location = new Point(799, 237);
+            btnFinish.Margin = new Padding(3, 4, 3, 4);
+            btnFinish.Name = "btnFinish";
+            btnFinish.Size = new Size(266, 59);
+            btnFinish.TabIndex = 43;
+            btnFinish.Text = "Finalizar";
+            btnFinish.UseVisualStyleBackColor = false;
             // 
-            // labelAdministrator
+            // btnStart
             // 
-            labelAdministrator.AutoSize = true;
-            labelAdministrator.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelAdministrator.Location = new Point(380, 35);
-            labelAdministrator.Name = "labelAdministrator";
-            labelAdministrator.Size = new Size(350, 41);
-            labelAdministrator.TabIndex = 15;
-            labelAdministrator.Text = "Panel de Administrador";
+            btnStart.BackColor = Color.DarkSlateGray;
+            btnStart.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            btnStart.ForeColor = Color.MintCream;
+            btnStart.Location = new Point(799, 397);
+            btnStart.Margin = new Padding(3, 4, 3, 4);
+            btnStart.Name = "btnStart";
+            btnStart.Size = new Size(266, 59);
+            btnStart.TabIndex = 42;
+            btnStart.Text = "Empezar";
+            btnStart.UseVisualStyleBackColor = false;
+            // 
+            // dataGridViewAdmin
+            // 
+            dataGridViewAdmin.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewAdmin.Location = new Point(42, 124);
+            dataGridViewAdmin.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewAdmin.Name = "dataGridViewAdmin";
+            dataGridViewAdmin.RowHeadersWidth = 51;
+            dataGridViewAdmin.Size = new Size(688, 452);
+            dataGridViewAdmin.TabIndex = 41;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.SeaGreen;
+            textBox1.Location = new Point(799, 0);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(266, 569);
+            textBox1.TabIndex = 49;
             // 
             // FormAdministrator
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1065, 600);
-            Controls.Add(labelAdministrator);
-            Controls.Add(btnDelete);
-            Controls.Add(btnSave);
-            Controls.Add(dataGridViewAdministrator);
-            Controls.Add(comboBoxAgent);
-            Controls.Add(comboBoxState);
-            Controls.Add(label9);
-            Controls.Add(label8);
-            Controls.Add(label7);
-
-            Controls.Add(labelPriority);
-            Controls.Add(labelName);
-            Controls.Add(labelID);
-            Controls.Add(label1);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
+            Controls.Add(labelAgent);
+            Controls.Add(labelIdTicket);
+            Controls.Add(texIdLabel);
+            Controls.Add(textBox2);
+            Controls.Add(LabelNombre);
+            Controls.Add(labelNombreTicket);
+            Controls.Add(textBox3);
+            Controls.Add(textBox4);
+            Controls.Add(btnExit);
+            Controls.Add(btnFinish);
+            Controls.Add(btnStart);
+            Controls.Add(dataGridViewAdmin);
+            Controls.Add(textBox1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormAdministrator";
             Text = "AdminForm";
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAdministrator).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewAdmin).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Label labelID;
-        private Label labelName;
-        private Label labelPriority;
         private Label label5;
         private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private ComboBox comboBoxState;
-        private ComboBox comboBoxAgent;
-        private DataGridView dataGridViewAdministrator;
-        private Button btnSave;
-        private Button btnDelete;
-        private Label label1;
-        private Label labelAdministrator;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox1;
+        private Label labelAgent;
+        private Label labelIdTicket;
+        private Label texIdLabel;
+        private TextBox textBox2;
+        private Label LabelNombre;
+        private Label labelNombreTicket;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private Button btnExit;
+        private Button btnFinish;
+        private Button btnStart;
+        private DataGridView dataGridViewAdmin;
+        private TextBox textBox1;
     }
 }
