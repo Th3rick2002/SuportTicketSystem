@@ -1,5 +1,6 @@
 using CommonLayer.Entities;
 using DataAccessLayer.DbConnection;
+using System.Data.SqlClient;
 
 namespace DataAccessLayer.Repositories;
 
@@ -15,7 +16,7 @@ public class Categoriesrepository
     //metodo para traer todas las categorias en forma de lista
     public List<Categories> GetAllCategories()
     {
-        List<Categories> cartegories = new List<Categories>();
+        List<Categories> categories = new List<Categories>();
 
         using (var connection = _dbConnection.GetConnection())
         {
@@ -27,12 +28,16 @@ public class Categoriesrepository
             {
                 while (reader.Read())
                 {
-                    cartegories.add(reader.GetString(0));
+                    Categories category = new Categories
+                    {
+                        NameCategorie = reader.GetString(0)
+                    };
+                    categories.Add(category);
                 }
             }
         }
 
-        return tags;
+        return categories;
     }
 
     public void AddCategory(Categories category)
@@ -41,10 +46,10 @@ public class Categoriesrepository
         {
             string query = "INSERT INTO Categories (NameCategorie) VALUES (@Name)";
             SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWitchValues("@Name", category.NameCategorie);
+            command.Parameters.AddWithValue("@Name", category.NameCategorie);
             connection.Open();
                  
-            commmand.ExecuteNonQuery();
+            command.ExecuteNonQuery();
         }
     }
 
@@ -54,7 +59,7 @@ public class Categoriesrepository
         {
             string query = "UPDATE Categories SET NameCategorie = @Name WHERE Id=@Id";
             SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWitchValues("@Name", category.NameCategorie);
+            command.Parameters.AddWithValue("@Name", category.NameCategorie);
             connection.Open();
             
             command.ExecuteNonQuery();
@@ -67,7 +72,7 @@ public class Categoriesrepository
         {
             string query = "DELETE FROM Categories WHERE Id=@Id";
             SqlCommand command = new SqlCommand(query, connection);
-            commmand.Parameters.AddWitchValues("@Id", category.Id);
+            command.Parameters.AddWithValue("@Id", category.Id);
             connection.Open();
             
             command.ExecuteNonQuery();

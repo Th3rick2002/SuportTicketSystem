@@ -76,7 +76,7 @@ public class TicketRepository
         using (var connection = _dbConnection.GetConnection())
         {
             string query = "DELETE FROM Ticket WHERE Id_Client = @Id_Client";
-            Sqlcommand command = new Sqlcommand(query, connection);
+            SqlCommand command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@Id_Client", ticket.IdClient);
             connection.Open();
             

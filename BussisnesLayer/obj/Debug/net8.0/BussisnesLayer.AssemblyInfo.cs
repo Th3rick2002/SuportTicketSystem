@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BussisnesLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7ca3ca5755f36528f5a9c457ed9e0be8440a630")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70b558abc57a78c0239a348fc0ffdfb2c88b2aea")]
 [assembly: System.Reflection.AssemblyProductAttribute("BussisnesLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BussisnesLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

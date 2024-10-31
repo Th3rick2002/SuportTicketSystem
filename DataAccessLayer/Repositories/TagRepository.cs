@@ -1,5 +1,6 @@
 using CommonLayer.Entities;
 using DataAccessLayer.DbConnection;
+using System.Data.SqlClient;
 
 namespace DataAccessLayer.Repositories;
 
@@ -27,7 +28,11 @@ public class TagRepository
             {
                 while (reader.Read())
                 {
-                    tags.add(reader.GetString(0));
+                    Tag tag = new Tag()
+                    {
+                        NameTag = reader.GetString(0)
+                    };
+                    tags.Add(tag);
                 }
             }
         }
@@ -42,7 +47,7 @@ public class TagRepository
         {
             string query = "INSERT INTO Tags (NameTag) VALUES (@TagName)";
             SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWhitchValues("@TagName", tag.NameTag);
+            command.Parameters.AddWithValue("@TagName", tag.NameTag);
             connection.Open();
             
             command.ExecuteNonQuery();
@@ -54,8 +59,8 @@ public class TagRepository
         using (var connection = _dbConnection.GetConnection())
         {
             string query = "UPDATE Tags SET TagName = @TagName WHERE NameTag = @NameTag";
-            Sqlcommand command = new Sqlcommand(query, connection);
-            command.Parameters.AddWhitchValues("@NameTag", tag.NameTag);
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@NameTag", tag.NameTag);
             connection.Open();
             
             command.ExecuteNonQuery();
@@ -68,7 +73,7 @@ public class TagRepository
         {
             string query = "DELETE FROM Tags WHERE TagId = @TagId";
             SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWhitchValues("@TagId", id);
+            command.Parameters.AddWithValue("@TagId", id);
             connection.Open();
             
             command.ExecuteNonQuery();

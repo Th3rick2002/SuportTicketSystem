@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,15 +48,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.10, 8.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.arch-x64",
+              "version": "[8.0.10, 8.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.10, 8.0.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

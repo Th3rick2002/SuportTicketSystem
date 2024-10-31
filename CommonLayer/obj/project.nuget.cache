@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "chG8zKHUxR4=",
+  "dgSpecHash": "qjHj8HPWKZE=",
   "success": true,
   "projectFilePath": "/home/erick/RiderProjects/SuportTicketSystem/CommonLayer/CommonLayer.csproj",
   "expectedPackageFiles": [
-    "/home/erick/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+    "/home/erick/.nuget/packages/microsoft.netcore.app.ref/8.0.10/microsoft.netcore.app.ref.8.0.10.nupkg.sha512",
+    "/home/erick/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
   ],
   "logs": []
 }
