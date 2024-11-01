@@ -1,3 +1,6 @@
+using System.Data.SqlClient;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
 namespace DataAccessLayer.DbConnection;
 
 public class SqlDataAccess
@@ -6,7 +9,8 @@ public class SqlDataAccess
 
     public SqlDataAccess()
     {
-        _connectionString = "Server=localhost,1433;Database=SupportTicketSystemDB;User Id=sa;Password=TuPasswordSegura123(!);";
+        _connectionString = "Data Source=LAPTOP-KFDQNCRJ\\SQLEXPRESS;Initial Catalog=SupportTicketSystemDB;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+        //_connectionString = "Server=localhost,1433;Database=SupportTicketSystemDB;User Id=sa;Password=TuPasswordSegura123(!);";
     }
 
     public SqlConnection GetConnection()

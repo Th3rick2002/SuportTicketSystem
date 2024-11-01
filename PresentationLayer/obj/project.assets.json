@@ -8,16 +8,11 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\": {}
-=======
-    "/home/erick/.nuget/packages/": {}
->>>>>>> 19dab0942545a7f9af1e89f862eb40eb58c11ff2
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
       "projectName": "PresentationLayer",
       "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
@@ -27,25 +22,12 @@
       "configFilePaths": [
         "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-      "projectUniqueName": "/home/erick/RiderProjects/SuportTicketSystem/PresentationLayer/PresentationLayer.csproj",
-      "projectName": "PresentationLayer",
-      "projectPath": "/home/erick/RiderProjects/SuportTicketSystem/PresentationLayer/PresentationLayer.csproj",
-      "packagesPath": "/home/erick/.nuget/packages/",
-      "outputPath": "/home/erick/RiderProjects/SuportTicketSystem/PresentationLayer/obj/",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "/home/erick/.nuget/NuGet/NuGet.Config"
->>>>>>> 19dab0942545a7f9af1e89f862eb40eb58c11ff2
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
-<<<<<<< HEAD
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-=======
->>>>>>> 19dab0942545a7f9af1e89f862eb40eb58c11ff2
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -74,42 +61,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.10, 8.0.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.arch-x64",
-            "version": "[8.0.10, 8.0.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.10, 8.0.10]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
->>>>>>> 19dab0942545a7f9af1e89f862eb40eb58c11ff2
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.NETCore.App.Host.arch-x64. No packages exist with this id in source(s): nuget.org",
-      "libraryId": "Microsoft.NETCore.App.Host.arch-x64",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

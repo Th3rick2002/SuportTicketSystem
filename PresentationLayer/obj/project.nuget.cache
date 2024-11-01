@@ -1,29 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "W55wdpekTmE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
-=======
-  "dgSpecHash": "y7UyviukjZg=",
-  "success": false,
-  "projectFilePath": "/home/erick/RiderProjects/SuportTicketSystem/PresentationLayer/PresentationLayer.csproj",
-  "expectedPackageFiles": [
-    "/home/erick/.nuget/packages/microsoft.netcore.app.ref/8.0.10/microsoft.netcore.app.ref.8.0.10.nupkg.sha512",
-    "/home/erick/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
-  ],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.NETCore.App.Host.arch-x64. No packages exist with this id in source(s): nuget.org",
-      "libraryId": "Microsoft.NETCore.App.Host.arch-x64",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
->>>>>>> 19dab0942545a7f9af1e89f862eb40eb58c11ff2
 }

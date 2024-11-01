@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\CommonLayer",
+    "\\CommonLayer\\Entities",
     "\\PresentationLayer",
     "\\PresentationLayer\\forms",
     "\\PresentationLayer\\forms\\FormsAgent"
