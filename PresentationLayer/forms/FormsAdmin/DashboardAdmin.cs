@@ -42,7 +42,7 @@ namespace PresentationLayer.forms.FormAgent
         }
         private void AdminButton_Click(object sender, EventArgs e)
         {
-            
+            openChildForm(new FormAdministrator());
         }
 
 
