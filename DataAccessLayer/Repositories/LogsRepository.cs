@@ -6,9 +6,9 @@ using DataAccessLayer.DbConnection;
 
 namespace DataAccessLayer.Repositories;
 
-public class LogsRepository
+public class LogsRepository : ILogsRepository
 {
-    private SqlDataAccess _dbConnection;
+    private ISqlDataAccess _dbConnection;
 
     public LogsRepository()
     {
@@ -19,7 +19,7 @@ public class LogsRepository
     {
         DataTable LogsTable = new DataTable();
 
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = 
                 "SELECT"+
@@ -43,7 +43,7 @@ public class LogsRepository
 
     public void InsertLog(Logs logs)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "INSERT INTO Logs(TicketId, ClientId, AgentId, Time, Details) VALUES(@TicketId, @ClientId, @AgentId, GETDATE(), @Details)";
             SqlCommand command = new SqlCommand(query, connection);

@@ -5,9 +5,9 @@ using DataAccessLayer.DbConnection;
 
 namespace DataAccessLayer.Repositories;
 
-public class ClientRepository
+public class ClientRepository : IClientRepository
 {
-    private SqlDataAccess _dbConnection;
+    private ISqlDataAccess _dbConnection;
 
     public ClientRepository()
     {
@@ -19,7 +19,7 @@ public class ClientRepository
     {
         DataTable clientsTable = new DataTable();
 
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "SELECT Id, FirstName, LastName, Email FROM Clients";
             
@@ -32,28 +32,11 @@ public class ClientRepository
         
         return clientsTable;
     }
-
-    //metodo para agregar cliente
-    public void AddClient(Client client)
-    {
-        using (var connection = _dbConnection.GetConnection())
-        {
-            string query = "INSERT INTO Client VALUES(@FirstName, @LastName, @Email, @Password)";
-            SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@FirstName", client.FirstName);
-            command.Parameters.AddWithValue("@LastName", client.LastName);
-            command.Parameters.AddWithValue("@Email", client.Email);
-            command.Parameters.AddWithValue("@Password", client.Password);
-            connection.Open();
-            
-            command.ExecuteNonQuery();
-        }
-    }
     
     //metodo para insertar clientes
     public void InsertClient(Client client)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string quey = "INSERT INTO Client(FirstName, LastName, Email, Password, IdRol) VALUES (@FirstName, @LastName, @Email, @Password, 3)";
             SqlCommand command = new SqlCommand(quey, connection);
@@ -70,7 +53,7 @@ public class ClientRepository
     //metodo para actualizar clientes
     public void UpdateClient(Client client)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "UPDATE Client SET FirstName = @FirstName, LastName = @LastName, Email = @Email, Password = @Password WHERE Id = @Id";
             SqlCommand command = new SqlCommand(query, connection);
@@ -88,7 +71,7 @@ public class ClientRepository
     //metodo para eliminar cliente
     public void DeleteClient(int id)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "DELETE FROM Client WHERE Id = @Id";
             SqlCommand command = new SqlCommand(query, connection);
@@ -97,5 +80,35 @@ public class ClientRepository
             
             command.ExecuteNonQuery();
         }
+    }
+    
+    //metodo para validar email y password
+    public Client GetByEmailandPassword(string email, string password)
+    {
+        Client client = null;
+
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
+        {
+            string query = "SELECT * FROM Client WHERE Email = @Email and Password = @Password";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@Email", email);
+            command.Parameters.AddWithValue("@Password", password);
+            connection.Open();
+            
+            SqlDataReader reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                client = new Client()
+                {
+                    IdClient = (int)reader["id"],
+                    FirstName = reader["FirstName"].ToString(),
+                    LastName = reader["LastName"].ToString(),
+                    Email = reader["Email"].ToString(),
+                    Password = reader["Password"].ToString()
+                };
+            }
+        }
+        
+        return client;
     }
 }

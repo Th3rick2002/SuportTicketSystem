@@ -4,9 +4,9 @@ using System.Data.SqlClient;
 
 namespace DataAccessLayer.Repositories;
 
-public class Categoriesrepository
+public class Categoriesrepository : ICategoriesrepository
 {
-    private SqlDataAccess _dbConnection;
+    private ISqlDataAccess _dbConnection;
 
     public Categoriesrepository()
     {
@@ -18,7 +18,7 @@ public class Categoriesrepository
     {
         List<Categories> categories = new List<Categories>();
 
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "SELECT NameCategorie FROM Categories";
             SqlCommand command = new SqlCommand(query, connection);
@@ -42,7 +42,7 @@ public class Categoriesrepository
 
     public void AddCategory(Categories category)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "INSERT INTO Categories (NameCategorie) VALUES (@Name)";
             SqlCommand command = new SqlCommand(query, connection);
@@ -55,7 +55,7 @@ public class Categoriesrepository
 
     public void UpdateCategory(Categories category)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "UPDATE Categories SET NameCategorie = @Name WHERE Id=@Id";
             SqlCommand command = new SqlCommand(query, connection);
@@ -68,7 +68,7 @@ public class Categoriesrepository
 
     public void DeleteCategory(Categories category)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "DELETE FROM Categories WHERE Id=@Id";
             SqlCommand command = new SqlCommand(query, connection);

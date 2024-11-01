@@ -5,9 +5,9 @@ using DataAccessLayer.DbConnection;
 
 namespace DataAccessLayer.Repositories;
 
-public class AgentRepository
+public class AgentRepository : IAgentRepository
 {
-    private SqlDataAccess _dbConnection;
+    private ISqlDataAccess _dbConnection;
 
     public AgentRepository()
     {
@@ -19,7 +19,7 @@ public class AgentRepository
     {
         DataTable agentsTable = new DataTable();
 
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "SELECT Id, FirstName, LastName, Email FROM Agent";
             
@@ -36,7 +36,7 @@ public class AgentRepository
     //metodo para insertar agentes
     public void InsertAgent(Agent agent)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string quey = "INSERT INTO Agent(FirstName, LastName, Email, Password, availability, IdRol) VALUES (@FirstName, @LastName, @Email, @Password, 0, 2)";
             SqlCommand command = new SqlCommand(quey, connection);
@@ -53,7 +53,7 @@ public class AgentRepository
     //metodo para actualizar agentes
     public void UpdateAgent(Agent agent)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "UPDATE Agent SET FirstName = @FirstName, LastName = @LastName, Email = @Email, Password = @Password, availability = @availability WHERE Id = @Id";
             SqlCommand command = new SqlCommand(query, connection);
@@ -71,7 +71,7 @@ public class AgentRepository
     //metodo para eliminar agentes
     public void DeleteAgent(int id)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "DELETE FROM Agent WHERE Id = @Id";
             SqlCommand command = new SqlCommand(query, connection);
@@ -80,5 +80,35 @@ public class AgentRepository
             
             command.ExecuteNonQuery();
         }
+    }
+    
+    //metodo para validar email y password
+    public Agent GetAgentByEmailAndPassword(string email, string password)
+    {
+        Agent agent = null;
+
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
+        {
+            string query = "SELECT * FROM Agent WHERE Email = @Email AND Password = @Password";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@Email", email);
+            command.Parameters.AddWithValue("@Password", password);
+            connection.Open();
+            
+            SqlDataReader reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                agent = new Agent
+                {
+                    IdAgent = (int)reader["Id"],
+                    FirstName = reader["FirstName"].ToString(),
+                    LastName = reader["LastName"].ToString(),
+                    Email = reader["Email"].ToString(),
+                    Password = reader["Password"].ToString(),
+                };
+            }
+        }
+        
+        return agent;
     }
 }

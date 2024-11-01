@@ -5,9 +5,9 @@ using DataAccessLayer.DbConnection;
 
 namespace DataAccessLayer.Repositories;
 
-public class AdministradorRepository
+public class AdministradorRepository : IAdministradorRepository
 {
-    private SqlDataAccess _dbConnection;
+    private ISqlDataAccess _dbConnection;
 
     public AdministradorRepository()
     {
@@ -19,7 +19,7 @@ public class AdministradorRepository
     {
         DataTable dataTable = new DataTable();
 
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "SELECT * FROM Administrador";
             SqlCommand command = new SqlCommand(query, connection);
@@ -29,9 +29,10 @@ public class AdministradorRepository
         return dataTable;
     }
 
+    //metodo para agregar
     public void AddAdministrador(administrador administrador)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "INSERT INTO Administrador(FirstName, LastName, Email, Password, IdRol) VALUES(@FirstName, @LastName, @Email, @Password, 1)";
             SqlCommand command = new SqlCommand(query, connection);
@@ -45,9 +46,10 @@ public class AdministradorRepository
         }
     }
 
+    //metodo para actualizar
     public void UpdateAdministrador(administrador administrador)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "UPDATE Administrador SET FirstName = @FirstName, LastName = @LastName, Email = @Email, Password = @Password WHERE Id = @Id";
             SqlCommand command = new SqlCommand(query, connection);
@@ -58,6 +60,37 @@ public class AdministradorRepository
             connection.Open();
             
             command.ExecuteNonQuery();
+        }
+    }
+    
+    //metodo para validar el email y password
+    public administrador GetByEmailAndPassword(string email, string password)
+    {
+        administrador administrador = null;
+
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
+        {
+            string query = "SELECT * FROM Administrador WHERE Email = @Email AND Password = @Password";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@Email", email);
+            command.Parameters.AddWithValue("@Password", password);
+            connection.Open();
+            
+            SqlDataReader reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                administrador = new administrador();
+                {
+                    administrador.Id = (int)reader["Id"];
+                    administrador.FirstName = reader["FirstName"].ToString();
+                    administrador.LastName = reader["LastName"].ToString();
+                    administrador.Email = reader["Email"].ToString();
+                    administrador.Password = reader["Password"].ToString();
+                    administrador.idRol = (int)reader["IdRol"];
+                }
+            }
+
+            return administrador;
         }
     }
 }
