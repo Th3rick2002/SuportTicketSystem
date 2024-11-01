@@ -8,16 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
+using BussisnesLayer.Services;
+using PresentationLayer.forms.FormAgent;
 
 namespace PresentationLayer.forms
 {
     public partial class LoginForm : Form
     {
+        private readonly LoginService _loginService;
         public LoginForm()
         {
             InitializeComponent();
             CustomizeButtonAccess();
             CustomizeButtonUser();
+            _loginService = new LoginService();
         }
 
         private void btnUser_Click(object sender, EventArgs e)
@@ -30,7 +34,24 @@ namespace PresentationLayer.forms
 
         private void buttonAccess_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Acceso permitido", "Access");
+            string username = textBoxMail.Text; // Asumiendo que tienes un TextBox para el usuario
+            string password = textBoxPasword.Text; // Asumiendo que tienes un TextBox para la contraseña
+
+            var user = _loginService.Login(username, password);
+
+            if (user != null && user.Role == "Administrador")
+            {
+                MessageBox.Show("Acceso permitido", "Access");
+
+                // Abre el formulario DashboardAgent y oculta el formulario de inicio de sesión
+                DashboardAdmin dashboard = new DashboardAdmin();
+                dashboard.ShowDialog();
+                this.Hide(); // Opcional: Oculta el LoginForm después de acceder
+            }
+            else
+            {
+                MessageBox.Show("Credenciales incorrectas", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void CustomizeButtonAccess()

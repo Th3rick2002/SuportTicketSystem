@@ -10,8 +10,15 @@ using System.Windows.Forms;
 
 namespace PresentationLayer.forms.FormAgent
 {
-    public partial class DashboardAgent : Form
+    public partial class DashboardAdmin : Form
     {
+
+        public DashboardAdmin()
+        {
+            InitializeComponent();
+            System.Diagnostics.Debug.WriteLine("Formulario DashboardAdmin inicializado");
+        }
+
         private Form? activeForm = null;
 
         private void openChildForm(Form childForm)
@@ -35,7 +42,7 @@ namespace PresentationLayer.forms.FormAgent
         }
         private void AdminButton_Click(object sender, EventArgs e)
         {
-            openChildForm(new AgentPanelForm());
+            
         }
 
 

@@ -1,6 +1,6 @@
 ﻿namespace PresentationLayer.forms.FormAgent
 {
-    partial class DashboardAgent
+    partial class DashboardAdmin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardAgent));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardAdmin));
             button5 = new Button();
             AdminButton = new Button();
             button3 = new Button();

@@ -5,8 +5,9 @@
     "\\CommonLayer\\Entities",
     "\\PresentationLayer",
     "\\PresentationLayer\\forms",
+    "\\PresentationLayer\\forms\\FormsAdmin",
     "\\PresentationLayer\\forms\\FormsAgent"
   ],
-  "SelectedNode": "\\PresentationLayer\\forms\\FormsAgent\\DashboardAgent.cs",
+  "SelectedNode": "\\PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
   "PreviewInSolutionExplorer": false
 }
