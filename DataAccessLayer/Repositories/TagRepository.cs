@@ -4,9 +4,9 @@ using System.Data.SqlClient;
 
 namespace DataAccessLayer.Repositories;
 
-public class TagRepository
+public class TagRepository : ITagRepository
 {
-    private SqlDataAccess _dbConnection;
+    private ISqlDataAccess _dbConnection;
 
     public TagRepository()
     {
@@ -18,7 +18,7 @@ public class TagRepository
     {
         List<Tag> tags = new List<Tag>();
 
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "SELECT NameTag FROM Tags";
             SqlCommand command = new SqlCommand(query, connection);
@@ -43,7 +43,7 @@ public class TagRepository
     //metodo para agregar etiquetas
     public void addTag(Tag tag)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "INSERT INTO Tags (NameTag) VALUES (@TagName)";
             SqlCommand command = new SqlCommand(query, connection);
@@ -56,7 +56,7 @@ public class TagRepository
 
     public void UpdateTags(Tag tag)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "UPDATE Tags SET TagName = @TagName WHERE NameTag = @NameTag";
             SqlCommand command = new SqlCommand(query, connection);
@@ -69,7 +69,7 @@ public class TagRepository
 
     public void DeleteTags(int id)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "DELETE FROM Tags WHERE TagId = @TagId";
             SqlCommand command = new SqlCommand(query, connection);

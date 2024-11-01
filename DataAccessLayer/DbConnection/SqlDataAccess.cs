@@ -1,6 +1,6 @@
 namespace DataAccessLayer.DbConnection;
 
-public class SqlDataAccess
+public class SqlDataAccess: ISqlDataAccess
 {
     private readonly string _connectionString;
 
@@ -12,5 +12,5 @@ public class SqlDataAccess
     public SqlConnection GetConnection()
     {
         return new SqlConnection(_connectionString);
-    }               
+    }
 }

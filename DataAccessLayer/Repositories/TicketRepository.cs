@@ -5,9 +5,9 @@ using DataAccessLayer.DbConnection;
 
 namespace DataAccessLayer.Repositories;
 
-public class TicketRepository
+public class TicketRepository : ITicketRepository
 {
-    private SqlDataAccess _dbConnection;
+    private ISqlDataAccess _dbConnection;
 
     public TicketRepository()
     {
@@ -19,7 +19,7 @@ public class TicketRepository
     {
         DataTable ticketsTable = new DataTable();
 
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "SELECT  NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Client, Id_Agent FROM Tickets";
             SqlCommand command = new SqlCommand(query, connection);
@@ -34,7 +34,7 @@ public class TicketRepository
     //metodo para agregar ticket
     public void AddTicked(Ticket ticket, Client client)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "INSERT INTO Ticket(NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Client) VALUES (@NameTicket, @DescriptionTicket, @Priority, @Status, @Categorie, @Tag, @Id_Client)";
             SqlCommand command = new SqlCommand(query, connection);
@@ -54,7 +54,7 @@ public class TicketRepository
     //metodo para actualizar ticket
     public void UpdateTicketByAdmin(Ticket ticket, Agent agent)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "UPDATE Ticket SET NameTicket = @NameTicket, DescriptionTicket = @DescriptionTicket, Priority = @Priority, Categorie = @Categorie, Tag = @Tag, Id_Agent = @Id_Agent WHERE Id_Client = @Id_Client";
             SqlCommand command = new SqlCommand(query, connection);
@@ -73,7 +73,7 @@ public class TicketRepository
     
     public void DeleteTicketByAdmin(Ticket ticket, Agent agent)
     {
-        using (var connection = _dbConnection.GetConnection())
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
             string query = "DELETE FROM Ticket WHERE Id_Client = @Id_Client";
             SqlCommand command = new SqlCommand(query, connection);
