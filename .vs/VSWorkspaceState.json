@@ -13,6 +13,6 @@
     "\\PresentationLayer\\forms\\FormsAdmin",
     "\\PresentationLayer\\forms\\FormsAgent"
   ],
-  "SelectedNode": "\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
+  "SelectedNode": "\\PresentationLayer\\forms\\RegisterTicket.Designer.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -523,19 +523,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\": {}
+    "C:\\Users\\MINEDUCYT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
       "projectName": "PresentationLayer",
-      "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
-      "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\obj\\",
+      "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+      "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\PresentationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -543,14 +543,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {
-              "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj"
+            "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {
+              "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\ciclo III\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj"
             }
           }
         }
@@ -588,7 +589,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
