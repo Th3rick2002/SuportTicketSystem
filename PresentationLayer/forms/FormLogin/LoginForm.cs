@@ -41,12 +41,21 @@ namespace PresentationLayer.forms
 
             if (user != null && user.Role == "Administrador")
             {
-                MessageBox.Show("Acceso permitido", "Access");
-
-                // Abre el formulario DashboardAgent y oculta el formulario de inicio de sesión
                 DashboardAdmin dashboard = new DashboardAdmin();
                 dashboard.ShowDialog();
-                this.Hide(); // Opcional: Oculta el LoginForm después de acceder
+                this.Hide();
+            }
+            else if(user != null && user.Role == "Agente")
+            {
+                AgentPanelForm formAgente = new AgentPanelForm();
+                formAgente.ShowDialog();
+                this.Hide();
+            }
+            else if (user != null && user.Role == "Cliente")
+            {
+                FormClient formClient = new FormClient();
+                formClient.ShowDialog();
+                this.Hide();
             }
             else
             {

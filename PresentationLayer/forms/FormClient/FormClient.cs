@@ -21,5 +21,11 @@ namespace PresentationLayer.forms
         {
             this.Close();
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            AddEditTicket addEditTicket = new AddEditTicket();
+            addEditTicket.ShowDialog();
+        }
     }
 }

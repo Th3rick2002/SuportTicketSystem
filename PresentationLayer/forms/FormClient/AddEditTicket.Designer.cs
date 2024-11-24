@@ -29,12 +29,16 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            CorreoBOX = new TextBox();
+            labelTag = new Label();
+            comboBoxTag = new ComboBox();
+            comboBox3 = new ComboBox();
+            comboBox2 = new ComboBox();
+            LabelCategori = new Label();
             Labeladdicket = new Label();
             comboBox1 = new ComboBox();
             label1 = new Label();
             comboBoxCategory = new ComboBox();
-            label3 = new Label();
+            Priority = new Label();
             labelCategory = new Label();
             btnSave = new Button();
             btnExit = new Button();
@@ -42,21 +46,21 @@
             labelNameTicket = new Label();
             ApellidoddBOX = new TextBox();
             NameaddBOX = new TextBox();
-            PassBOX = new TextBox();
-            label2 = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(PassBOX);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(CorreoBOX);
+            groupBox1.Controls.Add(labelTag);
+            groupBox1.Controls.Add(comboBoxTag);
+            groupBox1.Controls.Add(comboBox3);
+            groupBox1.Controls.Add(comboBox2);
+            groupBox1.Controls.Add(LabelCategori);
             groupBox1.Controls.Add(Labeladdicket);
             groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(comboBoxCategory);
-            groupBox1.Controls.Add(label3);
+            groupBox1.Controls.Add(Priority);
             groupBox1.Controls.Add(labelCategory);
             groupBox1.Controls.Add(btnSave);
             groupBox1.Controls.Add(btnExit);
@@ -64,79 +68,119 @@
             groupBox1.Controls.Add(labelNameTicket);
             groupBox1.Controls.Add(ApellidoddBOX);
             groupBox1.Controls.Add(NameaddBOX);
-            groupBox1.Location = new Point(102, 12);
+            groupBox1.Location = new Point(117, 16);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(743, 455);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(849, 607);
             groupBox1.TabIndex = 53;
             groupBox1.TabStop = false;
             // 
-            // CorreoBOX
+            // labelTag
             // 
-            CorreoBOX.Location = new Point(138, 254);
-            CorreoBOX.Margin = new Padding(4, 5, 4, 5);
-            CorreoBOX.Name = "CorreoBOX";
-            CorreoBOX.Size = new Size(486, 23);
-            CorreoBOX.TabIndex = 87;
+            labelTag.AutoSize = true;
+            labelTag.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            labelTag.Location = new Point(160, 452);
+            labelTag.Margin = new Padding(5, 0, 5, 0);
+            labelTag.Name = "labelTag";
+            labelTag.Size = new Size(73, 23);
+            labelTag.TabIndex = 92;
+            labelTag.Text = "Etiqueta";
+            // 
+            // comboBoxTag
+            // 
+            comboBoxTag.FormattingEnabled = true;
+            comboBoxTag.Location = new Point(160, 489);
+            comboBoxTag.Name = "comboBoxTag";
+            comboBoxTag.Size = new Size(555, 28);
+            comboBoxTag.TabIndex = 91;
+            // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Location = new Point(160, 408);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(555, 28);
+            comboBox3.TabIndex = 90;
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(160, 309);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(555, 28);
+            comboBox2.TabIndex = 89;
+            // 
+            // LabelCategori
+            // 
+            LabelCategori.AutoSize = true;
+            LabelCategori.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            LabelCategori.Location = new Point(160, 371);
+            LabelCategori.Margin = new Padding(5, 0, 5, 0);
+            LabelCategori.Name = "LabelCategori";
+            LabelCategori.Size = new Size(84, 23);
+            LabelCategori.TabIndex = 88;
+            LabelCategori.Text = "Categoria";
             // 
             // Labeladdicket
             // 
             Labeladdicket.AutoSize = true;
             Labeladdicket.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Labeladdicket.Location = new Point(283, 34);
-            Labeladdicket.Margin = new Padding(4, 0, 4, 0);
+            Labeladdicket.Location = new Point(323, 45);
+            Labeladdicket.Margin = new Padding(5, 0, 5, 0);
             Labeladdicket.Name = "Labeladdicket";
-            Labeladdicket.Size = new Size(237, 32);
+            Labeladdicket.Size = new Size(296, 41);
             Labeladdicket.TabIndex = 50;
             Labeladdicket.Text = "Agregar/Edit Ticket";
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(902, 306);
-            comboBox1.Margin = new Padding(4, 5, 4, 5);
+            comboBox1.Location = new Point(1031, 408);
+            comboBox1.Margin = new Padding(5, 7, 5, 7);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(172, 23);
+            comboBox1.Size = new Size(196, 28);
             comboBox1.TabIndex = 72;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            label1.Location = new Point(902, 282);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(1031, 376);
+            label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
-            label1.Size = new Size(53, 19);
+            label1.Size = new Size(65, 23);
             label1.TabIndex = 71;
             label1.Text = "Agente";
             // 
             // comboBoxCategory
             // 
             comboBoxCategory.FormattingEnabled = true;
-            comboBoxCategory.Location = new Point(902, 226);
-            comboBoxCategory.Margin = new Padding(4, 5, 4, 5);
+            comboBoxCategory.Location = new Point(1031, 301);
+            comboBoxCategory.Margin = new Padding(5, 7, 5, 7);
             comboBoxCategory.Name = "comboBoxCategory";
-            comboBoxCategory.Size = new Size(172, 23);
+            comboBoxCategory.Size = new Size(196, 28);
             comboBoxCategory.TabIndex = 69;
             // 
-            // label3
+            // Priority
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            label3.Location = new Point(138, 230);
-            label3.Margin = new Padding(4, 0, 4, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(51, 19);
-            label3.TabIndex = 83;
-            label3.Text = "Correo";
+            Priority.AutoSize = true;
+            Priority.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            Priority.Location = new Point(160, 270);
+            Priority.Margin = new Padding(5, 0, 5, 0);
+            Priority.Name = "Priority";
+            Priority.Size = new Size(79, 23);
+            Priority.TabIndex = 83;
+            Priority.Text = "Prioridad";
             // 
             // labelCategory
             // 
             labelCategory.AutoSize = true;
             labelCategory.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelCategory.Location = new Point(902, 202);
-            labelCategory.Margin = new Padding(4, 0, 4, 0);
+            labelCategory.Location = new Point(1031, 269);
+            labelCategory.Margin = new Padding(5, 0, 5, 0);
             labelCategory.Name = "labelCategory";
-            labelCategory.Size = new Size(69, 19);
+            labelCategory.Size = new Size(84, 23);
             labelCategory.TabIndex = 68;
             labelCategory.Text = "Categoria";
             // 
@@ -144,90 +188,74 @@
             // 
             btnSave.BackColor = Color.FromArgb(157, 178, 191);
             btnSave.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnSave.Location = new Point(252, 385);
-            btnSave.Margin = new Padding(4, 3, 4, 3);
+            btnSave.Location = new Point(244, 537);
+            btnSave.Margin = new Padding(5, 4, 5, 4);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(118, 33);
+            btnSave.Size = new Size(135, 44);
             btnSave.TabIndex = 66;
             btnSave.Text = "Guardar ";
             btnSave.UseVisualStyleBackColor = false;
+            btnSave.Click += btnSave_Click;
             // 
             // btnExit
             // 
             btnExit.BackColor = Color.FromArgb(157, 178, 191);
             btnExit.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnExit.Location = new Point(428, 385);
-            btnExit.Margin = new Padding(4, 3, 4, 3);
+            btnExit.Location = new Point(484, 537);
+            btnExit.Margin = new Padding(5, 4, 5, 4);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(118, 33);
+            btnExit.Size = new Size(135, 44);
             btnExit.TabIndex = 65;
             btnExit.Text = "Salir";
             btnExit.UseVisualStyleBackColor = false;
+            btnExit.Click += btnExit_Click;
             // 
             // labelDescripcionTiket
             // 
             labelDescripcionTiket.AutoSize = true;
             labelDescripcionTiket.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelDescripcionTiket.Location = new Point(138, 162);
-            labelDescripcionTiket.Margin = new Padding(4, 0, 4, 0);
+            labelDescripcionTiket.Location = new Point(160, 182);
+            labelDescripcionTiket.Margin = new Padding(5, 0, 5, 0);
             labelDescripcionTiket.Name = "labelDescripcionTiket";
-            labelDescripcionTiket.Size = new Size(61, 19);
+            labelDescripcionTiket.Size = new Size(175, 23);
             labelDescripcionTiket.TabIndex = 64;
-            labelDescripcionTiket.Text = "Apellido";
+            labelDescripcionTiket.Text = "Descripcion Del ticket";
             // 
             // labelNameTicket
             // 
             labelNameTicket.AutoSize = true;
             labelNameTicket.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelNameTicket.Location = new Point(138, 92);
-            labelNameTicket.Margin = new Padding(4, 0, 4, 0);
+            labelNameTicket.Location = new Point(160, 100);
+            labelNameTicket.Margin = new Padding(5, 0, 5, 0);
             labelNameTicket.Name = "labelNameTicket";
-            labelNameTicket.Size = new Size(60, 19);
+            labelNameTicket.Size = new Size(73, 23);
             labelNameTicket.TabIndex = 63;
             labelNameTicket.Text = "Nombre";
             // 
             // ApellidoddBOX
             // 
-            ApellidoddBOX.Location = new Point(138, 186);
-            ApellidoddBOX.Margin = new Padding(4, 5, 4, 5);
+            ApellidoddBOX.Location = new Point(160, 211);
+            ApellidoddBOX.Margin = new Padding(5, 7, 5, 7);
             ApellidoddBOX.Name = "ApellidoddBOX";
-            ApellidoddBOX.Size = new Size(486, 23);
+            ApellidoddBOX.Size = new Size(555, 27);
             ApellidoddBOX.TabIndex = 62;
             // 
             // NameaddBOX
             // 
-            NameaddBOX.Location = new Point(138, 116);
-            NameaddBOX.Margin = new Padding(4, 5, 4, 5);
+            NameaddBOX.Location = new Point(160, 132);
+            NameaddBOX.Margin = new Padding(5, 7, 5, 7);
             NameaddBOX.Name = "NameaddBOX";
-            NameaddBOX.Size = new Size(486, 23);
+            NameaddBOX.Size = new Size(555, 27);
             NameaddBOX.TabIndex = 61;
-            // 
-            // PassBOX
-            // 
-            PassBOX.Location = new Point(138, 330);
-            PassBOX.Margin = new Padding(4, 5, 4, 5);
-            PassBOX.Name = "PassBOX";
-            PassBOX.Size = new Size(486, 23);
-            PassBOX.TabIndex = 89;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            label2.Location = new Point(138, 306);
-            label2.Margin = new Padding(4, 0, 4, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(79, 19);
-            label2.TabIndex = 88;
-            label2.Text = "Contraseña";
             // 
             // AddEditTicket
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(82, 109, 130);
-            ClientSize = new Size(950, 523);
+            ClientSize = new Size(1086, 697);
             Controls.Add(groupBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "AddEditTicket";
             Text = "AddEditTicket";
             groupBox1.ResumeLayout(false);
@@ -238,14 +266,12 @@
         #endregion
 
         private GroupBox groupBox1;
-        private TextBox PassBOX;
-        private Label label2;
-        private TextBox CorreoBOX;
+        private Label LabelCategori;
         private Label Labeladdicket;
         private ComboBox comboBox1;
         private Label label1;
         private ComboBox comboBoxCategory;
-        private Label label3;
+        private Label Priority;
         private Label labelCategory;
         private Button btnSave;
         private Button btnExit;
@@ -253,5 +279,9 @@
         private Label labelNameTicket;
         private TextBox ApellidoddBOX;
         private TextBox NameaddBOX;
+        private ComboBox comboBoxTag;
+        private ComboBox comboBox3;
+        private ComboBox comboBox2;
+        private Label labelTag;
     }
 }

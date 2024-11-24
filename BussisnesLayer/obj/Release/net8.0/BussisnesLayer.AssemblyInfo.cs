@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BussisnesLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80e107f6152773cedca335199b853ab816b14bc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddfbd99096ab5ba9199b59f299d2147317464a36")]
 [assembly: System.Reflection.AssemblyProductAttribute("BussisnesLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BussisnesLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,8 +10,9 @@ public class SqlDataAccess: ISqlDataAccess
 
     public SqlDataAccess()
     {
-        _connectionString = "Data Source=LAPTOP-KFDQNCRJ\\SQLEXPRESS;Initial Catalog=SupportTicketSystemDB;Integrated Security=True;";
+        //_connectionString = "Data Source=LAPTOP-KFDQNCRJ\\SQLEXPRESS;Initial Catalog=SupportTicketSystemDB;Integrated Security=True;";
         //_connectionString = "Server=localhost,1433;Database=SupportTicketSystemDB;User Id=sa;Password=TuPasswordSegura123(!);";
+        _connectionString = "Data Source=ITAMAR\\SQLEXPRESS01;Initial Catalog=SupportTicketSystemDB;Integrated Security=True;Encrypt=False;";
     }
 
     public IDbConnection GetConnection()
