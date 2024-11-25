@@ -50,7 +50,7 @@
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(161, 47);
             btnExit.TabIndex = 39;
-            btnExit.Text = "Salir";
+            btnExit.Text = "Cerrar sesión";
             btnExit.UseVisualStyleBackColor = false;
             btnExit.Click += btnExit_Click;
             // 
@@ -64,8 +64,9 @@
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(161, 49);
             btnAdd.TabIndex = 38;
-            btnAdd.Text = "Agregar";
+            btnAdd.Text = "Agregar ticket";
             btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
             // 
             // dataGridViewClient
             // 
@@ -86,7 +87,7 @@
             lblClient.Location = new Point(13, 22);
             lblClient.Margin = new Padding(4, 0, 4, 0);
             lblClient.Name = "lblClient";
-            lblClient.Size = new Size(313, 38);
+            lblClient.Size = new Size(383, 47);
             lblClient.TabIndex = 29;
             lblClient.Text = "Panel De Cliente";
             // 
@@ -123,7 +124,7 @@
             // 
             // FormClient
             // 
-            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleDimensions = new SizeF(10F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1320, 749);
             Controls.Add(pictureBox1);

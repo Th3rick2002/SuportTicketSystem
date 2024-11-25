@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PresentationLayer.forms
 {
-    public partial class FormClient : Form
+    public partial class AddEditTicket : Form
     {
-        public FormClient()
+        public AddEditTicket()
         {
             InitializeComponent();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se registro el ticket exitosamente");
         }
 
         private void btnExit_Click(object sender, EventArgs e)

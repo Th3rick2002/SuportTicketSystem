@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\": {}
+    "C:\\Users\\Itamar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
       "projectName": "CommonLayer",
-      "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
-      "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\obj\\",
+      "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+      "packagesPath": "C:\\Users\\Itamar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Itamar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -44,8 +44,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -66,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

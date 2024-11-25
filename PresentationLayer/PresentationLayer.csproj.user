@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="forms\FormClient\AddEditTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="forms\FormsAdmin\addTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="forms\FormsAdmin\FormAdministrator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -13,16 +19,16 @@
     <Compile Update="forms\FormsAdmin\HomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\LoginForm.cs">
+    <Compile Update="forms\FormLogin\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\registerForm.cs">
+    <Compile Update="forms\FormLogin\registerForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="forms\RegisterTicket.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\FormClient.cs">
+    <Compile Update="forms\FormClient\FormClient.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="forms\TicketForm.cs">

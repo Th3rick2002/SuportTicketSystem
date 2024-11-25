@@ -7,10 +7,10 @@
             InitializeComponent();
 
             // Suscribir eventos MouseEnter y MouseLeave para cada botón
-            btnExit.MouseEnter += Button_MouseEnter;
-            btnExit.MouseLeave += Button_MouseLeave;
-            btnFinish.MouseEnter += Button_MouseEnter;
-            btnFinish.MouseLeave += Button_MouseLeave;
+            //btnExit.MouseEnter += Button_MouseEnter;
+            //btnExit.MouseLeave += Button_MouseLeave;
+            //btnFinish.MouseEnter += Button_MouseEnter;
+            //btnFinish.MouseLeave += Button_MouseLeave;
         }
 
         private void Button_MouseEnter(object sender, EventArgs e)
@@ -33,6 +33,11 @@
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

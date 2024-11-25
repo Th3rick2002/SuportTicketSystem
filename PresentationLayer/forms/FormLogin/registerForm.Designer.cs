@@ -44,26 +44,27 @@
             textBox1 = new TextBox();
             labelRegisterNewTicket = new Label();
             groupBoxRegister = new GroupBox();
-            pictureBoxRegister = new PictureBox();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
+            pictureBoxRegister = new PictureBox();
             groupBoxRegister.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxRegister).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxRegister).BeginInit();
             SuspendLayout();
             // 
             // btnSave
             // 
             btnSave.BackColor = Color.Aquamarine;
             btnSave.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnSave.Location = new Point(207, 405);
+            btnSave.Location = new Point(17, 408);
             btnSave.Margin = new Padding(3, 4, 3, 4);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(151, 43);
             btnSave.TabIndex = 8;
             btnSave.Text = "Guardar";
             btnSave.UseVisualStyleBackColor = false;
+            btnSave.Click += btnSave_Click;
             // 
             // textBoxName
             // 
@@ -169,7 +170,7 @@
             // 
             btnExit.BackColor = Color.Yellow;
             btnExit.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnExit.Location = new Point(17, 405);
+            btnExit.Location = new Point(204, 408);
             btnExit.Margin = new Padding(3, 4, 3, 4);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(149, 43);
@@ -204,14 +205,14 @@
             // 
             groupBoxRegister.BackColor = Color.MediumPurple;
             groupBoxRegister.Controls.Add(pictureBox1);
-            groupBoxRegister.Controls.Add(pictureBox2);
             groupBoxRegister.Controls.Add(labelName);
-            groupBoxRegister.Controls.Add(btnSave);
             groupBoxRegister.Controls.Add(labelFirstName);
+            groupBoxRegister.Controls.Add(pictureBox2);
             groupBoxRegister.Controls.Add(labelGmail);
             groupBoxRegister.Controls.Add(labelPasword);
-            groupBoxRegister.Controls.Add(labelVerifyPassword);
             groupBoxRegister.Controls.Add(btnExit);
+            groupBoxRegister.Controls.Add(labelVerifyPassword);
+            groupBoxRegister.Controls.Add(btnSave);
             groupBoxRegister.Controls.Add(textBoxName);
             groupBoxRegister.Controls.Add(textBoxVerifyPassword);
             groupBoxRegister.Controls.Add(textBoxFirstname);
@@ -223,21 +224,11 @@
             groupBoxRegister.TabIndex = 24;
             groupBoxRegister.TabStop = false;
             // 
-            // pictureBoxRegister
-            // 
-            pictureBoxRegister.Image = (Image)resources.GetObject("pictureBoxRegister.Image");
-            pictureBoxRegister.Location = new Point(501, 157);
-            pictureBoxRegister.Name = "pictureBoxRegister";
-            pictureBoxRegister.Size = new Size(375, 346);
-            pictureBoxRegister.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBoxRegister.TabIndex = 25;
-            pictureBoxRegister.TabStop = false;
-            // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Yellow;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(29, 410);
+            pictureBox1.Location = new Point(216, 413);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(36, 32);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -247,12 +238,22 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(219, 410);
+            pictureBox2.Location = new Point(29, 413);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(25, 30);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 27;
             pictureBox2.TabStop = false;
+            // 
+            // pictureBoxRegister
+            // 
+            pictureBoxRegister.Image = (Image)resources.GetObject("pictureBoxRegister.Image");
+            pictureBoxRegister.Location = new Point(501, 157);
+            pictureBoxRegister.Name = "pictureBoxRegister";
+            pictureBoxRegister.Size = new Size(375, 346);
+            pictureBoxRegister.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxRegister.TabIndex = 25;
+            pictureBoxRegister.TabStop = false;
             // 
             // registerForm
             // 
@@ -269,9 +270,9 @@
             Text = "registerForm";
             groupBoxRegister.ResumeLayout(false);
             groupBoxRegister.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxRegister).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxRegister).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

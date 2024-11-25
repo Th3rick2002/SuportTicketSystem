@@ -21,6 +21,12 @@ namespace PresentationLayer.forms
         {
             this.Close();
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Usuario registrado exitosamente");
+            this.Close();
+        }
     }
 }
 
