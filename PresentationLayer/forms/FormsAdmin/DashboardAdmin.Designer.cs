@@ -117,7 +117,7 @@
             Homebutton.UseVisualStyleBackColor = false;
             Homebutton.Click += Homebutton_Click;
             // 
-            // DashboardAgent
+            // DashboardAdmin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -132,7 +132,7 @@
             Controls.Add(AdminButton);
             Controls.Add(button5);
             Controls.Add(principalPictureBox);
-            Name = "DashboardAgent";
+            Name = "DashboardAdmin";
             Text = "DashboardAgent";
             ((System.ComponentModel.ISupportInitialize)principalPictureBox).EndInit();
             ResumeLayout(false);
