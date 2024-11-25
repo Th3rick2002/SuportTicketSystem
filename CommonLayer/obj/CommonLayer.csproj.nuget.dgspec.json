@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {}
+    "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
+    "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
         "projectName": "CommonLayer",
-        "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
-        "packagesPath": "C:\\Users\\Itamar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\obj\\",
+        "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+        "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Itamar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,9 +38,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

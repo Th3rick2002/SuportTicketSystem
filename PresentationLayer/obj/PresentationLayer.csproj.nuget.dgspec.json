@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj": {}
+    "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {
+    "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
         "projectName": "BussisnesLayer",
-        "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
-        "packagesPath": "C:\\Users\\Itamar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\BussisnesLayer\\obj\\",
+        "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
+        "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\BussisnesLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Itamar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
-                "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj"
+              "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj"
               },
-              "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -45,9 +45,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -68,21 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
+    "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
         "projectName": "CommonLayer",
-        "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
-        "packagesPath": "C:\\Users\\Itamar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\obj\\",
+        "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+        "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Itamar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,9 +105,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -129,21 +127,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Itamar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Itamar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -157,8 +155,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
-                "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj"
+              "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
+                "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj"
               }
             }
           }
@@ -171,9 +169,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -200,21 +197,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj": {
+    "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
         "projectName": "PresentationLayer",
-        "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
-        "packagesPath": "C:\\Users\\Itamar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\obj\\",
+        "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+        "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Itamar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -228,8 +225,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {
-                "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj"
+              "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {
+                "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj"
               }
             }
           }
@@ -242,9 +239,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -268,7 +264,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

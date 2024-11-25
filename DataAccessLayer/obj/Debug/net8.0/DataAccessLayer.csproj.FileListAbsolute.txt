@@ -36,3 +36,19 @@ C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\DataAccessLayer\obj\Debug
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

@@ -19,6 +19,13 @@ namespace PresentationLayer.forms
 
         private void btnExit_Click(object sender, EventArgs e)
         {
+            LoginForm loginForm = Application.OpenForms.OfType<LoginForm>().FirstOrDefault();
+            if (loginForm != null)
+            {
+                loginForm.ResetLoginForm();
+                loginForm.Show();
+            }
+
             this.Close();
         }
 

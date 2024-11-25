@@ -27,6 +27,14 @@
 
         private void btnExit_Click(object sender, EventArgs e)
         {
+            LoginForm loginForm = Application.OpenForms.OfType<LoginForm>().FirstOrDefault();
+            if (loginForm != null)
+            {
+                loginForm.ResetLoginForm(); // Restablece los campos del login
+                loginForm.Show();
+            }
+
+            // Cerrar el formulario de agentes
             this.Close();
         }
 

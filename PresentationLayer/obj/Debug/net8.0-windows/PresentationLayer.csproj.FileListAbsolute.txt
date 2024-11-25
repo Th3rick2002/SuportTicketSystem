@@ -176,3 +176,45 @@ C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\bin\Deb
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\Presenta.9C561136.Up2Date
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.genruntimeconfig.cache
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\ref\PresentationLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.exe
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.deps.json
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.runtimeconfig.json
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\PresentationLayer.pdb
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\BussisnesLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\CommonLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\DataAccessLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\BussisnesLayer.pdb
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\CommonLayer.pdb
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.AddEditTicket.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormClient.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.LoginForm.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.registerForm.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.addTicket.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormAgent.DashboardAdmin.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormAdministrator.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.HomeForm.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.AgentPanelForm.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.RegisterTicket.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.TicketForm.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.Properties.Resources.resources
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.AssemblyInfo.cs
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.sourcelink.json
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\Presenta.9C561136.Up2Date
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\refint\PresentationLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.pdb
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.genruntimeconfig.cache
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\ref\PresentationLayer.dll
