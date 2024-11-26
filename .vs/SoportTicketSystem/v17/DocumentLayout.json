@@ -1,172 +1,134 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formclient\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\validations\\agentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\validations\\agentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formsagent\\agentpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsagent\\agentpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\validations\\ticketvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\validations\\ticketvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formclient\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\validations\\clientvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\validations\\clientvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formsagent\\agentpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsagent\\agentpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formclient\\addeditticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient\\addeditticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\registerticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\registerticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\formadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\formadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formlogin\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formlogin\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formlogin\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formlogin\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formclient\\addeditticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient\\addeditticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\presentationlayer\\forms\\formsadmin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\addticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\addticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\dataaccesslayer\\dbconnection\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnection\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\dataaccesslayer\\dbconnection\\isqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnection\\isqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\documents\\uni\\u20230405-orlando\\ciclo 4\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\dataaccesslayer\\repositories\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\dataaccesslayer\\repositories\\iadministradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\iadministradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\dataaccesslayer\\dbconnection\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnection\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\presentationlayer\\forms\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\presentationlayer\\forms\\formsadmin\\formadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\formadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\presentationlayer\\forms\\formsadmin\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\dashboardadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\presentationlayer\\forms\\formsagent\\agentpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\formticketadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\formticketadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\formagentadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\formagentadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsagent\\agentpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsagent\\agentpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CB508C-FC83-45BC-B04C-0ABE7F0177A9}|BussisnesLayer\\BussisnesLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\bussisneslayer\\services\\login\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0CB508C-FC83-45BC-B04C-0ABE7F0177A9}|BussisnesLayer\\BussisnesLayer.csproj|solutionrelative:bussisneslayer\\services\\login\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0CB508C-FC83-45BC-B04C-0ABE7F0177A9}|BussisnesLayer\\BussisnesLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\bussisneslayer\\services\\login\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0CB508C-FC83-45BC-B04C-0ABE7F0177A9}|BussisnesLayer\\BussisnesLayer.csproj|solutionrelative:bussisneslayer\\services\\login\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\dataaccesslayer\\repositories\\icategoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\icategoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\presentationlayer\\forms\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\ticketform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\presentationlayer\\forms\\formsadmin\\formadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\formadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\formclientadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\formclientadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\formadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\formadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsagent\\agentpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsagent\\agentpanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\formadministrator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\formadministrator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\presentationlayer\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formsadmin\\formadministrator.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formsadmin\\formadministrator.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C82C9B55-D1B4-45CE-A4EA-EE1C51987DE2}|CommonLayer\\CommonLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\commonlayer\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C82C9B55-D1B4-45CE-A4EA-EE1C51987DE2}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formclient\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C82C9B55-D1B4-45CE-A4EA-EE1C51987DE2}|CommonLayer\\CommonLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\commonlayer\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C82C9B55-D1B4-45CE-A4EA-EE1C51987DE2}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0CB508C-FC83-45BC-B04C-0ABE7F0177A9}|BussisnesLayer\\BussisnesLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\bussisneslayer\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CB508C-FC83-45BC-B04C-0ABE7F0177A9}|BussisnesLayer\\BussisnesLayer.csproj|solutionrelative:bussisneslayer\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formclient\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient\\formclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formclient\\addticketclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient\\addticketclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formclient\\addticketclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formclient\\addticketclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\dataaccesslayer\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0CB508C-FC83-45BC-B04C-0ABE7F0177A9}|BussisnesLayer\\BussisnesLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\bussisneslayer\\services\\login\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0CB508C-FC83-45BC-B04C-0ABE7F0177A9}|BussisnesLayer\\BussisnesLayer.csproj|solutionrelative:bussisneslayer\\services\\login\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C82C9B55-D1B4-45CE-A4EA-EE1C51987DE2}|CommonLayer\\CommonLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\commonlayer\\entities\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C82C9B55-D1B4-45CE-A4EA-EE1C51987DE2}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\entities\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\dataaccesslayer\\dbconnection\\isqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnection\\isqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\itamar\\documents\\proyectos\\suportticketsystem\\presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C82C9B55-D1B4-45CE-A4EA-EE1C51987DE2}|CommonLayer\\CommonLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\commonlayer\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C82C9B55-D1B4-45CE-A4EA-EE1C51987DE2}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\itamar\\documents\\proyectos\\suportticketsystem\\presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
->>>>>>> 020de48d4d118ac60eda28554140a88e41b5c68b
->>>>>>> 937458a308b377fc89f197d74569b03aee7d882d
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\registerticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\registerticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\dataaccesslayer\\dbconnection\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnection\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\presentationlayer\\forms\\formlogin\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formlogin\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\orlando z\u00FAniga\\desktop\\suportticketsystem\\dataaccesslayer\\dbconnection\\isqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08ACFBB-19DA-4077-BE27-5C51A44798FC}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnection\\isqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -176,15 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
           "SelectedChildIndex": 3,
-=======
-<<<<<<< HEAD
-          "SelectedChildIndex": 7,
-=======
-          "SelectedChildIndex": 6,
->>>>>>> 020de48d4d118ac60eda28554140a88e41b5c68b
->>>>>>> 937458a308b377fc89f197d74569b03aee7d882d
           "Children": [
             {
               "$type": "Bookmark",
@@ -199,478 +153,321 @@
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormClient.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\FormClient.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient\\FormClient.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\FormClient.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormClient\\FormClient.cs [Dise\u00F1o]",
-=======
-<<<<<<< HEAD
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IClientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\Repositories\\IClientRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IClientRepository.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\Repositories\\IClientRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repositories\\IClientRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Title": "AgentValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\Validations\\AgentValidator.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Validations\\AgentValidator.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\Validations\\AgentValidator.cs",
+              "RelativeToolTip": "PresentationLayer\\Validations\\AgentValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T17:25:33.761Z"
+              "WhenOpened": "2024-11-26T09:22:38.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAdministradorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\Repositories\\IAdministradorRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IAdministradorRepository.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\Repositories\\IAdministradorRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repositories\\IAdministradorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:45:11.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormAdministrator.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:11:05.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\HomeForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\HomeForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\HomeForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\HomeForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:18:27.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DashboardAdmin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
               "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T23:33:43.095Z",
+              "WhenOpened": "2024-11-25T23:51:14.387Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SqlDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "RelativeToolTip": "DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBUAAAABAAAA",
+              "DocumentIndex": 6,
+              "Title": "FormAgentAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAgentAdmin.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\FormAgentAdmin.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAgentAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\FormAgentAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T14:57:31.155Z"
+              "WhenOpened": "2024-11-26T09:13:15.583Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FormClient.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormClient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T20:12:36.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormClient.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormClient.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:11:35.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "DashboardAdmin.cs",
               "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
               "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
               "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAcwCwAAAAvAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAwwD8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T01:26:33.986Z"
+              "WhenOpened": "2024-11-25T23:51:14.398Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-=======
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
->>>>>>> 020de48d4d118ac60eda28554140a88e41b5c68b
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAtwC8AAAA6AAAAAAAAAA==",
->>>>>>> 937458a308b377fc89f197d74569b03aee7d882d
+              "DocumentIndex": 2,
+              "Title": "ClientValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\Validations\\ClientValidator.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Validations\\ClientValidator.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\Validations\\ClientValidator.cs",
+              "RelativeToolTip": "PresentationLayer\\Validations\\ClientValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:07:25.464Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-26T01:20:36.931Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "TicketValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\Validations\\TicketValidator.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Validations\\TicketValidator.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\Validations\\TicketValidator.cs",
+              "RelativeToolTip": "PresentationLayer\\Validations\\TicketValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T01:22:46.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AgentPanelForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
               "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:04:43.354Z"
+              "WhenOpened": "2024-11-26T05:54:32.831Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\Services\\login\\LoginService.cs",
-              "RelativeDocumentMoniker": "BussisnesLayer\\Services\\login\\LoginService.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\Services\\login\\LoginService.cs",
-              "RelativeToolTip": "BussisnesLayer\\Services\\login\\LoginService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwCUAAAAgAAAA",
+              "DocumentIndex": 5,
+              "Title": "FormTicketAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormTicketAdmin.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\FormTicketAdmin.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormTicketAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\FormTicketAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T16:41:27.653Z"
+              "WhenOpened": "2024-11-26T09:18:53.143Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ILoginService.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\Services\\login\\ILoginService.cs",
-              "RelativeDocumentMoniker": "BussisnesLayer\\Services\\login\\ILoginService.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\Services\\login\\ILoginService.cs",
-              "RelativeToolTip": "BussisnesLayer\\Services\\login\\ILoginService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:32:07.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ICategoriesrepository.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\Repositories\\ICategoriesrepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\ICategoriesrepository.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\Repositories\\ICategoriesrepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repositories\\ICategoriesrepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:45:06.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "TicketForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\TicketForm.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\forms\\TicketForm.cs",
               "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\TicketForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentationLayer\\forms\\TicketForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:22:21.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FormAdministrator.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:11:51.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AgentPanelForm.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:12:03.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\CommonLayer\\Entities\\UserDTO.cs",
-              "RelativeDocumentMoniker": "CommonLayer\\Entities\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\CommonLayer\\Entities\\UserDTO.cs",
-              "RelativeToolTip": "CommonLayer\\Entities\\UserDTO.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwAQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T14:33:22.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\CommonLayer\\Entities\\Rol.cs",
-              "RelativeDocumentMoniker": "CommonLayer\\Entities\\Rol.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\CommonLayer\\Entities\\Rol.cs",
-              "RelativeToolTip": "CommonLayer\\Entities\\Rol.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T16:40:17.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-=======
-              "DocumentIndex": 1,
-<<<<<<< HEAD
-              "Title": "AgentPanelForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:20:38.55Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AgentPanelForm.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormsAgent\\AgentPanelForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:21:00.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormClient.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\FormClient.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient\\FormClient.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\FormClient.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormClient\\FormClient.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAiwCYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:20:49.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:31:16.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddEditTicket.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\AddEditTicket.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient\\AddEditTicket.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\AddEditTicket.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormClient\\AddEditTicket.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T23:13:19.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "registerForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\registerForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormLogin\\registerForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\registerForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormLogin\\registerForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:07:12.232Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormAdministrator.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:07:04.873Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\RegisterTicket.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\RegisterTicket.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\RegisterTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\RegisterTicket.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:06:51.912Z",
+              "WhenOpened": "2024-11-26T09:18:14.734Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "registerForm.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\registerForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormLogin\\registerForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\registerForm.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormLogin\\registerForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "FormAdministrator.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:18:34.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T23:51:14.084Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AddEditTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\AddEditTicket.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient\\AddEditTicket.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\AddEditTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormClient\\AddEditTicket.cs [Dise\u00F1o]",
+              "Title": "FormClientAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormClientAdmin.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\FormClientAdmin.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormClientAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\FormClientAdmin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:07:22.114Z",
+              "WhenOpened": "2024-11-26T06:52:19.677Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "DashboardAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs [Dise\u00F1o]",
+              "Title": "HomeForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\HomeForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\HomeForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\HomeForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\HomeForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:00:08.076Z",
+              "WhenOpened": "2024-11-26T06:49:00.295Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "addTicket.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\addTicket.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\addTicket.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\addTicket.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\addTicket.cs [Dise\u00F1o]",
+              "Title": "FormAdministrator.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxMAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:07:00.441Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TicketForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\TicketForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\TicketForm.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\TicketForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\TicketForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:06:48.802Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-26T00:50:52.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "SqlDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "RelativeToolTip": "DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBYAAAABAAAA",
+              "Title": "FormAdministrator.resx",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.resx",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.resx",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.resx",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-11-26T07:20:36.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormAdministrator.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.Designer.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.Designer.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.Designer.cs",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\FormAdministrator.Designer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwA4BAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:03:49.21Z",
+              "WhenOpened": "2024-11-26T07:20:24.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ISqlDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
-              "RelativeToolTip": "DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "FormClient.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\FormClient.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient\\FormClient.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\FormClient.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormClient\\FormClient.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:03:48.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T23:51:13.939Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "DashboardAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormsAdmin\\DashboardAdmin.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "BussisnesLayer\\Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\Services\\TicketService.cs",
+              "RelativeToolTip": "BussisnesLayer\\Services\\TicketService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAIA1wCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:00:18.451Z",
+              "WhenOpened": "2024-11-26T01:52:58.397Z",
               "EditorCaption": ""
-=======
->>>>>>> 020de48d4d118ac60eda28554140a88e41b5c68b
-              "Title": "LoginForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
-              "WhenOpened": "2024-10-31T23:33:07.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ISqlDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
-              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
-              "RelativeToolTip": "DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "DocumentIndex": 17,
+              "Title": "FormClient.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\FormClient.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient\\FormClient.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\FormClient.cs",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormClient\\FormClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T14:57:32.093Z"
+              "WhenOpened": "2024-11-26T06:00:33.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddTicketClient.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\AddTicketClient.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient\\AddTicketClient.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\AddTicketClient.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormClient\\AddTicketClient.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:51:14.386Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddTicketClient.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\AddTicketClient.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormClient\\AddTicketClient.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormClient\\AddTicketClient.cs",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormClient\\AddTicketClient.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAUwEoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:51:14.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\TicketRepository.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:52:28.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\Services\\login\\LoginService.cs",
+              "RelativeDocumentMoniker": "BussisnesLayer\\Services\\login\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\Services\\login\\LoginService.cs",
+              "RelativeToolTip": "BussisnesLayer\\Services\\login\\LoginService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:22:25.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:16:56.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:52:31.335Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\CommonLayer\\Entities\\Categories.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Entities\\Categories.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\CommonLayer\\Entities\\Categories.cs",
+              "RelativeToolTip": "CommonLayer\\Entities\\Categories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T01:09:18.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Agent.cs",
               "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\CommonLayer\\Entities\\Agent.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Entities\\Agent.cs",
@@ -678,12 +475,86 @@
               "RelativeToolTip": "CommonLayer\\Entities\\Agent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T15:34:48.53Z"
-=======
-              "WhenOpened": "2024-11-24T20:07:26.194Z",
-              "EditorCaption": " [Dise\u00F1o]"
->>>>>>> 020de48d4d118ac60eda28554140a88e41b5c68b
->>>>>>> 937458a308b377fc89f197d74569b03aee7d882d
+              "WhenOpened": "2024-11-26T01:05:20.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegisterTicket.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\RegisterTicket.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\RegisterTicket.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\RegisterTicket.cs",
+              "RelativeToolTip": "PresentationLayer\\forms\\RegisterTicket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T01:28:04.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DataAccessLayer",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-26T01:00:21.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PresentationLayer",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+              "RelativeDocumentMoniker": "PresentationLayer\\PresentationLayer.csproj",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+              "RelativeToolTip": "PresentationLayer\\PresentationLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-26T00:59:53.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SqlDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
+              "RelativeToolTip": "DataAccessLayer\\DbConnection\\SqlDataAccess.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:51:14.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "registerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\registerForm.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormLogin\\registerForm.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\registerForm.cs",
+              "RelativeToolTip": "PresentationLayer\\forms\\FormLogin\\registerForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:51:14.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ISqlDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
+              "ToolTip": "C:\\Users\\Orlando Z\u00FAniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
+              "RelativeToolTip": "DataAccessLayer\\DbConnection\\ISqlDataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:51:14.395Z",
+              "EditorCaption": ""
             }
           ]
         }

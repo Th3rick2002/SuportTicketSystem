@@ -21,7 +21,7 @@ public class TicketRepository : ITicketRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "SELECT  NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Client, Id_Agent FROM Tickets";
+            string query = "SELECT  NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Client, Id_Agent FROM Ticket";
             SqlCommand command = new SqlCommand(query, connection);
             connection.Open();
 

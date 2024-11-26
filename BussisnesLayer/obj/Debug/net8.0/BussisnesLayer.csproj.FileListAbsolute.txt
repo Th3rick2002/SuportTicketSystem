@@ -10,24 +10,6 @@ C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\B
 C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\refint\BussisnesLayer.dll
 C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.pdb
 C:\Users\Saritmar\Downloads\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\ref\BussisnesLayer.dll
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.deps.json
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.dll
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.pdb
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\CommonLayer.dll
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\DataAccessLayer.dll
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\CommonLayer.pdb
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\DataAccessLayer.pdb
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.csproj.AssemblyReference.cache
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.AssemblyInfoInputs.cache
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.AssemblyInfo.cs
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.csproj.CoreCompileInputs.cache
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.sourcelink.json
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\Bussisne.4DEB0993.Up2Date
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.dll
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\refint\BussisnesLayer.dll
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.pdb
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\ref\BussisnesLayer.dll
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.deps.json
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.dll
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.pdb
@@ -64,3 +46,21 @@ C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSys
 C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\refint\BussisnesLayer.dll
 C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.pdb
 C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\ref\BussisnesLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.deps.json
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\BussisnesLayer.pdb
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.csproj.AssemblyReference.cache
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.AssemblyInfoInputs.cache
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.AssemblyInfo.cs
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.sourcelink.json
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\Bussisne.4DEB0993.Up2Date
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\refint\BussisnesLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\BussisnesLayer.pdb
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\BussisnesLayer\obj\Debug\net8.0\ref\BussisnesLayer.dll

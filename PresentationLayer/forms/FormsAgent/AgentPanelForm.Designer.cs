@@ -29,12 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AgentPanelForm));
-            dataGridViewAgent = new DataGridView();
-            label2 = new Label();
-            label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            dataGridViewTicket = new DataGridView();
             NameTicket = new DataGridViewTextBoxColumn();
             DescriptionTicket = new DataGridViewTextBoxColumn();
             Priority = new DataGridViewTextBoxColumn();
@@ -42,19 +37,73 @@
             Categorie = new DataGridViewTextBoxColumn();
             Tag = new DataGridViewTextBoxColumn();
             FirstName = new DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAgent).BeginInit();
+            label2 = new Label();
+            label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).BeginInit();
             SuspendLayout();
             // 
-            // dataGridViewAgent
+            // dataGridViewTicket
             // 
-            dataGridViewAgent.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAgent.Columns.AddRange(new DataGridViewColumn[] { NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, FirstName });
-            dataGridViewAgent.Location = new Point(245, 131);
-            dataGridViewAgent.Margin = new Padding(3, 4, 3, 4);
-            dataGridViewAgent.Name = "dataGridViewAgent";
-            dataGridViewAgent.RowHeadersWidth = 51;
-            dataGridViewAgent.Size = new Size(928, 535);
-            dataGridViewAgent.TabIndex = 25;
+            dataGridViewTicket.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewTicket.Columns.AddRange(new DataGridViewColumn[] { NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, FirstName });
+            dataGridViewTicket.Location = new Point(245, 131);
+            dataGridViewTicket.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewTicket.Name = "dataGridViewTicket";
+            dataGridViewTicket.RowHeadersWidth = 51;
+            dataGridViewTicket.Size = new Size(928, 535);
+            dataGridViewTicket.TabIndex = 25;
+            // 
+            // NameTicket
+            // 
+            NameTicket.HeaderText = "Nombre Ticket";
+            NameTicket.MinimumWidth = 6;
+            NameTicket.Name = "NameTicket";
+            NameTicket.Width = 125;
+            // 
+            // DescriptionTicket
+            // 
+            DescriptionTicket.HeaderText = "Descripcion Ticket";
+            DescriptionTicket.MinimumWidth = 6;
+            DescriptionTicket.Name = "DescriptionTicket";
+            DescriptionTicket.Width = 125;
+            // 
+            // Priority
+            // 
+            Priority.HeaderText = "Prioridad";
+            Priority.MinimumWidth = 6;
+            Priority.Name = "Priority";
+            Priority.Width = 125;
+            // 
+            // Status
+            // 
+            Status.HeaderText = "Estado";
+            Status.MinimumWidth = 6;
+            Status.Name = "Status";
+            Status.Width = 125;
+            // 
+            // Categorie
+            // 
+            Categorie.HeaderText = "Categoria";
+            Categorie.MinimumWidth = 6;
+            Categorie.Name = "Categorie";
+            Categorie.Width = 125;
+            // 
+            // Tag
+            // 
+            Tag.HeaderText = "Etiqueta";
+            Tag.MinimumWidth = 6;
+            Tag.Name = "Tag";
+            Tag.Width = 125;
+            // 
+            // FirstName
+            // 
+            FirstName.HeaderText = "Agente";
+            FirstName.MinimumWidth = 6;
+            FirstName.Name = "FirstName";
+            FirstName.Width = 125;
             // 
             // label2
             // 
@@ -112,55 +161,6 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
-            // NameTicket
-            // 
-            NameTicket.HeaderText = "Nombre Ticket";
-            NameTicket.MinimumWidth = 6;
-            NameTicket.Name = "NameTicket";
-            NameTicket.Width = 125;
-            // 
-            // DescriptionTicket
-            // 
-            DescriptionTicket.HeaderText = "Descripcion Ticket";
-            DescriptionTicket.MinimumWidth = 6;
-            DescriptionTicket.Name = "DescriptionTicket";
-            DescriptionTicket.Width = 125;
-            // 
-            // Priority
-            // 
-            Priority.HeaderText = "Prioridad";
-            Priority.MinimumWidth = 6;
-            Priority.Name = "Priority";
-            Priority.Width = 125;
-            // 
-            // Status
-            // 
-            Status.HeaderText = "Estado";
-            Status.MinimumWidth = 6;
-            Status.Name = "Status";
-            Status.Width = 125;
-            // 
-            // Categorie
-            // 
-            Categorie.HeaderText = "Categoria";
-            Categorie.MinimumWidth = 6;
-            Categorie.Name = "Categorie";
-            Categorie.Width = 125;
-            // 
-            // Tag
-            // 
-            Tag.HeaderText = "Etiqueta";
-            Tag.MinimumWidth = 6;
-            Tag.Name = "Tag";
-            Tag.Width = 125;
-            // 
-            // FirstName
-            // 
-            FirstName.HeaderText = "Agente";
-            FirstName.MinimumWidth = 6;
-            FirstName.Name = "FirstName";
-            FirstName.Width = 125;
-            // 
             // AgentPanelForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -173,20 +173,20 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label1);
-            Controls.Add(dataGridViewAgent);
+            Controls.Add(dataGridViewTicket);
             Controls.Add(label2);
             DoubleBuffered = true;
             ForeColor = SystemColors.ActiveCaptionText;
             Margin = new Padding(3, 4, 3, 4);
             Name = "AgentPanelForm";
             Text = "AgentForm";
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAgent).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private DataGridView dataGridViewAgent;
+        private DataGridView dataGridViewTicket;
         private Label label2;
         private Label label1;
         private Button button1;

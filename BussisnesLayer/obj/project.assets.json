@@ -510,11 +510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
       "projectName": "BussisnesLayer",
-      "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
+      "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj",
       "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\BussisnesLayer\\obj\\",
+      "outputPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\BussisnesLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -531,11 +531,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
-              "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj"
+            "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
+              "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj"
             },
-            "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }

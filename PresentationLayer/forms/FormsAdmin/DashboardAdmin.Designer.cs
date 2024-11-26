@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardAdmin));
             button5 = new Button();
             AdminButton = new Button();
-            button3 = new Button();
-            button6 = new Button();
-            button7 = new Button();
+            FormAdmin_AgentButton = new Button();
+            FormAdmin_TicketsButton = new Button();
             principalPictureBox = new PictureBox();
             button4 = new Button();
             Homebutton = new Button();
+            FormAdmin_ClientButton = new Button();
             ((System.ComponentModel.ISupportInitialize)principalPictureBox).BeginInit();
             SuspendLayout();
             // 
@@ -59,32 +59,25 @@
             AdminButton.UseVisualStyleBackColor = true;
             AdminButton.Click += AdminButton_Click;
             // 
-            // button3
+            // FormAdmin_AgentButton
             // 
-            button3.Location = new Point(-1, 303);
-            button3.Name = "button3";
-            button3.Size = new Size(251, 57);
-            button3.TabIndex = 9;
-            button3.Text = "Clientes";
-            button3.UseVisualStyleBackColor = true;
+            FormAdmin_AgentButton.Location = new Point(-1, 366);
+            FormAdmin_AgentButton.Name = "FormAdmin_AgentButton";
+            FormAdmin_AgentButton.Size = new Size(251, 57);
+            FormAdmin_AgentButton.TabIndex = 10;
+            FormAdmin_AgentButton.Text = "Agentes";
+            FormAdmin_AgentButton.UseVisualStyleBackColor = true;
+            FormAdmin_AgentButton.Click += FormAdmin_AgentButton_Click;
             // 
-            // button6
+            // FormAdmin_TicketsButton
             // 
-            button6.Location = new Point(-1, 366);
-            button6.Name = "button6";
-            button6.Size = new Size(251, 57);
-            button6.TabIndex = 10;
-            button6.Text = "Agentes";
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            button7.Location = new Point(-1, 429);
-            button7.Name = "button7";
-            button7.Size = new Size(251, 57);
-            button7.TabIndex = 11;
-            button7.Text = "Tickets";
-            button7.UseVisualStyleBackColor = true;
+            FormAdmin_TicketsButton.Location = new Point(-1, 429);
+            FormAdmin_TicketsButton.Name = "FormAdmin_TicketsButton";
+            FormAdmin_TicketsButton.Size = new Size(251, 57);
+            FormAdmin_TicketsButton.TabIndex = 11;
+            FormAdmin_TicketsButton.Text = "Tickets";
+            FormAdmin_TicketsButton.UseVisualStyleBackColor = true;
+            FormAdmin_TicketsButton.Click += FormAdmin_TicketsButton_Click;
             // 
             // principalPictureBox
             // 
@@ -117,6 +110,16 @@
             Homebutton.UseVisualStyleBackColor = false;
             Homebutton.Click += Homebutton_Click;
             // 
+            // FormAdmin_ClientButton
+            // 
+            FormAdmin_ClientButton.Location = new Point(-1, 303);
+            FormAdmin_ClientButton.Name = "FormAdmin_ClientButton";
+            FormAdmin_ClientButton.Size = new Size(251, 57);
+            FormAdmin_ClientButton.TabIndex = 9;
+            FormAdmin_ClientButton.Text = "Clientes";
+            FormAdmin_ClientButton.UseVisualStyleBackColor = true;
+            FormAdmin_ClientButton.Click += FormAdmin_ClientButton_Click;
+            // 
             // DashboardAdmin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -126,9 +129,9 @@
             ClientSize = new Size(1378, 777);
             Controls.Add(Homebutton);
             Controls.Add(button4);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button3);
+            Controls.Add(FormAdmin_TicketsButton);
+            Controls.Add(FormAdmin_AgentButton);
+            Controls.Add(FormAdmin_ClientButton);
             Controls.Add(AdminButton);
             Controls.Add(button5);
             Controls.Add(principalPictureBox);
@@ -141,11 +144,11 @@
         #endregion
         private Button button5;
         private Button AdminButton;
-        private Button button3;
-        private Button button6;
-        private Button button7;
+        private Button FormAdmin_AgentButton;
+        private Button FormAdmin_TicketsButton;
         private PictureBox principalPictureBox;
         private Button button4;
         private Button Homebutton;
+        private Button FormAdmin_ClientButton;
     }
 }

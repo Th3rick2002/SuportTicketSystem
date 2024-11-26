@@ -40,10 +40,10 @@ namespace PresentationLayer.forms
 
         private void buttonAccess_Click(object sender, EventArgs e)
         {
-            string username = textBoxMail.Text; // Usuario ingresado
-            string password = textBoxPasword.Text; // Contraseña ingresada
+            string username = textBoxMail.Text; 
+            string password = textBoxPasword.Text; 
 
-            // Llamar al servicio de autenticación
+
             var user = _loginService.Login(username, password);
 
             if (user != null)

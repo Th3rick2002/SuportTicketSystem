@@ -491,11 +491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\DataAccessLayer\\obj\\",
+      "outputPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -512,8 +512,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
-              "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj"
+            "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj": {
+              "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj"
             }
           }
         }

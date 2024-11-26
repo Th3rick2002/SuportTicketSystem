@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gnE4mazhF58=",
+  "dgSpecHash": "qz6iFD+PzOU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+  "projectFilePath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

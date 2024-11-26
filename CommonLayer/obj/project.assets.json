@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
       "projectName": "CommonLayer",
-      "projectPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+      "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
       "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orlando Zúniga\\Documents\\UNI\\U20230405-Orlando\\Ciclo 4\\SuportTicketSystem\\CommonLayer\\obj\\",
+      "outputPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
