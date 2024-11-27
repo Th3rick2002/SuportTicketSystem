@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\itamar\\documents\\proyectos\\suportticketsystem\\presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3165B6DA-4121-4B78-8D20-6CE15341E194}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\forms\\formlogin\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
               "ToolTip": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
               "RelativeToolTip": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAtwC8AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAIA9wC8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T20:07:29.202Z",
               "EditorCaption": ""
@@ -66,8 +66,7 @@
               "ToolTip": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\forms\\FormLogin\\LoginForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentationLayer\\forms\\FormLogin\\LoginForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:07:26.194Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-24T20:07:26.194Z"
             }
           ]
         }
