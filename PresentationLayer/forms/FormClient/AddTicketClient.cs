@@ -19,7 +19,7 @@ namespace PresentationLayer.forms
     public partial class AddTicketClient : Form
     {
         public bool editMode = false;
-        private TicketService _ticketService;
+
 
         public Ticket Ticket { get; set; }
         public Ticket TicketData { get; set; }
@@ -34,7 +34,7 @@ namespace PresentationLayer.forms
             Ticket = new Ticket();
             this.StartPosition = FormStartPosition.CenterParent;
             this.Load += AddTicketClient_Load;
-            _ticketService = new TicketService();
+            
             this.formClient = formClient;
         }
 
@@ -68,7 +68,7 @@ namespace PresentationLayer.forms
                     DescriptionTicket = descriptionTicket
                 };
 
-                _ticketService.UpdateTicketByAdmin(ticket);
+                
                 this.DialogResult = DialogResult.OK;
                 editMode = false;
             }
@@ -87,7 +87,7 @@ namespace PresentationLayer.forms
                 }
                 else
                 {
-                    _ticketService.AddTicked(ticket);
+                    
                     this.DialogResult = DialogResult.OK;
                     this.Close();
                 }

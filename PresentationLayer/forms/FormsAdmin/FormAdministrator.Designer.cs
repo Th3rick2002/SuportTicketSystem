@@ -29,73 +29,103 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAdministrator));
-            pictureBox3 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            pictureBox1 = new PictureBox();
-            labelIdTicket = new Label();
-            texIdLabel = new Label();
-            textBox2 = new TextBox();
-            LabelNombre = new Label();
-            labelNombreTicket = new Label();
-            textBox3 = new TextBox();
-            btnExit = new Button();
-            btnFinish = new Button();
-            btnStart = new Button();
             dataGridViewAdmin = new DataGridView();
             panel1 = new Panel();
-            panel2 = new Panel();
             labelAgent = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            textBox2 = new TextBox();
+            btnUpdate = new Button();
+            LabelNombre = new Label();
+            btnAdd = new Button();
+            texIdLabel = new Label();
+            pictureBox1 = new PictureBox();
+            labelIdAdmin = new Label();
+            btnDelete = new Button();
+            pictureBox3 = new PictureBox();
+            panel2 = new Panel();
             ((System.ComponentModel.ISupportInitialize)dataGridViewAdmin).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
-            // pictureBox3
+            // dataGridViewAdmin
             // 
-            pictureBox3.BackColor = Color.DarkSlateGray;
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(48, 231);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(38, 32);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 55;
-            pictureBox3.TabStop = false;
+            dataGridViewAdmin.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewAdmin.Location = new Point(57, 188);
+            dataGridViewAdmin.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewAdmin.Name = "dataGridViewAdmin";
+            dataGridViewAdmin.RowHeadersWidth = 51;
+            dataGridViewAdmin.Size = new Size(765, 497);
+            dataGridViewAdmin.TabIndex = 41;
             // 
-            // pictureBox2
+            // panel1
             // 
-            pictureBox2.BackColor = Color.DarkSlateGray;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(50, 310);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(38, 32);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 54;
-            pictureBox2.TabStop = false;
+            panel1.BackColor = Color.FromArgb(117, 134, 148);
+            panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.ForeColor = Color.Black;
+            panel1.Location = new Point(1, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1158, 125);
+            panel1.TabIndex = 56;
             // 
-            // pictureBox1
+            // labelAgent
             // 
-            pictureBox1.Image = Properties.Resources.salvado;
-            pictureBox1.Location = new Point(49, 400);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(38, 37);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 53;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            labelAgent.AutoSize = true;
+            labelAgent.BackColor = Color.FromArgb(117, 134, 148);
+            labelAgent.Font = new Font("Arial", 24F, FontStyle.Bold | FontStyle.Italic);
+            labelAgent.ForeColor = Color.MintCream;
+            labelAgent.Location = new Point(31, 16);
+            labelAgent.Name = "labelAgent";
+            labelAgent.Size = new Size(478, 46);
+            labelAgent.TabIndex = 40;
+            labelAgent.Text = "Panel de Administracion";
             // 
-            // labelIdTicket
+            // textBox2
             // 
-            labelIdTicket.AutoSize = true;
-            labelIdTicket.BackColor = Color.DarkSlateGray;
-            labelIdTicket.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelIdTicket.ForeColor = Color.MintCream;
-            labelIdTicket.Location = new Point(115, 80);
-            labelIdTicket.Name = "labelIdTicket";
-            labelIdTicket.Size = new Size(55, 23);
-            labelIdTicket.TabIndex = 44;
-            labelIdTicket.Text = "label3";
+            textBox2.BackColor = Color.DarkSlateGray;
+            textBox2.Location = new Point(3, 68);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(280, 47);
+            textBox2.TabIndex = 50;
+            // 
+            // btnUpdate
+            // 
+            btnUpdate.BackColor = Color.DarkSlateGray;
+            btnUpdate.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            btnUpdate.ForeColor = Color.MintCream;
+            btnUpdate.Location = new Point(0, 238);
+            btnUpdate.Margin = new Padding(3, 4, 3, 4);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(280, 59);
+            btnUpdate.TabIndex = 42;
+            btnUpdate.Text = "Actualizar";
+            btnUpdate.UseVisualStyleBackColor = false;
+            // 
+            // LabelNombre
+            // 
+            LabelNombre.AutoSize = true;
+            LabelNombre.BackColor = Color.DarkSlateGray;
+            LabelNombre.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            LabelNombre.ForeColor = Color.MintCream;
+            LabelNombre.Location = new Point(33, 542);
+            LabelNombre.Name = "LabelNombre";
+            LabelNombre.Size = new Size(0, 23);
+            LabelNombre.TabIndex = 47;
+            // 
+            // btnAdd
+            // 
+            btnAdd.BackColor = Color.DarkSlateGray;
+            btnAdd.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            btnAdd.ForeColor = Color.MintCream;
+            btnAdd.Location = new Point(0, 137);
+            btnAdd.Margin = new Padding(3, 4, 3, 4);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(280, 57);
+            btnAdd.TabIndex = 46;
+            btnAdd.Text = "Agregar";
+            btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
             // 
             // texIdLabel
             // 
@@ -109,139 +139,71 @@
             texIdLabel.TabIndex = 45;
             texIdLabel.Text = "ID :";
             // 
-            // textBox2
+            // pictureBox1
             // 
-            textBox2.BackColor = Color.DarkSlateGray;
-            textBox2.Location = new Point(3, 68);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(280, 47);
-            textBox2.TabIndex = 50;
+            pictureBox1.Image = Properties.Resources.salvado;
+            pictureBox1.Location = new Point(48, 249);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(35, 37);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 53;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
-            // LabelNombre
+            // labelIdAdmin
             // 
-            LabelNombre.AutoSize = true;
-            LabelNombre.BackColor = Color.DarkSlateGray;
-            LabelNombre.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            LabelNombre.ForeColor = Color.MintCream;
-            LabelNombre.Location = new Point(32, 164);
-            LabelNombre.Name = "LabelNombre";
-            LabelNombre.Size = new Size(82, 23);
-            LabelNombre.TabIndex = 47;
-            LabelNombre.Text = "Nombre :";
+            labelIdAdmin.AutoSize = true;
+            labelIdAdmin.BackColor = Color.DarkSlateGray;
+            labelIdAdmin.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            labelIdAdmin.ForeColor = Color.MintCream;
+            labelIdAdmin.Location = new Point(115, 80);
+            labelIdAdmin.Name = "labelIdAdmin";
+            labelIdAdmin.Size = new Size(0, 23);
+            labelIdAdmin.TabIndex = 44;
             // 
-            // labelNombreTicket
+            // btnDelete
             // 
-            labelNombreTicket.AutoSize = true;
-            labelNombreTicket.BackColor = Color.DarkSlateGray;
-            labelNombreTicket.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelNombreTicket.ForeColor = Color.MintCream;
-            labelNombreTicket.Location = new Point(120, 164);
-            labelNombreTicket.Name = "labelNombreTicket";
-            labelNombreTicket.Size = new Size(55, 23);
-            labelNombreTicket.TabIndex = 48;
-            labelNombreTicket.Text = "label3";
+            btnDelete.BackColor = Color.DarkSlateGray;
+            btnDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            btnDelete.ForeColor = Color.MintCream;
+            btnDelete.Location = new Point(3, 326);
+            btnDelete.Margin = new Padding(3, 4, 3, 4);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(283, 59);
+            btnDelete.TabIndex = 43;
+            btnDelete.Text = "Eliminar";
+            btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
             // 
-            // textBox3
+            // pictureBox3
             // 
-            textBox3.BackColor = Color.DarkSlateGray;
-            textBox3.Location = new Point(3, 151);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(280, 47);
-            textBox3.TabIndex = 51;
-            // 
-            // btnExit
-            // 
-            btnExit.BackColor = Color.DarkSlateGray;
-            btnExit.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnExit.ForeColor = Color.MintCream;
-            btnExit.Location = new Point(0, 299);
-            btnExit.Margin = new Padding(3, 4, 3, 4);
-            btnExit.Name = "btnExit";
-            btnExit.Size = new Size(283, 57);
-            btnExit.TabIndex = 46;
-            btnExit.Text = "Salir";
-            btnExit.UseVisualStyleBackColor = false;
-            // 
-            // btnFinish
-            // 
-            btnFinish.BackColor = Color.DarkSlateGray;
-            btnFinish.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnFinish.ForeColor = Color.MintCream;
-            btnFinish.Location = new Point(0, 216);
-            btnFinish.Margin = new Padding(3, 4, 3, 4);
-            btnFinish.Name = "btnFinish";
-            btnFinish.Size = new Size(283, 59);
-            btnFinish.TabIndex = 43;
-            btnFinish.Text = "Finalizar";
-            btnFinish.UseVisualStyleBackColor = false;
-            // 
-            // btnStart
-            // 
-            btnStart.BackColor = Color.DarkSlateGray;
-            btnStart.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnStart.ForeColor = Color.MintCream;
-            btnStart.Location = new Point(0, 390);
-            btnStart.Margin = new Padding(3, 4, 3, 4);
-            btnStart.Name = "btnStart";
-            btnStart.Size = new Size(283, 59);
-            btnStart.TabIndex = 42;
-            btnStart.Text = "Empezar";
-            btnStart.UseVisualStyleBackColor = false;
-            // 
-            // dataGridViewAdmin
-            // 
-            dataGridViewAdmin.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAdmin.Location = new Point(42, 143);
-            dataGridViewAdmin.Margin = new Padding(3, 4, 3, 4);
-            dataGridViewAdmin.Name = "dataGridViewAdmin";
-            dataGridViewAdmin.RowHeadersWidth = 51;
-            dataGridViewAdmin.Size = new Size(688, 452);
-            dataGridViewAdmin.TabIndex = 41;
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(117, 134, 148);
-            panel1.BorderStyle = BorderStyle.Fixed3D;
-            panel1.ForeColor = Color.Black;
-            panel1.Location = new Point(1, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1158, 125);
-            panel1.TabIndex = 56;
+            pictureBox3.BackColor = Color.DarkSlateGray;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(51, 341);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(38, 32);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 55;
+            pictureBox3.TabStop = false;
             // 
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(117, 134, 148);
             panel2.Controls.Add(pictureBox3);
-            panel2.Controls.Add(btnFinish);
-            panel2.Controls.Add(pictureBox2);
+            panel2.Controls.Add(btnDelete);
+            panel2.Controls.Add(labelIdAdmin);
             panel2.Controls.Add(pictureBox1);
-            panel2.Controls.Add(btnExit);
-            panel2.Controls.Add(textBox3);
-            panel2.Controls.Add(labelIdTicket);
-            panel2.Controls.Add(labelNombreTicket);
             panel2.Controls.Add(texIdLabel);
+            panel2.Controls.Add(btnAdd);
             panel2.Controls.Add(LabelNombre);
+            panel2.Controls.Add(btnUpdate);
             panel2.Controls.Add(textBox2);
-            panel2.Controls.Add(btnStart);
             panel2.ForeColor = Color.Black;
             panel2.Location = new Point(849, 120);
             panel2.Name = "panel2";
             panel2.Size = new Size(280, 664);
             panel2.TabIndex = 57;
-            // 
-            // labelAgent
-            // 
-            labelAgent.AutoSize = true;
-            labelAgent.BackColor = Color.FromArgb(117, 134, 148);
-            labelAgent.Font = new Font("Arial", 24F, FontStyle.Bold | FontStyle.Italic);
-            labelAgent.ForeColor = Color.MintCream;
-            labelAgent.Location = new Point(31, 16);
-            labelAgent.Name = "labelAgent";
-            labelAgent.Size = new Size(478, 46);
-            labelAgent.TabIndex = 40;
-            labelAgent.Text = "Panel de Administracion";
+            panel2.Paint += panel2_Paint;
             // 
             // FormAdministrator
             // 
@@ -256,10 +218,9 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormAdministrator";
             Text = "AdminForm";
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewAdmin).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ResumeLayout(false);
@@ -269,21 +230,18 @@
         #endregion
         private Label label5;
         private Label label6;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox1;
-        private Label labelIdTicket;
-        private Label texIdLabel;
-        private TextBox textBox2;
-        private Label LabelNombre;
-        private Label labelNombreTicket;
-        private TextBox textBox3;
-        private Button btnExit;
-        private Button btnFinish;
-        private Button btnStart;
         private DataGridView dataGridViewAdmin;
         private Panel panel1;
-        private Panel panel2;
         private Label labelAgent;
+        private TextBox textBox2;
+        private Button btnUpdate;
+        private Label LabelNombre;
+        private Button btnAdd;
+        private Label texIdLabel;
+        private PictureBox pictureBox1;
+        private Label labelIdAdmin;
+        private Button btnDelete;
+        private PictureBox pictureBox3;
+        private Panel panel2;
     }
 }

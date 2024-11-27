@@ -34,13 +34,7 @@
     <Compile Update="forms\FormLogin\registerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="forms\RegisterTicket.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="forms\FormClient\FormClient.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="forms\TicketForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

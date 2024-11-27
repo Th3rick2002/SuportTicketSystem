@@ -562,32 +562,34 @@
     ]
   },
   "packageFolders": {
-    "/home/erick/.nuget/packages/": {}
+    "C:\\Users\\Itamar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/erick/RiderProjects/SuportTicketSystem/PresentationLayer/PresentationLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
       "projectName": "PresentationLayer",
-      "projectPath": "/home/erick/RiderProjects/SuportTicketSystem/PresentationLayer/PresentationLayer.csproj",
-      "packagesPath": "/home/erick/.nuget/packages/",
-      "outputPath": "/home/erick/RiderProjects/SuportTicketSystem/PresentationLayer/obj/",
+      "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+      "packagesPath": "C:\\Users\\Itamar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/erick/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Itamar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "/home/erick/RiderProjects/SuportTicketSystem/BussisnesLayer/BussisnesLayer.csproj": {
-              "projectPath": "/home/erick/RiderProjects/SuportTicketSystem/BussisnesLayer/BussisnesLayer.csproj"
+            "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {
+              "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj"
             }
           }
         }
@@ -600,8 +602,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -631,7 +634,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/erick/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

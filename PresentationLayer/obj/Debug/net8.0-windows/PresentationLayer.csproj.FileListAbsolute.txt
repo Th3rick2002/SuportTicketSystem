@@ -95,7 +95,6 @@ C:\Users\Orlando Zúniga\Desktop\copia ticket proyecto\SuportTicketSystem\Presen
 C:\Users\Orlando Zúniga\Desktop\copia ticket proyecto\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.genruntimeconfig.cache
 C:\Users\Orlando Zúniga\Desktop\copia ticket proyecto\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\ref\PresentationLayer.dll
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.csproj.AssemblyReference.cache
-C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.AddEditTicket.resources
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.addTicket.resources
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormClient.resources
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormAgent.DashboardAdmin.resources
@@ -224,3 +223,8 @@ C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\
 C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormsAdmin.FormClientAdmin.resources
 C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormsAdmin.FormAgentAdmin.resources
 C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormsAdmin.FormTicketAdmin.resources
+C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.AddTicketClient.resources
+C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormsAdmin.FormAgentAdmin.resources
+C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormsAdmin.FormClientAdmin.resources
+C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\obj\Debug\net8.0-windows\PresentationLayer.forms.FormsAdmin.FormTicketAdmin.resources
+C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\PresentationLayer\bin\Debug\net8.0-windows\FluentValidation.dll

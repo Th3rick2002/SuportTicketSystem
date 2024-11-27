@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PresentationLayer.forms
 {
-    public partial class addTicket: Form
+    public partial class addTicket : Form
     {
         public addTicket()
         {
             InitializeComponent();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

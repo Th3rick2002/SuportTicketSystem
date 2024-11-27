@@ -14,7 +14,7 @@ namespace PresentationLayer.forms
 {
     public partial class FormClient : Form
     {
-        private TicketService _ticketService;
+        
         private ITicketRepository _TicketRepository;
 
         public FormClient() : this(new TicketRepository())
@@ -23,18 +23,16 @@ namespace PresentationLayer.forms
         public FormClient(ITicketRepository TicketRepository)
         
         {
-            InitializeComponent();
-            _TicketRepository = TicketRepository;
-            _ticketService = new TicketService(_TicketRepository);
+            InitializeComponent();  
             LoadTicketData();
 
-            dataGridViewTicket.DataSource = _ticketService.GetTicketsByClient();
+            
         }
 
 
         public void LoadTicketData()
         {
-            dataGridViewTicket.DataSource = _ticketService.GetTicketsByClient();
+            
 
         }
 

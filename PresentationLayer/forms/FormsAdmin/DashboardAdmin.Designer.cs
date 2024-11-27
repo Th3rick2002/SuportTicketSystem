@@ -34,9 +34,10 @@
             FormAdmin_AgentButton = new Button();
             FormAdmin_TicketsButton = new Button();
             principalPictureBox = new PictureBox();
-            button4 = new Button();
+            buttonTag = new Button();
             Homebutton = new Button();
             FormAdmin_ClientButton = new Button();
+            buttonExit = new Button();
             ((System.ComponentModel.ISupportInitialize)principalPictureBox).BeginInit();
             SuspendLayout();
             // 
@@ -90,14 +91,14 @@
             principalPictureBox.TabIndex = 1;
             principalPictureBox.TabStop = false;
             // 
-            // button4
+            // buttonTag
             // 
-            button4.Location = new Point(-1, 555);
-            button4.Name = "button4";
-            button4.Size = new Size(251, 57);
-            button4.TabIndex = 12;
-            button4.Text = "Edición";
-            button4.UseVisualStyleBackColor = true;
+            buttonTag.Location = new Point(-1, 555);
+            buttonTag.Name = "buttonTag";
+            buttonTag.Size = new Size(251, 57);
+            buttonTag.TabIndex = 12;
+            buttonTag.Text = "Categorias/Etiquetas";
+            buttonTag.UseVisualStyleBackColor = true;
             // 
             // Homebutton
             // 
@@ -120,6 +121,16 @@
             FormAdmin_ClientButton.UseVisualStyleBackColor = true;
             FormAdmin_ClientButton.Click += FormAdmin_ClientButton_Click;
             // 
+            // buttonExit
+            // 
+            buttonExit.Location = new Point(-1, 691);
+            buttonExit.Name = "buttonExit";
+            buttonExit.Size = new Size(251, 57);
+            buttonExit.TabIndex = 13;
+            buttonExit.Text = "Cerrar sesión";
+            buttonExit.UseVisualStyleBackColor = true;
+            buttonExit.Click += buttonExit_Click;
+            // 
             // DashboardAdmin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -127,8 +138,9 @@
             BackColor = Color.FromArgb(117, 134, 148);
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1378, 777);
+            Controls.Add(buttonExit);
             Controls.Add(Homebutton);
-            Controls.Add(button4);
+            Controls.Add(buttonTag);
             Controls.Add(FormAdmin_TicketsButton);
             Controls.Add(FormAdmin_AgentButton);
             Controls.Add(FormAdmin_ClientButton);
@@ -147,8 +159,9 @@
         private Button FormAdmin_AgentButton;
         private Button FormAdmin_TicketsButton;
         private PictureBox principalPictureBox;
-        private Button button4;
+        private Button buttonTag;
         private Button Homebutton;
         private Button FormAdmin_ClientButton;
+        private Button buttonExit;
     }
 }
