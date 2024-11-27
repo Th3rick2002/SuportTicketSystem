@@ -49,13 +49,13 @@
             // 
             // buttonAssingAgent
             // 
-            buttonAssingAgent.BackColor = Color.FromArgb(157, 178, 191);
+            buttonAssingAgent.BackColor = Color.FromArgb(235, 239, 242);
             buttonAssingAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             buttonAssingAgent.ForeColor = Color.Black;
-            buttonAssingAgent.Location = new Point(817, 346);
-            buttonAssingAgent.Margin = new Padding(4, 4, 4, 4);
+            buttonAssingAgent.Location = new Point(934, 461);
+            buttonAssingAgent.Margin = new Padding(5, 5, 5, 5);
             buttonAssingAgent.Name = "buttonAssingAgent";
-            buttonAssingAgent.Size = new Size(141, 35);
+            buttonAssingAgent.Size = new Size(161, 47);
             buttonAssingAgent.TabIndex = 55;
             buttonAssingAgent.Text = "Asignar agente";
             buttonAssingAgent.UseVisualStyleBackColor = false;
@@ -64,10 +64,11 @@
             // 
             dataGridViewTicket.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewTicket.Columns.AddRange(new DataGridViewColumn[] { NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, FirstName });
-            dataGridViewTicket.Location = new Point(30, 109);
+            dataGridViewTicket.Location = new Point(34, 145);
+            dataGridViewTicket.Margin = new Padding(3, 4, 3, 4);
             dataGridViewTicket.Name = "dataGridViewTicket";
             dataGridViewTicket.RowHeadersWidth = 51;
-            dataGridViewTicket.Size = new Size(760, 398);
+            dataGridViewTicket.Size = new Size(869, 531);
             dataGridViewTicket.TabIndex = 54;
             // 
             // NameTicket
@@ -123,36 +124,35 @@
             // 
             pictureBoxTicket.BackColor = Color.FromArgb(82, 109, 130);
             pictureBoxTicket.Image = (Image)resources.GetObject("pictureBoxTicket.Image");
-            pictureBoxTicket.Location = new Point(817, 28);
-            pictureBoxTicket.Margin = new Padding(3, 2, 3, 2);
+            pictureBoxTicket.Location = new Point(934, 37);
             pictureBoxTicket.Name = "pictureBoxTicket";
-            pictureBoxTicket.Size = new Size(141, 116);
+            pictureBoxTicket.Size = new Size(161, 155);
             pictureBoxTicket.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxTicket.TabIndex = 53;
             pictureBoxTicket.TabStop = false;
             // 
             // btnUpdate
             // 
-            btnUpdate.BackColor = Color.FromArgb(157, 178, 191);
+            btnUpdate.BackColor = Color.FromArgb(235, 239, 242);
             btnUpdate.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnUpdate.ForeColor = Color.Black;
-            btnUpdate.Location = new Point(817, 267);
-            btnUpdate.Margin = new Padding(4, 4, 4, 4);
+            btnUpdate.Location = new Point(934, 356);
+            btnUpdate.Margin = new Padding(5, 5, 5, 5);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(141, 35);
+            btnUpdate.Size = new Size(161, 47);
             btnUpdate.TabIndex = 52;
             btnUpdate.Text = "Actualizar ";
             btnUpdate.UseVisualStyleBackColor = false;
             // 
             // btnAdd
             // 
-            btnAdd.BackColor = Color.FromArgb(157, 178, 191);
+            btnAdd.BackColor = Color.FromArgb(235, 239, 242);
             btnAdd.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnAdd.ForeColor = Color.Black;
-            btnAdd.Location = new Point(817, 191);
-            btnAdd.Margin = new Padding(4, 4, 4, 4);
+            btnAdd.Location = new Point(934, 255);
+            btnAdd.Margin = new Padding(5, 5, 5, 5);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(141, 37);
+            btnAdd.Size = new Size(161, 49);
             btnAdd.TabIndex = 51;
             btnAdd.Text = "Agregar ";
             btnAdd.UseVisualStyleBackColor = false;
@@ -163,32 +163,32 @@
             labelClient.BackColor = Color.Transparent;
             labelClient.Font = new Font("Arial", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             labelClient.ForeColor = Color.GhostWhite;
-            labelClient.Location = new Point(58, 41);
-            labelClient.Margin = new Padding(4, 0, 4, 0);
+            labelClient.Location = new Point(66, 55);
+            labelClient.Margin = new Padding(5, 0, 5, 0);
             labelClient.Name = "labelClient";
-            labelClient.Size = new Size(295, 36);
+            labelClient.Size = new Size(373, 46);
             labelClient.TabIndex = 50;
             labelClient.Text = "PANEL DE TICKET\r\n";
             // 
             // buttonDelete
             // 
-            buttonDelete.BackColor = Color.FromArgb(157, 178, 191);
+            buttonDelete.BackColor = Color.FromArgb(235, 239, 242);
             buttonDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             buttonDelete.ForeColor = Color.Black;
-            buttonDelete.Location = new Point(817, 418);
-            buttonDelete.Margin = new Padding(4, 4, 4, 4);
+            buttonDelete.Location = new Point(934, 557);
+            buttonDelete.Margin = new Padding(5, 5, 5, 5);
             buttonDelete.Name = "buttonDelete";
-            buttonDelete.Size = new Size(141, 35);
+            buttonDelete.Size = new Size(161, 47);
             buttonDelete.TabIndex = 56;
             buttonDelete.Text = "Eliminar ";
             buttonDelete.UseVisualStyleBackColor = false;
             // 
             // FormTicketAdmin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(170, 167, 242);
-            ClientSize = new Size(988, 548);
+            ClientSize = new Size(1129, 731);
             Controls.Add(buttonDelete);
             Controls.Add(buttonAssingAgent);
             Controls.Add(dataGridViewTicket);
@@ -196,7 +196,6 @@
             Controls.Add(btnUpdate);
             Controls.Add(btnAdd);
             Controls.Add(labelClient);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "FormTicketAdmin";
             Text = "FormTicketAdmin";
             ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).EndInit();

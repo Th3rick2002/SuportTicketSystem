@@ -53,6 +53,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = Color.FromArgb(235, 239, 242);
             groupBox1.Controls.Add(textBox1);
             groupBox1.Controls.Add(comboBoxtag);
             groupBox1.Controls.Add(Labeladdicket);
@@ -72,7 +73,7 @@
             groupBox1.Controls.Add(labelNameTicket);
             groupBox1.Controls.Add(descriptionaddBOXTicketDescription);
             groupBox1.Controls.Add(NameaddBOXNameTicket);
-            groupBox1.Location = new Point(117, 16);
+            groupBox1.Location = new Point(116, 30);
             groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 4, 3, 4);
@@ -212,7 +213,7 @@
             // 
             // btnSave
             // 
-            btnSave.BackColor = Color.FromArgb(157, 178, 191);
+            btnSave.BackColor = Color.FromArgb(207, 206, 242);
             btnSave.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnSave.Location = new Point(286, 607);
             btnSave.Margin = new Padding(5, 4, 5, 4);
@@ -225,7 +226,7 @@
             // 
             // btnExit
             // 
-            btnExit.BackColor = Color.FromArgb(157, 178, 191);
+            btnExit.BackColor = Color.FromArgb(207, 206, 242);
             btnExit.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnExit.Location = new Point(443, 607);
             btnExit.Margin = new Padding(5, 4, 5, 4);
@@ -277,7 +278,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(82, 109, 130);
+            BackColor = Color.FromArgb(207, 206, 242);
             ClientSize = new Size(1095, 744);
             Controls.Add(groupBox1);
             Margin = new Padding(3, 4, 3, 4);

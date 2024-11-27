@@ -43,41 +43,49 @@
             // 
             // button5
             // 
-            button5.Location = new Point(-1, 492);
+            button5.BackColor = Color.FromArgb(235, 239, 242);
+            button5.ForeColor = Color.Black;
+            button5.Location = new Point(22, 479);
             button5.Name = "button5";
-            button5.Size = new Size(251, 57);
+            button5.Size = new Size(206, 57);
             button5.TabIndex = 6;
             button5.Text = "Registro";
-            button5.UseVisualStyleBackColor = true;
+            button5.UseVisualStyleBackColor = false;
             // 
             // AdminButton
             // 
-            AdminButton.Location = new Point(-1, 240);
+            AdminButton.BackColor = Color.FromArgb(235, 239, 242);
+            AdminButton.ForeColor = Color.Black;
+            AdminButton.Location = new Point(22, 227);
             AdminButton.Name = "AdminButton";
-            AdminButton.Size = new Size(251, 57);
+            AdminButton.Size = new Size(206, 57);
             AdminButton.TabIndex = 8;
             AdminButton.Text = "Admin";
-            AdminButton.UseVisualStyleBackColor = true;
+            AdminButton.UseVisualStyleBackColor = false;
             AdminButton.Click += AdminButton_Click;
             // 
             // FormAdmin_AgentButton
             // 
-            FormAdmin_AgentButton.Location = new Point(-1, 366);
+            FormAdmin_AgentButton.BackColor = Color.FromArgb(235, 239, 242);
+            FormAdmin_AgentButton.ForeColor = Color.Black;
+            FormAdmin_AgentButton.Location = new Point(22, 353);
             FormAdmin_AgentButton.Name = "FormAdmin_AgentButton";
-            FormAdmin_AgentButton.Size = new Size(251, 57);
+            FormAdmin_AgentButton.Size = new Size(206, 57);
             FormAdmin_AgentButton.TabIndex = 10;
             FormAdmin_AgentButton.Text = "Agentes";
-            FormAdmin_AgentButton.UseVisualStyleBackColor = true;
+            FormAdmin_AgentButton.UseVisualStyleBackColor = false;
             FormAdmin_AgentButton.Click += FormAdmin_AgentButton_Click;
             // 
             // FormAdmin_TicketsButton
             // 
-            FormAdmin_TicketsButton.Location = new Point(-1, 429);
+            FormAdmin_TicketsButton.BackColor = Color.FromArgb(235, 239, 242);
+            FormAdmin_TicketsButton.ForeColor = Color.Black;
+            FormAdmin_TicketsButton.Location = new Point(22, 416);
             FormAdmin_TicketsButton.Name = "FormAdmin_TicketsButton";
-            FormAdmin_TicketsButton.Size = new Size(251, 57);
+            FormAdmin_TicketsButton.Size = new Size(206, 57);
             FormAdmin_TicketsButton.TabIndex = 11;
             FormAdmin_TicketsButton.Text = "Tickets";
-            FormAdmin_TicketsButton.UseVisualStyleBackColor = true;
+            FormAdmin_TicketsButton.UseVisualStyleBackColor = false;
             FormAdmin_TicketsButton.Click += FormAdmin_TicketsButton_Click;
             // 
             // principalPictureBox
@@ -93,19 +101,22 @@
             // 
             // buttonTag
             // 
-            buttonTag.Location = new Point(-1, 555);
+            buttonTag.BackColor = Color.FromArgb(235, 239, 242);
+            buttonTag.ForeColor = Color.Black;
+            buttonTag.Location = new Point(22, 542);
             buttonTag.Name = "buttonTag";
-            buttonTag.Size = new Size(251, 57);
+            buttonTag.Size = new Size(206, 57);
             buttonTag.TabIndex = 12;
             buttonTag.Text = "Categorias/Etiquetas";
-            buttonTag.UseVisualStyleBackColor = true;
+            buttonTag.UseVisualStyleBackColor = false;
             // 
             // Homebutton
             // 
-            Homebutton.BackColor = Color.White;
-            Homebutton.Location = new Point(-1, 177);
+            Homebutton.BackColor = Color.FromArgb(235, 239, 242);
+            Homebutton.ForeColor = Color.Black;
+            Homebutton.Location = new Point(22, 164);
             Homebutton.Name = "Homebutton";
-            Homebutton.Size = new Size(251, 57);
+            Homebutton.Size = new Size(206, 57);
             Homebutton.TabIndex = 0;
             Homebutton.Text = "Inicio";
             Homebutton.UseVisualStyleBackColor = false;
@@ -113,29 +124,33 @@
             // 
             // FormAdmin_ClientButton
             // 
-            FormAdmin_ClientButton.Location = new Point(-1, 303);
+            FormAdmin_ClientButton.BackColor = Color.FromArgb(235, 239, 242);
+            FormAdmin_ClientButton.ForeColor = Color.Black;
+            FormAdmin_ClientButton.Location = new Point(22, 290);
             FormAdmin_ClientButton.Name = "FormAdmin_ClientButton";
-            FormAdmin_ClientButton.Size = new Size(251, 57);
+            FormAdmin_ClientButton.Size = new Size(206, 57);
             FormAdmin_ClientButton.TabIndex = 9;
             FormAdmin_ClientButton.Text = "Clientes";
-            FormAdmin_ClientButton.UseVisualStyleBackColor = true;
+            FormAdmin_ClientButton.UseVisualStyleBackColor = false;
             FormAdmin_ClientButton.Click += FormAdmin_ClientButton_Click;
             // 
             // buttonExit
             // 
-            buttonExit.Location = new Point(-1, 691);
+            buttonExit.BackColor = Color.FromArgb(235, 239, 242);
+            buttonExit.ForeColor = Color.Black;
+            buttonExit.Location = new Point(22, 678);
             buttonExit.Name = "buttonExit";
-            buttonExit.Size = new Size(251, 57);
+            buttonExit.Size = new Size(206, 57);
             buttonExit.TabIndex = 13;
             buttonExit.Text = "Cerrar sesión";
-            buttonExit.UseVisualStyleBackColor = true;
+            buttonExit.UseVisualStyleBackColor = false;
             buttonExit.Click += buttonExit_Click;
             // 
             // DashboardAdmin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(117, 134, 148);
+            BackColor = Color.FromArgb(170, 167, 242);
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1378, 777);
             Controls.Add(buttonExit);

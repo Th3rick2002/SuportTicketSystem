@@ -54,6 +54,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = Color.FromArgb(235, 239, 242);
             groupBox1.Controls.Add(labelTag);
             groupBox1.Controls.Add(comboBoxTag);
             groupBox1.Controls.Add(comboBox3);
@@ -188,7 +189,7 @@
             // 
             // btnSave
             // 
-            btnSave.BackColor = Color.FromArgb(157, 178, 191);
+            btnSave.BackColor = Color.FromArgb(235, 239, 242);
             btnSave.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnSave.Location = new Point(244, 537);
             btnSave.Margin = new Padding(5, 4, 5, 4);
@@ -201,7 +202,7 @@
             // 
             // btnExit
             // 
-            btnExit.BackColor = Color.FromArgb(157, 178, 191);
+            btnExit.BackColor = Color.FromArgb(235, 239, 242);
             btnExit.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnExit.Location = new Point(484, 537);
             btnExit.Margin = new Padding(5, 4, 5, 4);

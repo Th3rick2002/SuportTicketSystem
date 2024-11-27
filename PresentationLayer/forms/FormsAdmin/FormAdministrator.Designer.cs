@@ -50,6 +50,7 @@
             // 
             // dataGridViewAdmin
             // 
+            dataGridViewAdmin.BackgroundColor = Color.FromArgb(235, 239, 242);
             dataGridViewAdmin.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewAdmin.Location = new Point(57, 188);
             dataGridViewAdmin.Margin = new Padding(3, 4, 3, 4);
@@ -60,20 +61,20 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(117, 134, 148);
+            panel1.BackColor = Color.FromArgb(207, 206, 242);
             panel1.BorderStyle = BorderStyle.Fixed3D;
             panel1.ForeColor = Color.Black;
             panel1.Location = new Point(1, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1158, 125);
+            panel1.Size = new Size(1158, 97);
             panel1.TabIndex = 56;
             // 
             // labelAgent
             // 
             labelAgent.AutoSize = true;
-            labelAgent.BackColor = Color.FromArgb(117, 134, 148);
+            labelAgent.BackColor = Color.FromArgb(207, 206, 242);
             labelAgent.Font = new Font("Arial", 24F, FontStyle.Bold | FontStyle.Italic);
-            labelAgent.ForeColor = Color.MintCream;
+            labelAgent.ForeColor = Color.Black;
             labelAgent.Location = new Point(31, 16);
             labelAgent.Name = "labelAgent";
             labelAgent.Size = new Size(478, 46);
@@ -82,22 +83,23 @@
             // 
             // textBox2
             // 
-            textBox2.BackColor = Color.DarkSlateGray;
-            textBox2.Location = new Point(3, 68);
+            textBox2.BackColor = Color.FromArgb(235, 239, 242);
+            textBox2.ForeColor = SystemColors.ActiveCaptionText;
+            textBox2.Location = new Point(33, 68);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(280, 47);
+            textBox2.Size = new Size(210, 47);
             textBox2.TabIndex = 50;
             // 
             // btnUpdate
             // 
-            btnUpdate.BackColor = Color.DarkSlateGray;
+            btnUpdate.BackColor = Color.FromArgb(235, 239, 242);
             btnUpdate.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnUpdate.ForeColor = Color.MintCream;
-            btnUpdate.Location = new Point(0, 238);
+            btnUpdate.ForeColor = SystemColors.ActiveCaptionText;
+            btnUpdate.Location = new Point(30, 238);
             btnUpdate.Margin = new Padding(3, 4, 3, 4);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(280, 59);
+            btnUpdate.Size = new Size(210, 59);
             btnUpdate.TabIndex = 42;
             btnUpdate.Text = "Actualizar";
             btnUpdate.UseVisualStyleBackColor = false;
@@ -115,13 +117,13 @@
             // 
             // btnAdd
             // 
-            btnAdd.BackColor = Color.DarkSlateGray;
+            btnAdd.BackColor = Color.FromArgb(235, 239, 242);
             btnAdd.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnAdd.ForeColor = Color.MintCream;
-            btnAdd.Location = new Point(0, 137);
+            btnAdd.ForeColor = SystemColors.ActiveCaptionText;
+            btnAdd.Location = new Point(30, 137);
             btnAdd.Margin = new Padding(3, 4, 3, 4);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(280, 57);
+            btnAdd.Size = new Size(210, 57);
             btnAdd.TabIndex = 46;
             btnAdd.Text = "Agregar";
             btnAdd.UseVisualStyleBackColor = false;
@@ -130,9 +132,9 @@
             // texIdLabel
             // 
             texIdLabel.AutoSize = true;
-            texIdLabel.BackColor = Color.DarkSlateGray;
+            texIdLabel.BackColor = Color.FromArgb(235, 239, 242);
             texIdLabel.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            texIdLabel.ForeColor = Color.MintCream;
+            texIdLabel.ForeColor = Color.Black;
             texIdLabel.Location = new Point(48, 80);
             texIdLabel.Name = "texIdLabel";
             texIdLabel.Size = new Size(36, 23);
@@ -141,6 +143,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.FromArgb(235, 239, 242);
             pictureBox1.Image = Properties.Resources.salvado;
             pictureBox1.Location = new Point(48, 249);
             pictureBox1.Name = "pictureBox1";
@@ -163,13 +166,13 @@
             // 
             // btnDelete
             // 
-            btnDelete.BackColor = Color.DarkSlateGray;
+            btnDelete.BackColor = Color.FromArgb(235, 239, 242);
             btnDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnDelete.ForeColor = Color.MintCream;
-            btnDelete.Location = new Point(3, 326);
+            btnDelete.ForeColor = SystemColors.ActiveCaptionText;
+            btnDelete.Location = new Point(33, 326);
             btnDelete.Margin = new Padding(3, 4, 3, 4);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(283, 59);
+            btnDelete.Size = new Size(213, 59);
             btnDelete.TabIndex = 43;
             btnDelete.Text = "Eliminar";
             btnDelete.UseVisualStyleBackColor = false;
@@ -177,7 +180,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.BackColor = Color.DarkSlateGray;
+            pictureBox3.BackColor = Color.FromArgb(235, 239, 242);
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(51, 341);
             pictureBox3.Name = "pictureBox3";
@@ -188,7 +191,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.FromArgb(117, 134, 148);
+            panel2.BackColor = Color.FromArgb(207, 206, 242);
             panel2.Controls.Add(pictureBox3);
             panel2.Controls.Add(btnDelete);
             panel2.Controls.Add(labelIdAdmin);
@@ -199,9 +202,9 @@
             panel2.Controls.Add(btnUpdate);
             panel2.Controls.Add(textBox2);
             panel2.ForeColor = Color.Black;
-            panel2.Location = new Point(849, 120);
+            panel2.Location = new Point(870, 99);
             panel2.Name = "panel2";
-            panel2.Size = new Size(280, 664);
+            panel2.Size = new Size(259, 685);
             panel2.TabIndex = 57;
             panel2.Paint += panel2_Paint;
             // 
@@ -209,7 +212,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(82, 109, 130);
+            BackColor = Color.FromArgb(170, 167, 242);
             ClientSize = new Size(1129, 730);
             Controls.Add(labelAgent);
             Controls.Add(dataGridViewAdmin);

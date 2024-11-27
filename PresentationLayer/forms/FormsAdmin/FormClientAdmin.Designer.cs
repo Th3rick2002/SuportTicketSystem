@@ -54,10 +54,11 @@
             dataGridViewTicket.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewTicket.Columns.AddRange(new DataGridViewColumn[] { NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, FirstName });
             dataGridViewTicket.GridColor = Color.Black;
-            dataGridViewTicket.Location = new Point(22, 117);
+            dataGridViewTicket.Location = new Point(12, 156);
+            dataGridViewTicket.Margin = new Padding(3, 4, 3, 4);
             dataGridViewTicket.Name = "dataGridViewTicket";
             dataGridViewTicket.RowHeadersWidth = 51;
-            dataGridViewTicket.Size = new Size(760, 398);
+            dataGridViewTicket.Size = new Size(880, 531);
             dataGridViewTicket.TabIndex = 48;
             // 
             // NameTicket
@@ -111,13 +112,12 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.FromArgb(210, 214, 217);
+            pictureBox1.BackColor = Color.FromArgb(207, 206, 242);
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(819, 22);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(936, 29);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(141, 116);
+            pictureBox1.Size = new Size(161, 153);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 47;
             pictureBox1.TabStop = false;
@@ -128,10 +128,10 @@
             btnUpdate.BackColor = Color.FromArgb(235, 239, 242);
             btnUpdate.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnUpdate.ForeColor = Color.Black;
-            btnUpdate.Location = new Point(819, 285);
-            btnUpdate.Margin = new Padding(4, 4, 4, 4);
+            btnUpdate.Location = new Point(936, 380);
+            btnUpdate.Margin = new Padding(5, 5, 5, 5);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(141, 35);
+            btnUpdate.Size = new Size(161, 47);
             btnUpdate.TabIndex = 46;
             btnUpdate.Text = "Actualizar ";
             btnUpdate.UseVisualStyleBackColor = false;
@@ -141,10 +141,10 @@
             btnAdd.BackColor = Color.FromArgb(235, 239, 242);
             btnAdd.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnAdd.ForeColor = Color.Black;
-            btnAdd.Location = new Point(819, 194);
-            btnAdd.Margin = new Padding(4, 4, 4, 4);
+            btnAdd.Location = new Point(936, 259);
+            btnAdd.Margin = new Padding(5, 5, 5, 5);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(141, 37);
+            btnAdd.Size = new Size(161, 49);
             btnAdd.TabIndex = 45;
             btnAdd.Text = "Agregar ";
             btnAdd.UseVisualStyleBackColor = false;
@@ -155,10 +155,10 @@
             buttonDelete.BackColor = Color.FromArgb(235, 239, 242);
             buttonDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             buttonDelete.ForeColor = Color.Black;
-            buttonDelete.Location = new Point(819, 381);
-            buttonDelete.Margin = new Padding(4, 4, 4, 4);
+            buttonDelete.Location = new Point(936, 508);
+            buttonDelete.Margin = new Padding(5, 5, 5, 5);
             buttonDelete.Name = "buttonDelete";
-            buttonDelete.Size = new Size(141, 35);
+            buttonDelete.Size = new Size(161, 47);
             buttonDelete.TabIndex = 49;
             buttonDelete.Text = "Eliminar ";
             buttonDelete.UseVisualStyleBackColor = false;
@@ -168,10 +168,11 @@
             textBox2.BackColor = Color.FromArgb(207, 206, 242);
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Dock = DockStyle.Right;
-            textBox2.Location = new Point(797, 0);
+            textBox2.Location = new Point(911, 0);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(191, 548);
+            textBox2.Size = new Size(218, 731);
             textBox2.TabIndex = 51;
             // 
             // textBox1
@@ -180,29 +181,30 @@
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Dock = DockStyle.Top;
             textBox1.Location = new Point(0, 0);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(797, 83);
+            textBox1.Size = new Size(911, 111);
             textBox1.TabIndex = 50;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.FromArgb(210, 214, 217);
+            label1.BackColor = Color.FromArgb(207, 206, 242);
             label1.Font = new Font("Berlin Sans FB", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(32, 22);
+            label1.Location = new Point(37, 29);
             label1.Name = "label1";
-            label1.Size = new Size(364, 44);
+            label1.Size = new Size(452, 56);
             label1.TabIndex = 52;
             label1.Text = "PANEL DE CLIENTE  ";
             // 
             // FormClientAdmin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(170, 167, 242);
-            ClientSize = new Size(988, 548);
+            ClientSize = new Size(1129, 731);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(buttonDelete);
@@ -211,7 +213,6 @@
             Controls.Add(dataGridViewTicket);
             Controls.Add(textBox1);
             Controls.Add(textBox2);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "FormClientAdmin";
             Text = "FormClientAdmin";
             ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).EndInit();

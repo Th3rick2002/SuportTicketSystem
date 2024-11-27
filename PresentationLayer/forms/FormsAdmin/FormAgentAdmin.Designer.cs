@@ -41,17 +41,19 @@
             pictureAgent = new PictureBox();
             btnUpdate = new Button();
             btnAdd = new Button();
-            lblAgent = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureAgent).BeginInit();
             SuspendLayout();
             // 
             // buttonDelete
             // 
-            buttonDelete.BackColor = Color.FromArgb(157, 178, 191);
+            buttonDelete.BackColor = Color.FromArgb(235, 239, 242);
             buttonDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             buttonDelete.ForeColor = Color.Black;
-            buttonDelete.Location = new Point(934, 540);
+            buttonDelete.Location = new Point(940, 450);
             buttonDelete.Margin = new Padding(4, 5, 4, 5);
             buttonDelete.Name = "buttonDelete";
             buttonDelete.Size = new Size(161, 47);
@@ -61,9 +63,10 @@
             // 
             // dataGridViewTicket
             // 
+            dataGridViewTicket.BackgroundColor = Color.FromArgb(235, 239, 242);
             dataGridViewTicket.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewTicket.Columns.AddRange(new DataGridViewColumn[] { NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, FirstName });
-            dataGridViewTicket.Location = new Point(34, 145);
+            dataGridViewTicket.Location = new Point(24, 145);
             dataGridViewTicket.Margin = new Padding(3, 4, 3, 4);
             dataGridViewTicket.Name = "dataGridViewTicket";
             dataGridViewTicket.RowHeadersWidth = 51;
@@ -121,9 +124,10 @@
             // 
             // pictureAgent
             // 
-            pictureAgent.BackColor = Color.FromArgb(82, 109, 130);
+            pictureAgent.BackColor = Color.FromArgb(207, 206, 242);
+            pictureAgent.BorderStyle = BorderStyle.Fixed3D;
             pictureAgent.Image = (Image)resources.GetObject("pictureAgent.Image");
-            pictureAgent.Location = new Point(934, 143);
+            pictureAgent.Location = new Point(940, 33);
             pictureAgent.Name = "pictureAgent";
             pictureAgent.Size = new Size(161, 154);
             pictureAgent.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -132,10 +136,10 @@
             // 
             // btnUpdate
             // 
-            btnUpdate.BackColor = Color.FromArgb(157, 178, 191);
+            btnUpdate.BackColor = Color.FromArgb(235, 239, 242);
             btnUpdate.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnUpdate.ForeColor = Color.Black;
-            btnUpdate.Location = new Point(934, 435);
+            btnUpdate.Location = new Point(940, 354);
             btnUpdate.Margin = new Padding(4, 5, 4, 5);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(161, 47);
@@ -145,10 +149,10 @@
             // 
             // btnAdd
             // 
-            btnAdd.BackColor = Color.FromArgb(157, 178, 191);
+            btnAdd.BackColor = Color.FromArgb(235, 239, 242);
             btnAdd.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnAdd.ForeColor = Color.Black;
-            btnAdd.Location = new Point(934, 334);
+            btnAdd.Location = new Point(940, 253);
             btnAdd.Margin = new Padding(4, 5, 4, 5);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(161, 49);
@@ -156,31 +160,55 @@
             btnAdd.Text = "Agregar ";
             btnAdd.UseVisualStyleBackColor = false;
             // 
-            // lblAgent
+            // textBox1
             // 
-            lblAgent.AutoSize = true;
-            lblAgent.BackColor = Color.Transparent;
-            lblAgent.Font = new Font("Arial", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblAgent.ForeColor = Color.GhostWhite;
-            lblAgent.Location = new Point(66, 55);
-            lblAgent.Margin = new Padding(4, 0, 4, 0);
-            lblAgent.Name = "lblAgent";
-            lblAgent.Size = new Size(396, 46);
-            lblAgent.TabIndex = 50;
-            lblAgent.Text = "PANEL DE AGENTE";
+            textBox1.BackColor = Color.FromArgb(207, 206, 242);
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Dock = DockStyle.Top;
+            textBox1.Location = new Point(0, 0);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(1129, 111);
+            textBox1.TabIndex = 56;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = Color.FromArgb(207, 206, 242);
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Dock = DockStyle.Right;
+            textBox2.Location = new Point(911, 111);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(218, 619);
+            textBox2.TabIndex = 57;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(207, 206, 242);
+            label1.Font = new Font("Berlin Sans FB", 26.25F, FontStyle.Bold);
+            label1.Location = new Point(53, 22);
+            label1.Name = "label1";
+            label1.Size = new Size(426, 56);
+            label1.TabIndex = 58;
+            label1.Text = "PANEL DE AGENTE";
             // 
             // FormAgentAdmin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(82, 109, 130);
+            BackColor = Color.FromArgb(170, 167, 242);
             ClientSize = new Size(1129, 730);
+            Controls.Add(label1);
             Controls.Add(buttonDelete);
-            Controls.Add(dataGridViewTicket);
-            Controls.Add(pictureAgent);
             Controls.Add(btnUpdate);
             Controls.Add(btnAdd);
-            Controls.Add(lblAgent);
+            Controls.Add(pictureAgent);
+            Controls.Add(textBox2);
+            Controls.Add(dataGridViewTicket);
+            Controls.Add(textBox1);
             Name = "FormAgentAdmin";
             Text = "FormAgentAdmin";
             ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).EndInit();
@@ -203,6 +231,8 @@
         private PictureBox pictureAgent;
         private Button btnUpdate;
         private Button btnAdd;
-        private Label lblAgent;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private Label label1;
     }
 }

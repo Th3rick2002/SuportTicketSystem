@@ -55,7 +55,7 @@
             // 
             // btnSave
             // 
-            btnSave.BackColor = Color.Aquamarine;
+            btnSave.BackColor = Color.FromArgb(235, 239, 242);
             btnSave.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnSave.Location = new Point(17, 408);
             btnSave.Margin = new Padding(3, 4, 3, 4);
@@ -85,9 +85,9 @@
             // labelName
             // 
             labelName.AutoSize = true;
-            labelName.BackColor = Color.MediumPurple;
+            labelName.BackColor = Color.FromArgb(207, 206, 242);
             labelName.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelName.ForeColor = SystemColors.ButtonHighlight;
+            labelName.ForeColor = SystemColors.ActiveCaptionText;
             labelName.Location = new Point(17, 19);
             labelName.Name = "labelName";
             labelName.Size = new Size(80, 23);
@@ -97,9 +97,9 @@
             // labelFirstName
             // 
             labelFirstName.AutoSize = true;
-            labelFirstName.BackColor = Color.MediumPurple;
+            labelFirstName.BackColor = Color.FromArgb(207, 206, 242);
             labelFirstName.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelFirstName.ForeColor = SystemColors.ButtonHighlight;
+            labelFirstName.ForeColor = SystemColors.ActiveCaptionText;
             labelFirstName.Location = new Point(17, 88);
             labelFirstName.Name = "labelFirstName";
             labelFirstName.Size = new Size(77, 23);
@@ -109,9 +109,9 @@
             // labelGmail
             // 
             labelGmail.AutoSize = true;
-            labelGmail.BackColor = Color.MediumPurple;
+            labelGmail.BackColor = Color.FromArgb(207, 206, 242);
             labelGmail.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelGmail.ForeColor = SystemColors.ButtonHighlight;
+            labelGmail.ForeColor = SystemColors.ActiveCaptionText;
             labelGmail.Location = new Point(17, 163);
             labelGmail.Name = "labelGmail";
             labelGmail.Size = new Size(59, 23);
@@ -129,9 +129,9 @@
             // labelPasword
             // 
             labelPasword.AutoSize = true;
-            labelPasword.BackColor = Color.MediumPurple;
+            labelPasword.BackColor = Color.FromArgb(207, 206, 242);
             labelPasword.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelPasword.ForeColor = SystemColors.ButtonHighlight;
+            labelPasword.ForeColor = SystemColors.ActiveCaptionText;
             labelPasword.Location = new Point(17, 235);
             labelPasword.Name = "labelPasword";
             labelPasword.Size = new Size(97, 23);
@@ -149,9 +149,9 @@
             // labelVerifyPassword
             // 
             labelVerifyPassword.AutoSize = true;
-            labelVerifyPassword.BackColor = Color.MediumPurple;
+            labelVerifyPassword.BackColor = Color.FromArgb(207, 206, 242);
             labelVerifyPassword.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelVerifyPassword.ForeColor = SystemColors.ButtonHighlight;
+            labelVerifyPassword.ForeColor = SystemColors.ActiveCaptionText;
             labelVerifyPassword.Location = new Point(17, 323);
             labelVerifyPassword.Name = "labelVerifyPassword";
             labelVerifyPassword.Size = new Size(160, 23);
@@ -168,7 +168,7 @@
             // 
             // btnExit
             // 
-            btnExit.BackColor = Color.Yellow;
+            btnExit.BackColor = Color.FromArgb(235, 239, 242);
             btnExit.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnExit.Location = new Point(204, 408);
             btnExit.Margin = new Padding(3, 4, 3, 4);
@@ -181,7 +181,7 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = Color.MediumPurple;
+            textBox1.BackColor = Color.FromArgb(207, 206, 242);
             textBox1.Dock = DockStyle.Top;
             textBox1.Location = new Point(0, 0);
             textBox1.Multiline = true;
@@ -192,9 +192,9 @@
             // labelRegisterNewTicket
             // 
             labelRegisterNewTicket.AutoSize = true;
-            labelRegisterNewTicket.BackColor = Color.MediumPurple;
+            labelRegisterNewTicket.BackColor = Color.FromArgb(207, 206, 242);
             labelRegisterNewTicket.Font = new Font("Stencil", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelRegisterNewTicket.ForeColor = SystemColors.ButtonFace;
+            labelRegisterNewTicket.ForeColor = SystemColors.ActiveCaptionText;
             labelRegisterNewTicket.Location = new Point(12, 9);
             labelRegisterNewTicket.Name = "labelRegisterNewTicket";
             labelRegisterNewTicket.Size = new Size(598, 47);
@@ -203,7 +203,7 @@
             // 
             // groupBoxRegister
             // 
-            groupBoxRegister.BackColor = Color.MediumPurple;
+            groupBoxRegister.BackColor = Color.FromArgb(207, 206, 242);
             groupBoxRegister.Controls.Add(pictureBox1);
             groupBoxRegister.Controls.Add(labelName);
             groupBoxRegister.Controls.Add(labelFirstName);
@@ -226,7 +226,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.Yellow;
+            pictureBox1.BackColor = Color.FromArgb(235, 239, 242);
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(216, 413);
             pictureBox1.Name = "pictureBox1";
@@ -237,6 +237,7 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackColor = Color.FromArgb(235, 239, 242);
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(29, 413);
             pictureBox2.Name = "pictureBox2";
@@ -247,6 +248,7 @@
             // 
             // pictureBoxRegister
             // 
+            pictureBoxRegister.BorderStyle = BorderStyle.Fixed3D;
             pictureBoxRegister.Image = (Image)resources.GetObject("pictureBoxRegister.Image");
             pictureBoxRegister.Location = new Point(501, 157);
             pictureBoxRegister.Name = "pictureBoxRegister";
@@ -259,7 +261,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkSlateGray;
+            BackColor = Color.FromArgb(170, 167, 242);
             ClientSize = new Size(914, 600);
             Controls.Add(pictureBoxRegister);
             Controls.Add(groupBoxRegister);
