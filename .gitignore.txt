@@ -1,3 +1,0 @@
-# Ignorar archivos generados automáticamente
-.vs/
-obj/
