@@ -92,10 +92,7 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "CommonLayer/1.0.0": {
         "runtime": {
-          "CommonLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CommonLayer.dll": {}
         }
       },
       "DataAccessLayer/1.0.0": {
@@ -104,10 +101,7 @@
           "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
-          "DataAccessLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DataAccessLayer.dll": {}
         }
       }
     }

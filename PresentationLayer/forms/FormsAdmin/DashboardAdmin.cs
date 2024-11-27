@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PresentationLayer.forms.FormsAdmin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,6 +46,19 @@ namespace PresentationLayer.forms.FormAgent
             openChildForm(new FormAdministrator());
         }
 
+        private void FormAdmin_ClientButton_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FormClientAdmin());
+        }
 
+        private void FormAdmin_AgentButton_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FormAgentAdmin());
+        }
+
+        private void FormAdmin_TicketsButton_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FormTicketAdmin());
+        }
     }
 }

@@ -24,6 +24,12 @@ namespace PresentationLayer.forms
             _loginService = new LoginService();
         }
 
+        public void ResetLoginForm()
+        {
+            textBoxMail.Clear();
+            textBoxPasword.Clear();
+        }
+
         private void btnUser_Click(object sender, EventArgs e)
         {
             registerForm formRegister = new registerForm();
@@ -34,34 +40,46 @@ namespace PresentationLayer.forms
 
         private void buttonAccess_Click(object sender, EventArgs e)
         {
-            string username = textBoxMail.Text; // Asumiendo que tienes un TextBox para el usuario
-            string password = textBoxPasword.Text; // Asumiendo que tienes un TextBox para la contraseña
+            string username = textBoxMail.Text; 
+            string password = textBoxPasword.Text; 
+
 
             var user = _loginService.Login(username, password);
 
-            if (user != null && user.Role == "Administrador")
+            if (user != null)
             {
-                DashboardAdmin dashboard = new DashboardAdmin();
-                dashboard.ShowDialog();
-                this.Hide();
-            }
-            else if(user != null && user.Role == "Agente")
-            {
-                AgentPanelForm formAgente = new AgentPanelForm();
-                formAgente.ShowDialog();
-                this.Hide();
-            }
-            else if (user != null && user.Role == "Cliente")
-            {
-                FormClient formClient = new FormClient();
-                formClient.ShowDialog();
-                this.Hide();
+                Form nextForm = null; 
+
+                if (user.Role == "Administrador")
+                {
+                    nextForm = new DashboardAdmin();
+                }
+                else if (user.Role == "Agente")
+                {
+                    nextForm = new AgentPanelForm();
+                }
+                else if (user.Role == "Cliente")
+                {
+                    nextForm = new FormClient();
+                }
+
+                if (nextForm != null)
+                {
+                    this.Hide();
+                    nextForm.FormClosed += (s, args) =>
+                    {
+                        this.ResetLoginForm();
+                        this.Show();
+                    };
+                    nextForm.Show();
+                }
             }
             else
             {
                 MessageBox.Show("Credenciales incorrectas", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         private void CustomizeButtonAccess()
         {

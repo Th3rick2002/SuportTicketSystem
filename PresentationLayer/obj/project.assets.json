@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
+      "FluentValidation/11.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -188,6 +201,31 @@
     }
   },
   "libraries": {
+    "FluentValidation/11.11.0": {
+      "sha512": "cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "type": "package",
+      "path": "fluentvalidation/11.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.11.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "type": "package",
@@ -519,38 +557,37 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "BussisnesLayer >= 1.0.0"
+      "BussisnesLayer >= 1.0.0",
+      "FluentValidation >= 11.11.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Itamar\\.nuget\\packages\\": {}
+    "/home/erick/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
+      "projectUniqueName": "/home/erick/RiderProjects/SuportTicketSystem/PresentationLayer/PresentationLayer.csproj",
       "projectName": "PresentationLayer",
-      "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\PresentationLayer.csproj",
-      "packagesPath": "C:\\Users\\Itamar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\PresentationLayer\\obj\\",
+      "projectPath": "/home/erick/RiderProjects/SuportTicketSystem/PresentationLayer/PresentationLayer.csproj",
+      "packagesPath": "/home/erick/.nuget/packages/",
+      "outputPath": "/home/erick/RiderProjects/SuportTicketSystem/PresentationLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Itamar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/erick/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj": {
-              "projectPath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\BussisnesLayer\\BussisnesLayer.csproj"
+            "/home/erick/RiderProjects/SuportTicketSystem/BussisnesLayer/BussisnesLayer.csproj": {
+              "projectPath": "/home/erick/RiderProjects/SuportTicketSystem/BussisnesLayer/BussisnesLayer.csproj"
             }
           }
         }
@@ -563,13 +600,18 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.11.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -589,7 +631,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/erick/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

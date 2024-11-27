@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KCBfqAQKCRQ=",
+  "dgSpecHash": "PccGnyBPEGs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Itamar\\Documents\\Proyectos\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+  "projectFilePath": "/home/erick/RiderProjects/SuportTicketSystem/CommonLayer/CommonLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

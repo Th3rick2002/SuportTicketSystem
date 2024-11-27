@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PresentationLayer",
+    "\\PresentationLayer\\forms",
+    "\\PresentationLayer\\forms\\FormClient"
   ],
-  "SelectedNode": "\\qodana.yaml",
+  "SelectedNode": "\\PresentationLayer\\forms\\FormClient\\FormClient.cs",
   "PreviewInSolutionExplorer": false
 }

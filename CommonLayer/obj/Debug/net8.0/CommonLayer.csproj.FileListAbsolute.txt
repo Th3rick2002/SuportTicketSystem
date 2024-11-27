@@ -10,18 +10,6 @@ C:\Users\Saritmar\Downloads\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\Comm
 C:\Users\Saritmar\Downloads\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\refint\CommonLayer.dll
 C:\Users\Saritmar\Downloads\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.pdb
 C:\Users\Saritmar\Downloads\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\ref\CommonLayer.dll
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.deps.json
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.dll
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.pdb
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.AssemblyInfoInputs.cache
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.AssemblyInfo.cs
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.csproj.CoreCompileInputs.cache
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.sourcelink.json
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.dll
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\refint\CommonLayer.dll
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.pdb
-C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\ref\CommonLayer.dll
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.deps.json
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.dll
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.pdb
@@ -34,3 +22,27 @@ C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\CommonLayer\obj\Debug\net
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\refint\CommonLayer.dll
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.pdb
 C:\Users\Itamar\Documents\Proyectos\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\ref\CommonLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.deps.json
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.AssemblyInfoInputs.cache
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.AssemblyInfo.cs
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.csproj.CoreCompileInputs.cache
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.sourcelink.json
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\refint\CommonLayer.dll
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.pdb
+C:\Users\Orlando Zúniga\Documents\UNI\U20230405-Orlando\Ciclo 4\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\ref\CommonLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.deps.json
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.AssemblyInfoInputs.cache
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.AssemblyInfo.cs
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.csproj.CoreCompileInputs.cache
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.sourcelink.json
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\refint\CommonLayer.dll
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\CommonLayer.pdb
+C:\Users\Orlando Zúniga\Desktop\SuportTicketSystem\CommonLayer\obj\Debug\net8.0\ref\CommonLayer.dll

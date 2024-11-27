@@ -1,6 +1,6 @@
 ﻿namespace PresentationLayer.forms
 {
-    partial class AddEditTicket
+    partial class AddTicketClient
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             groupBox1 = new GroupBox();
             labelTag = new Label();
             comboBoxTag = new ComboBox();
             comboBox3 = new ComboBox();
-            comboBox2 = new ComboBox();
+            PrioritycomboBox = new ComboBox();
             LabelCategori = new Label();
             Labeladdicket = new Label();
             comboBox1 = new ComboBox();
@@ -44,9 +45,11 @@
             btnExit = new Button();
             labelDescripcionTiket = new Label();
             labelNameTicket = new Label();
-            ApellidoddBOX = new TextBox();
-            NameaddBOX = new TextBox();
+            DescriptionTicketTextBox = new TextBox();
+            nameTicketTextBox = new TextBox();
+            ErrorTicketProvider = new ErrorProvider(components);
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)ErrorTicketProvider).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
@@ -54,7 +57,7 @@
             groupBox1.Controls.Add(labelTag);
             groupBox1.Controls.Add(comboBoxTag);
             groupBox1.Controls.Add(comboBox3);
-            groupBox1.Controls.Add(comboBox2);
+            groupBox1.Controls.Add(PrioritycomboBox);
             groupBox1.Controls.Add(LabelCategori);
             groupBox1.Controls.Add(Labeladdicket);
             groupBox1.Controls.Add(comboBox1);
@@ -66,8 +69,8 @@
             groupBox1.Controls.Add(btnExit);
             groupBox1.Controls.Add(labelDescripcionTiket);
             groupBox1.Controls.Add(labelNameTicket);
-            groupBox1.Controls.Add(ApellidoddBOX);
-            groupBox1.Controls.Add(NameaddBOX);
+            groupBox1.Controls.Add(DescriptionTicketTextBox);
+            groupBox1.Controls.Add(nameTicketTextBox);
             groupBox1.Location = new Point(117, 16);
             groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
@@ -103,13 +106,13 @@
             comboBox3.Size = new Size(555, 28);
             comboBox3.TabIndex = 90;
             // 
-            // comboBox2
+            // PrioritycomboBox
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(160, 309);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(555, 28);
-            comboBox2.TabIndex = 89;
+            PrioritycomboBox.FormattingEnabled = true;
+            PrioritycomboBox.Location = new Point(160, 309);
+            PrioritycomboBox.Name = "PrioritycomboBox";
+            PrioritycomboBox.Size = new Size(555, 28);
+            PrioritycomboBox.TabIndex = 89;
             // 
             // LabelCategori
             // 
@@ -129,9 +132,8 @@
             Labeladdicket.Location = new Point(323, 45);
             Labeladdicket.Margin = new Padding(5, 0, 5, 0);
             Labeladdicket.Name = "Labeladdicket";
-            Labeladdicket.Size = new Size(296, 41);
+            Labeladdicket.Size = new Size(0, 41);
             Labeladdicket.TabIndex = 50;
-            Labeladdicket.Text = "Agregar/Edit Ticket";
             // 
             // comboBox1
             // 
@@ -232,23 +234,27 @@
             labelNameTicket.TabIndex = 63;
             labelNameTicket.Text = "Nombre";
             // 
-            // ApellidoddBOX
+            // DescriptionTicketTextBox
             // 
-            ApellidoddBOX.Location = new Point(160, 211);
-            ApellidoddBOX.Margin = new Padding(5, 7, 5, 7);
-            ApellidoddBOX.Name = "ApellidoddBOX";
-            ApellidoddBOX.Size = new Size(555, 27);
-            ApellidoddBOX.TabIndex = 62;
+            DescriptionTicketTextBox.Location = new Point(160, 211);
+            DescriptionTicketTextBox.Margin = new Padding(5, 7, 5, 7);
+            DescriptionTicketTextBox.Name = "DescriptionTicketTextBox";
+            DescriptionTicketTextBox.Size = new Size(555, 27);
+            DescriptionTicketTextBox.TabIndex = 62;
             // 
-            // NameaddBOX
+            // nameTicketTextBox
             // 
-            NameaddBOX.Location = new Point(160, 132);
-            NameaddBOX.Margin = new Padding(5, 7, 5, 7);
-            NameaddBOX.Name = "NameaddBOX";
-            NameaddBOX.Size = new Size(555, 27);
-            NameaddBOX.TabIndex = 61;
+            nameTicketTextBox.Location = new Point(160, 132);
+            nameTicketTextBox.Margin = new Padding(5, 7, 5, 7);
+            nameTicketTextBox.Name = "nameTicketTextBox";
+            nameTicketTextBox.Size = new Size(555, 27);
+            nameTicketTextBox.TabIndex = 61;
             // 
-            // AddEditTicket
+            // ErrorTicketProvider
+            // 
+            ErrorTicketProvider.ContainerControl = this;
+            // 
+            // AddTicketClient
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -256,10 +262,11 @@
             ClientSize = new Size(1086, 697);
             Controls.Add(groupBox1);
             Margin = new Padding(3, 4, 3, 4);
-            Name = "AddEditTicket";
+            Name = "AddTicketClient";
             Text = "AddEditTicket";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)ErrorTicketProvider).EndInit();
             ResumeLayout(false);
         }
 
@@ -277,11 +284,12 @@
         private Button btnExit;
         private Label labelDescripcionTiket;
         private Label labelNameTicket;
-        private TextBox ApellidoddBOX;
-        private TextBox NameaddBOX;
+        private TextBox DescriptionTicketTextBox;
+        private TextBox nameTicketTextBox;
         private ComboBox comboBoxTag;
         private ComboBox comboBox3;
-        private ComboBox comboBox2;
+        private ComboBox PrioritycomboBox;
         private Label labelTag;
+        private ErrorProvider ErrorTicketProvider;
     }
 }
