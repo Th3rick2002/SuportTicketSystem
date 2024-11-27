@@ -21,6 +21,10 @@ public class LogsRepository : ILogsRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
+            //string queryDApper = "spCAtegories_Delete";
+            //connection.Execute(queryDApper,new { id}
+            //, commandType: CommandType.StoredProcedure);
+            
             string query = 
                 "SELECT"+
                     "Logs.Id,"+

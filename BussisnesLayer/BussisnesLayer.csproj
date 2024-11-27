@@ -11,4 +11,8 @@
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\agentService\" />
+  </ItemGroup>
+
 </Project>

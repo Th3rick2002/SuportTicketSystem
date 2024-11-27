@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\": {}
+    "/home/erick/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
+      "projectUniqueName": "/home/erick/RiderProjects/SuportTicketSystem/CommonLayer/CommonLayer.csproj",
       "projectName": "CommonLayer",
-      "projectPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\CommonLayer.csproj",
-      "packagesPath": "C:\\Users\\Orlando Zúniga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orlando Zúniga\\Desktop\\SuportTicketSystem\\CommonLayer\\obj\\",
+      "projectPath": "/home/erick/RiderProjects/SuportTicketSystem/CommonLayer/CommonLayer.csproj",
+      "packagesPath": "/home/erick/.nuget/packages/",
+      "outputPath": "/home/erick/RiderProjects/SuportTicketSystem/CommonLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Orlando Zúniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/erick/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/erick/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
