@@ -37,8 +37,12 @@
             groupBoxLogin = new GroupBox();
             pictureBox1 = new PictureBox();
             labelPasword = new Label();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
             groupBoxLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // buttonAccess
@@ -97,6 +101,8 @@
             // groupBoxLogin
             // 
             groupBoxLogin.BackColor = Color.FromArgb(207, 206, 242);
+            groupBoxLogin.Controls.Add(pictureBox3);
+            groupBoxLogin.Controls.Add(pictureBox2);
             groupBoxLogin.Controls.Add(pictureBox1);
             groupBoxLogin.Controls.Add(labelPasword);
             groupBoxLogin.Controls.Add(btnUser);
@@ -114,7 +120,7 @@
             // 
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(192, 45);
+            pictureBox1.Location = new Point(193, 51);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(148, 122);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -132,6 +138,28 @@
             labelPasword.TabIndex = 18;
             labelPasword.Text = "Contraseña";
             // 
+            // pictureBox2
+            // 
+            pictureBox2.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(84, 324);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(30, 23);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 20;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(84, 240);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(30, 23);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 21;
+            pictureBox3.TabStop = false;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -147,6 +175,8 @@
             groupBoxLogin.ResumeLayout(false);
             groupBoxLogin.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
         }
 
@@ -159,5 +189,7 @@
         private GroupBox groupBoxLogin;
         private Label labelPasword;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
     }
 }

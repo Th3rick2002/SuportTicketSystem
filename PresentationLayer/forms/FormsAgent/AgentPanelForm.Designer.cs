@@ -124,7 +124,7 @@
             labelText.AutoSize = true;
             labelText.BackColor = Color.FromArgb(207, 206, 242);
             labelText.Font = new Font("Berlin Sans FB", 26.25F, FontStyle.Bold);
-            labelText.Location = new Point(152, 24);
+            labelText.Location = new Point(43, 24);
             labelText.Name = "labelText";
             labelText.Size = new Size(426, 56);
             labelText.TabIndex = 26;
@@ -170,21 +170,23 @@
             // textBox1
             // 
             textBox1.BackColor = Color.FromArgb(207, 206, 242);
+            textBox1.BorderStyle = BorderStyle.None;
             textBox1.Dock = DockStyle.Top;
             textBox1.Location = new Point(0, 0);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(1210, 102);
+            textBox1.Size = new Size(1023, 102);
             textBox1.TabIndex = 30;
             // 
             // PanelAgenttextBox
             // 
             PanelAgenttextBox.BackColor = Color.FromArgb(207, 206, 242);
+            PanelAgenttextBox.BorderStyle = BorderStyle.None;
             PanelAgenttextBox.Dock = DockStyle.Right;
-            PanelAgenttextBox.Location = new Point(1032, 102);
+            PanelAgenttextBox.Location = new Point(1023, 0);
             PanelAgenttextBox.Multiline = true;
             PanelAgenttextBox.Name = "PanelAgenttextBox";
-            PanelAgenttextBox.Size = new Size(178, 595);
+            PanelAgenttextBox.Size = new Size(187, 697);
             PanelAgenttextBox.TabIndex = 31;
             // 
             // pictureBox1
@@ -192,9 +194,9 @@
             pictureBox1.BackColor = Color.FromArgb(207, 206, 242);
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(23, 12);
+            pictureBox1.Location = new Point(1048, 24);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(109, 82);
+            pictureBox1.Size = new Size(140, 124);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 32;
             pictureBox1.TabStop = false;
@@ -210,11 +212,11 @@
             Controls.Add(button1);
             Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(PanelAgenttextBox);
             Controls.Add(labelText);
             Controls.Add(textBox1);
             Controls.Add(dataGridViewAgent);
             Controls.Add(label2);
+            Controls.Add(PanelAgenttextBox);
             DoubleBuffered = true;
             ForeColor = SystemColors.ActiveCaptionText;
             Margin = new Padding(3, 4, 3, 4);

@@ -54,7 +54,7 @@
             buttonAssingAgent.BackColor = Color.FromArgb(235, 239, 242);
             buttonAssingAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             buttonAssingAgent.ForeColor = Color.Black;
-            buttonAssingAgent.Location = new Point(954, 375);
+            buttonAssingAgent.Location = new Point(945, 458);
             buttonAssingAgent.Margin = new Padding(5);
             buttonAssingAgent.Name = "buttonAssingAgent";
             buttonAssingAgent.Size = new Size(161, 47);
@@ -127,9 +127,9 @@
             // 
             pictureBoxTicket.BackColor = Color.FromArgb(207, 206, 242);
             pictureBoxTicket.Image = (Image)resources.GetObject("pictureBoxTicket.Image");
-            pictureBoxTicket.Location = new Point(35, 12);
+            pictureBoxTicket.Location = new Point(945, 60);
             pictureBoxTicket.Name = "pictureBoxTicket";
-            pictureBoxTicket.Size = new Size(112, 92);
+            pictureBoxTicket.Size = new Size(147, 127);
             pictureBoxTicket.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxTicket.TabIndex = 53;
             pictureBoxTicket.TabStop = false;
@@ -139,7 +139,7 @@
             btnUpdate.BackColor = Color.FromArgb(235, 239, 242);
             btnUpdate.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnUpdate.ForeColor = Color.Black;
-            btnUpdate.Location = new Point(954, 270);
+            btnUpdate.Location = new Point(945, 353);
             btnUpdate.Margin = new Padding(5);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(161, 47);
@@ -152,7 +152,7 @@
             btnAdd.BackColor = Color.FromArgb(235, 239, 242);
             btnAdd.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnAdd.ForeColor = Color.Black;
-            btnAdd.Location = new Point(954, 169);
+            btnAdd.Location = new Point(945, 252);
             btnAdd.Margin = new Padding(5);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(161, 49);
@@ -166,7 +166,7 @@
             labelClient.BackColor = Color.FromArgb(207, 206, 242);
             labelClient.Font = new Font("Berlin Sans FB", 26.25F, FontStyle.Bold);
             labelClient.ForeColor = Color.Black;
-            labelClient.Location = new Point(178, 30);
+            labelClient.Location = new Point(35, 30);
             labelClient.Margin = new Padding(5, 0, 5, 0);
             labelClient.Name = "labelClient";
             labelClient.Size = new Size(401, 56);
@@ -178,7 +178,7 @@
             buttonDelete.BackColor = Color.FromArgb(235, 239, 242);
             buttonDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             buttonDelete.ForeColor = Color.Black;
-            buttonDelete.Location = new Point(954, 471);
+            buttonDelete.Location = new Point(945, 554);
             buttonDelete.Margin = new Padding(5);
             buttonDelete.Name = "buttonDelete";
             buttonDelete.Size = new Size(161, 47);

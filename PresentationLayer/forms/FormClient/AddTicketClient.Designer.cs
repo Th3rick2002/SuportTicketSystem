@@ -31,6 +31,7 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddTicketClient));
             groupBox1 = new GroupBox();
+            pictureBox1 = new PictureBox();
             labelTag = new Label();
             comboBoxTag = new ComboBox();
             comboBox3 = new ComboBox();
@@ -49,10 +50,9 @@
             DescriptionTicketTextBox = new TextBox();
             nameTicketTextBox = new TextBox();
             ErrorTicketProvider = new ErrorProvider(components);
-            pictureBox1 = new PictureBox();
             groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)ErrorTicketProvider).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ErrorTicketProvider).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
@@ -83,6 +83,16 @@
             groupBox1.Size = new Size(849, 657);
             groupBox1.TabIndex = 53;
             groupBox1.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(378, 27);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(127, 100);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 93;
+            pictureBox1.TabStop = false;
             // 
             // labelTag
             // 
@@ -259,16 +269,6 @@
             // 
             ErrorTicketProvider.ContainerControl = this;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(371, 27);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(134, 92);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 93;
-            pictureBox1.TabStop = false;
-            // 
             // AddTicketClient
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -281,8 +281,8 @@
             Text = "AddEditTicket";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)ErrorTicketProvider).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ErrorTicketProvider).EndInit();
             ResumeLayout(false);
         }
 
