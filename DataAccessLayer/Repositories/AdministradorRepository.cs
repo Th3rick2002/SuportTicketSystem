@@ -62,6 +62,20 @@ public class AdministradorRepository : IAdministradorRepository
             command.ExecuteNonQuery();
         }
     }
+
+    //consulta para eliminar cuentas de administrador
+    public void deleteAdministrador(int administradorId)
+    {
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
+        {
+            string query = "DELETE FROM Administrador WHERE Id = @Id";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@Id", administradorId);
+            connection.Open();
+            
+            command.ExecuteNonQuery();
+        }
+    }
     
     //metodo para validar el email y password
     public administrador GetByEmailAndPassword(string email, string password)

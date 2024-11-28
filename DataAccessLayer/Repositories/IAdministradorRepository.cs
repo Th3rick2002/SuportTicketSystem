@@ -8,5 +8,7 @@ public interface IAdministradorRepository
     DataTable GetAdmins();
     void AddAdministrador(administrador administrador);
     void UpdateAdministrador(administrador administrador);
+    
+    void deleteAdministrador(int id);
     administrador GetByEmailAndPassword(string email, string password);
 }
