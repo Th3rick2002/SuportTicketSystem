@@ -32,7 +32,7 @@
             btnExit = new Button();
             btnAdd = new Button();
             lblClient = new Label();
-            pictureBox1 = new PictureBox();
+            pictureBoxCustomer = new PictureBox();
             FirstName = new DataGridViewTextBoxColumn();
             Tag = new DataGridViewTextBoxColumn();
             Categorie = new DataGridViewTextBoxColumn();
@@ -40,17 +40,19 @@
             Priority = new DataGridViewTextBoxColumn();
             DescriptionTicket = new DataGridViewTextBoxColumn();
             NameTicket = new DataGridViewTextBoxColumn();
-            dataGridViewTicket = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).BeginInit();
+            dataGridViewCustomer = new DataGridView();
+            textBoxCustomer = new TextBox();
+            CustomertextBox = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxCustomer).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewCustomer).BeginInit();
             SuspendLayout();
             // 
             // btnExit
             // 
-            btnExit.BackColor = Color.FromArgb(157, 178, 191);
+            btnExit.BackColor = Color.FromArgb(235, 239, 242);
             btnExit.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnExit.ForeColor = Color.Black;
-            btnExit.Location = new Point(1064, 409);
+            btnExit.Location = new Point(1110, 392);
             btnExit.Margin = new Padding(4, 5, 4, 5);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(161, 47);
@@ -61,10 +63,10 @@
             // 
             // btnAdd
             // 
-            btnAdd.BackColor = Color.FromArgb(157, 178, 191);
+            btnAdd.BackColor = Color.FromArgb(235, 239, 242);
             btnAdd.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnAdd.ForeColor = Color.Black;
-            btnAdd.Location = new Point(1064, 308);
+            btnAdd.Location = new Point(1110, 270);
             btnAdd.Margin = new Padding(4, 5, 4, 5);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(161, 49);
@@ -76,26 +78,28 @@
             // lblClient
             // 
             lblClient.AutoSize = true;
-            lblClient.BackColor = Color.Transparent;
+            lblClient.BackColor = Color.FromArgb(207, 206, 242);
             lblClient.Font = new Font("Arial", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblClient.ForeColor = Color.GhostWhite;
-            lblClient.Location = new Point(41, 58);
+            lblClient.ForeColor = Color.Black;
+            lblClient.Location = new Point(13, 17);
             lblClient.Margin = new Padding(4, 0, 4, 0);
             lblClient.Name = "lblClient";
             lblClient.Size = new Size(400, 46);
             lblClient.TabIndex = 29;
             lblClient.Text = "PANEL DE CLIENTE";
             // 
-            // pictureBox1
+            // pictureBoxCustomer
             // 
-            pictureBox1.BackColor = Color.FromArgb(82, 109, 130);
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(1064, 117);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(161, 154);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 42;
-            pictureBox1.TabStop = false;
+            pictureBoxCustomer.BackColor = Color.FromArgb(207, 206, 242);
+            pictureBoxCustomer.BackgroundImageLayout = ImageLayout.None;
+            pictureBoxCustomer.BorderStyle = BorderStyle.Fixed3D;
+            pictureBoxCustomer.Image = (Image)resources.GetObject("pictureBoxCustomer.Image");
+            pictureBoxCustomer.Location = new Point(1110, 27);
+            pictureBoxCustomer.Name = "pictureBoxCustomer";
+            pictureBoxCustomer.Size = new Size(161, 154);
+            pictureBoxCustomer.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxCustomer.TabIndex = 42;
+            pictureBoxCustomer.TabStop = false;
             // 
             // FirstName
             // 
@@ -146,34 +150,57 @@
             NameTicket.Name = "NameTicket";
             NameTicket.Width = 125;
             // 
-            // dataGridViewTicket
+            // dataGridViewCustomer
             // 
-            dataGridViewTicket.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewTicket.Columns.AddRange(new DataGridViewColumn[] { NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, FirstName });
-            dataGridViewTicket.Location = new Point(41, 148);
-            dataGridViewTicket.Margin = new Padding(3, 4, 3, 4);
-            dataGridViewTicket.Name = "dataGridViewTicket";
-            dataGridViewTicket.RowHeadersWidth = 51;
-            dataGridViewTicket.Size = new Size(928, 535);
-            dataGridViewTicket.TabIndex = 43;
+            dataGridViewCustomer.BackgroundColor = Color.FromArgb(207, 206, 242);
+            dataGridViewCustomer.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCustomer.Columns.AddRange(new DataGridViewColumn[] { NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, FirstName });
+            dataGridViewCustomer.Location = new Point(66, 121);
+            dataGridViewCustomer.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewCustomer.Name = "dataGridViewCustomer";
+            dataGridViewCustomer.RowHeadersWidth = 51;
+            dataGridViewCustomer.Size = new Size(929, 562);
+            dataGridViewCustomer.TabIndex = 43;
+            // 
+            // textBoxCustomer
+            // 
+            textBoxCustomer.BackColor = Color.FromArgb(207, 206, 242);
+            textBoxCustomer.Dock = DockStyle.Right;
+            textBoxCustomer.Location = new Point(1064, 0);
+            textBoxCustomer.Multiline = true;
+            textBoxCustomer.Name = "textBoxCustomer";
+            textBoxCustomer.Size = new Size(256, 749);
+            textBoxCustomer.TabIndex = 44;
+            // 
+            // CustomertextBox
+            // 
+            CustomertextBox.BackColor = Color.FromArgb(207, 206, 242);
+            CustomertextBox.Dock = DockStyle.Top;
+            CustomertextBox.Location = new Point(0, 0);
+            CustomertextBox.Multiline = true;
+            CustomertextBox.Name = "CustomertextBox";
+            CustomertextBox.Size = new Size(1064, 83);
+            CustomertextBox.TabIndex = 45;
             // 
             // FormClient
             // 
             AutoScaleDimensions = new SizeF(10F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(82, 109, 130);
+            BackColor = Color.FromArgb(170, 167, 242);
             ClientSize = new Size(1320, 749);
-            Controls.Add(dataGridViewTicket);
-            Controls.Add(pictureBox1);
+            Controls.Add(lblClient);
+            Controls.Add(CustomertextBox);
             Controls.Add(btnExit);
             Controls.Add(btnAdd);
-            Controls.Add(lblClient);
+            Controls.Add(pictureBoxCustomer);
+            Controls.Add(textBoxCustomer);
+            Controls.Add(dataGridViewCustomer);
             Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             Margin = new Padding(4, 5, 4, 5);
             Name = "FormClient";
             Text = "RequestForm";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxCustomer).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewCustomer).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -183,7 +210,7 @@
         private Button btnAdd;
         private Label lblClient;
         private TextBox textBox2;
-        private PictureBox pictureBox1;
+        private PictureBox pictureBoxCustomer;
         private DataGridViewTextBoxColumn FirstName;
         private DataGridViewTextBoxColumn Tag;
         private DataGridViewTextBoxColumn Categorie;
@@ -191,6 +218,8 @@
         private DataGridViewTextBoxColumn Priority;
         private DataGridViewTextBoxColumn DescriptionTicket;
         private DataGridViewTextBoxColumn NameTicket;
-        private DataGridView dataGridViewTicket;
+        private DataGridView dataGridViewCustomer;
+        private TextBox textBoxCustomer;
+        private TextBox CustomertextBox;
     }
 }

@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAdministrator));
             dataGridViewAdmin = new DataGridView();
-            panel1 = new Panel();
-            labelAgent = new Label();
             textBox2 = new TextBox();
             btnUpdate = new Button();
             LabelNombre = new Label();
@@ -42,50 +40,35 @@
             btnDelete = new Button();
             pictureBox3 = new PictureBox();
             panel2 = new Panel();
+            pictureBox2 = new PictureBox();
+            labelAgent = new Label();
+            panel1 = new Panel();
+            label1 = new Label();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridViewAdmin).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // dataGridViewAdmin
             // 
             dataGridViewAdmin.BackgroundColor = Color.FromArgb(235, 239, 242);
             dataGridViewAdmin.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAdmin.Location = new Point(57, 188);
+            dataGridViewAdmin.Location = new Point(40, 162);
             dataGridViewAdmin.Margin = new Padding(3, 4, 3, 4);
             dataGridViewAdmin.Name = "dataGridViewAdmin";
             dataGridViewAdmin.RowHeadersWidth = 51;
             dataGridViewAdmin.Size = new Size(765, 497);
             dataGridViewAdmin.TabIndex = 41;
             // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(207, 206, 242);
-            panel1.BorderStyle = BorderStyle.Fixed3D;
-            panel1.ForeColor = Color.Black;
-            panel1.Location = new Point(1, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1158, 97);
-            panel1.TabIndex = 56;
-            // 
-            // labelAgent
-            // 
-            labelAgent.AutoSize = true;
-            labelAgent.BackColor = Color.FromArgb(207, 206, 242);
-            labelAgent.Font = new Font("Arial", 24F, FontStyle.Bold | FontStyle.Italic);
-            labelAgent.ForeColor = Color.Black;
-            labelAgent.Location = new Point(31, 16);
-            labelAgent.Name = "labelAgent";
-            labelAgent.Size = new Size(478, 46);
-            labelAgent.TabIndex = 40;
-            labelAgent.Text = "Panel de Administracion";
-            // 
             // textBox2
             // 
             textBox2.BackColor = Color.FromArgb(235, 239, 242);
             textBox2.ForeColor = SystemColors.ActiveCaptionText;
-            textBox2.Location = new Point(33, 68);
+            textBox2.Location = new Point(33, 221);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(210, 47);
@@ -96,7 +79,7 @@
             btnUpdate.BackColor = Color.FromArgb(235, 239, 242);
             btnUpdate.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnUpdate.ForeColor = SystemColors.ActiveCaptionText;
-            btnUpdate.Location = new Point(30, 238);
+            btnUpdate.Location = new Point(30, 391);
             btnUpdate.Margin = new Padding(3, 4, 3, 4);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(210, 59);
@@ -120,7 +103,7 @@
             btnAdd.BackColor = Color.FromArgb(235, 239, 242);
             btnAdd.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnAdd.ForeColor = SystemColors.ActiveCaptionText;
-            btnAdd.Location = new Point(30, 137);
+            btnAdd.Location = new Point(30, 290);
             btnAdd.Margin = new Padding(3, 4, 3, 4);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(210, 57);
@@ -135,7 +118,7 @@
             texIdLabel.BackColor = Color.FromArgb(235, 239, 242);
             texIdLabel.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             texIdLabel.ForeColor = Color.Black;
-            texIdLabel.Location = new Point(48, 80);
+            texIdLabel.Location = new Point(48, 233);
             texIdLabel.Name = "texIdLabel";
             texIdLabel.Size = new Size(36, 23);
             texIdLabel.TabIndex = 45;
@@ -145,7 +128,7 @@
             // 
             pictureBox1.BackColor = Color.FromArgb(235, 239, 242);
             pictureBox1.Image = Properties.Resources.salvado;
-            pictureBox1.Location = new Point(48, 249);
+            pictureBox1.Location = new Point(48, 402);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(35, 37);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -159,7 +142,7 @@
             labelIdAdmin.BackColor = Color.DarkSlateGray;
             labelIdAdmin.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelIdAdmin.ForeColor = Color.MintCream;
-            labelIdAdmin.Location = new Point(115, 80);
+            labelIdAdmin.Location = new Point(115, 111);
             labelIdAdmin.Name = "labelIdAdmin";
             labelIdAdmin.Size = new Size(0, 23);
             labelIdAdmin.TabIndex = 44;
@@ -169,7 +152,7 @@
             btnDelete.BackColor = Color.FromArgb(235, 239, 242);
             btnDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             btnDelete.ForeColor = SystemColors.ActiveCaptionText;
-            btnDelete.Location = new Point(33, 326);
+            btnDelete.Location = new Point(33, 479);
             btnDelete.Margin = new Padding(3, 4, 3, 4);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(213, 59);
@@ -182,7 +165,7 @@
             // 
             pictureBox3.BackColor = Color.FromArgb(235, 239, 242);
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(51, 341);
+            pictureBox3.Location = new Point(51, 494);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(38, 32);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -192,6 +175,7 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(207, 206, 242);
+            panel2.Controls.Add(pictureBox2);
             panel2.Controls.Add(pictureBox3);
             panel2.Controls.Add(btnDelete);
             panel2.Controls.Add(labelIdAdmin);
@@ -202,11 +186,69 @@
             panel2.Controls.Add(btnUpdate);
             panel2.Controls.Add(textBox2);
             panel2.ForeColor = Color.Black;
-            panel2.Location = new Point(870, 99);
+            panel2.Location = new Point(870, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(259, 685);
+            panel2.Size = new Size(259, 784);
             panel2.TabIndex = 57;
             panel2.Paint += panel2_Paint;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.FromArgb(207, 206, 242);
+            pictureBox2.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(51, 43);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(161, 153);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 56;
+            pictureBox2.TabStop = false;
+            // 
+            // labelAgent
+            // 
+            labelAgent.AutoSize = true;
+            labelAgent.BackColor = Color.FromArgb(207, 206, 242);
+            labelAgent.Font = new Font("Berlin Sans FB", 26.25F, FontStyle.Bold);
+            labelAgent.ForeColor = Color.Black;
+            labelAgent.Location = new Point(11, 34);
+            labelAgent.Name = "labelAgent";
+            labelAgent.Size = new Size(538, 56);
+            labelAgent.TabIndex = 40;
+            labelAgent.Text = "Panel de Administracion";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(207, 206, 242);
+            panel1.Controls.Add(labelAgent);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(label3);
+            panel1.ForeColor = Color.Black;
+            panel1.Location = new Point(1, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(880, 98);
+            panel1.TabIndex = 58;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.DarkSlateGray;
+            label1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            label1.ForeColor = Color.MintCream;
+            label1.Location = new Point(115, 80);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 23);
+            label1.TabIndex = 44;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.DarkSlateGray;
+            label3.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            label3.ForeColor = Color.MintCream;
+            label3.Location = new Point(33, 542);
+            label3.Name = "label3";
+            label3.Size = new Size(0, 23);
+            label3.TabIndex = 47;
             // 
             // FormAdministrator
             // 
@@ -214,10 +256,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(170, 167, 242);
             ClientSize = new Size(1129, 730);
-            Controls.Add(labelAgent);
             Controls.Add(dataGridViewAdmin);
-            Controls.Add(panel1);
             Controls.Add(panel2);
+            Controls.Add(panel1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormAdministrator";
             Text = "AdminForm";
@@ -226,16 +267,16 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
         private Label label5;
         private Label label6;
         private DataGridView dataGridViewAdmin;
-        private Panel panel1;
-        private Label labelAgent;
         private TextBox textBox2;
         private Button btnUpdate;
         private Label LabelNombre;
@@ -246,5 +287,10 @@
         private Button btnDelete;
         private PictureBox pictureBox3;
         private Panel panel2;
+        private PictureBox pictureBox2;
+        private Label labelAgent;
+        private Panel panel1;
+        private Label label1;
+        private Label label3;
     }
 }

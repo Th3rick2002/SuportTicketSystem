@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddTicketClient));
             groupBox1 = new GroupBox();
             labelTag = new Label();
             comboBoxTag = new ComboBox();
@@ -48,13 +49,16 @@
             DescriptionTicketTextBox = new TextBox();
             nameTicketTextBox = new TextBox();
             ErrorTicketProvider = new ErrorProvider(components);
+            pictureBox1 = new PictureBox();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ErrorTicketProvider).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
             // 
-            groupBox1.BackColor = Color.FromArgb(235, 239, 242);
+            groupBox1.BackColor = Color.FromArgb(207, 206, 242);
+            groupBox1.Controls.Add(pictureBox1);
             groupBox1.Controls.Add(labelTag);
             groupBox1.Controls.Add(comboBoxTag);
             groupBox1.Controls.Add(comboBox3);
@@ -76,7 +80,7 @@
             groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(3, 4, 3, 4);
-            groupBox1.Size = new Size(849, 607);
+            groupBox1.Size = new Size(849, 657);
             groupBox1.TabIndex = 53;
             groupBox1.TabStop = false;
             // 
@@ -84,7 +88,7 @@
             // 
             labelTag.AutoSize = true;
             labelTag.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelTag.Location = new Point(160, 452);
+            labelTag.Location = new Point(162, 486);
             labelTag.Margin = new Padding(5, 0, 5, 0);
             labelTag.Name = "labelTag";
             labelTag.Size = new Size(73, 23);
@@ -94,7 +98,7 @@
             // comboBoxTag
             // 
             comboBoxTag.FormattingEnabled = true;
-            comboBoxTag.Location = new Point(160, 489);
+            comboBoxTag.Location = new Point(162, 523);
             comboBoxTag.Name = "comboBoxTag";
             comboBoxTag.Size = new Size(555, 28);
             comboBoxTag.TabIndex = 91;
@@ -102,7 +106,7 @@
             // comboBox3
             // 
             comboBox3.FormattingEnabled = true;
-            comboBox3.Location = new Point(160, 408);
+            comboBox3.Location = new Point(162, 442);
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(555, 28);
             comboBox3.TabIndex = 90;
@@ -110,7 +114,7 @@
             // PrioritycomboBox
             // 
             PrioritycomboBox.FormattingEnabled = true;
-            PrioritycomboBox.Location = new Point(160, 309);
+            PrioritycomboBox.Location = new Point(162, 343);
             PrioritycomboBox.Name = "PrioritycomboBox";
             PrioritycomboBox.Size = new Size(555, 28);
             PrioritycomboBox.TabIndex = 89;
@@ -119,7 +123,7 @@
             // 
             LabelCategori.AutoSize = true;
             LabelCategori.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            LabelCategori.Location = new Point(160, 371);
+            LabelCategori.Location = new Point(162, 405);
             LabelCategori.Margin = new Padding(5, 0, 5, 0);
             LabelCategori.Name = "LabelCategori";
             LabelCategori.Size = new Size(84, 23);
@@ -169,7 +173,7 @@
             // 
             Priority.AutoSize = true;
             Priority.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            Priority.Location = new Point(160, 270);
+            Priority.Location = new Point(162, 304);
             Priority.Margin = new Padding(5, 0, 5, 0);
             Priority.Name = "Priority";
             Priority.Size = new Size(79, 23);
@@ -191,7 +195,7 @@
             // 
             btnSave.BackColor = Color.FromArgb(235, 239, 242);
             btnSave.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnSave.Location = new Point(244, 537);
+            btnSave.Location = new Point(246, 571);
             btnSave.Margin = new Padding(5, 4, 5, 4);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(135, 44);
@@ -204,7 +208,7 @@
             // 
             btnExit.BackColor = Color.FromArgb(235, 239, 242);
             btnExit.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnExit.Location = new Point(484, 537);
+            btnExit.Location = new Point(486, 571);
             btnExit.Margin = new Padding(5, 4, 5, 4);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(135, 44);
@@ -217,7 +221,7 @@
             // 
             labelDescripcionTiket.AutoSize = true;
             labelDescripcionTiket.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelDescripcionTiket.Location = new Point(160, 182);
+            labelDescripcionTiket.Location = new Point(162, 216);
             labelDescripcionTiket.Margin = new Padding(5, 0, 5, 0);
             labelDescripcionTiket.Name = "labelDescripcionTiket";
             labelDescripcionTiket.Size = new Size(175, 23);
@@ -228,7 +232,7 @@
             // 
             labelNameTicket.AutoSize = true;
             labelNameTicket.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            labelNameTicket.Location = new Point(160, 100);
+            labelNameTicket.Location = new Point(162, 134);
             labelNameTicket.Margin = new Padding(5, 0, 5, 0);
             labelNameTicket.Name = "labelNameTicket";
             labelNameTicket.Size = new Size(73, 23);
@@ -237,7 +241,7 @@
             // 
             // DescriptionTicketTextBox
             // 
-            DescriptionTicketTextBox.Location = new Point(160, 211);
+            DescriptionTicketTextBox.Location = new Point(162, 245);
             DescriptionTicketTextBox.Margin = new Padding(5, 7, 5, 7);
             DescriptionTicketTextBox.Name = "DescriptionTicketTextBox";
             DescriptionTicketTextBox.Size = new Size(555, 27);
@@ -245,7 +249,7 @@
             // 
             // nameTicketTextBox
             // 
-            nameTicketTextBox.Location = new Point(160, 132);
+            nameTicketTextBox.Location = new Point(162, 166);
             nameTicketTextBox.Margin = new Padding(5, 7, 5, 7);
             nameTicketTextBox.Name = "nameTicketTextBox";
             nameTicketTextBox.Size = new Size(555, 27);
@@ -255,11 +259,21 @@
             // 
             ErrorTicketProvider.ContainerControl = this;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(371, 27);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(134, 92);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 93;
+            pictureBox1.TabStop = false;
+            // 
             // AddTicketClient
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(82, 109, 130);
+            BackColor = Color.FromArgb(170, 167, 242);
             ClientSize = new Size(1086, 697);
             Controls.Add(groupBox1);
             Margin = new Padding(3, 4, 3, 4);
@@ -268,6 +282,7 @@
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)ErrorTicketProvider).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -292,5 +307,6 @@
         private ComboBox PrioritycomboBox;
         private Label labelTag;
         private ErrorProvider ErrorTicketProvider;
+        private PictureBox pictureBox1;
     }
 }

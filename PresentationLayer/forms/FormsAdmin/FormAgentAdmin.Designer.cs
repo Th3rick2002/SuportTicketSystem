@@ -127,9 +127,9 @@
             pictureAgent.BackColor = Color.FromArgb(207, 206, 242);
             pictureAgent.BorderStyle = BorderStyle.Fixed3D;
             pictureAgent.Image = (Image)resources.GetObject("pictureAgent.Image");
-            pictureAgent.Location = new Point(940, 33);
+            pictureAgent.Location = new Point(949, 35);
             pictureAgent.Name = "pictureAgent";
-            pictureAgent.Size = new Size(161, 154);
+            pictureAgent.Size = new Size(152, 141);
             pictureAgent.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureAgent.TabIndex = 53;
             pictureAgent.TabStop = false;
