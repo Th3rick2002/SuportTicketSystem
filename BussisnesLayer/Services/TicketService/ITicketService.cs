@@ -5,8 +5,9 @@ namespace BussisnesLayer.Services.TicketService;
 
 public interface ITicketService
 {
-    public DataTable GetTicketsByClient();
-    public void AddTicked(Ticket ticket, Client client);
-    public void UpdateTicketByAdmin(Ticket ticket, Agent agent);
+    DataTable GetTickets();
+    bool AddTicked(Ticket ticket, Client client);
+    bool UpdateTicketByAdmin(Ticket ticket, Agent agent);
+    public bool DeleteTicket(Ticket ticket, Agent agent);
     
 }

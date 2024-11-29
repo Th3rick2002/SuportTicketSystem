@@ -38,7 +38,7 @@ public class AgentRepository : IAgentRepository
     {
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string quey = "INSERT INTO Agent(FirstName, LastName, Email, Password, availability, IdRol) VALUES (@FirstName, @LastName, @Email, @Password, 0, 2)";
+            string quey = "INSERT INTO Agent(FirstName, LastName, Email, Password, availability, IdRol) VALUES (@FirstName, @LastName, @Email, @Password, 0, 3)";
             SqlCommand command = new SqlCommand(quey, connection);
             command.Parameters.AddWithValue("@FirstName", agent.FirstName);
             command.Parameters.AddWithValue("@LastName", agent.LastName);

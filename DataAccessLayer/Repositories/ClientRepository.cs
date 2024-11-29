@@ -38,7 +38,7 @@ public class ClientRepository : IClientRepository
     {
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string quey = "INSERT INTO Client(FirstName, LastName, Email, Password, IdRol) VALUES (@FirstName, @LastName, @Email, @Password, 3)";
+            string quey = "INSERT INTO Client(FirstName, LastName, Email, Password, IdRol) VALUES (@FirstName, @LastName, @Email, @Password, 4)";
             SqlCommand command = new SqlCommand(quey, connection);
             command.Parameters.AddWithValue("@FirstName", client.FirstName);
             command.Parameters.AddWithValue("@LastName", client.LastName);

@@ -21,11 +21,7 @@ public class LogsRepository : ILogsRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            //string queryDApper = "spCAtegories_Delete";
-            //connection.Execute(queryDApper,new { id}
-            //, commandType: CommandType.StoredProcedure);
-            
-            string query = 
+            string query =
                 "SELECT"+
                     "Logs.Id,"+
                     "Logs.TicketId,"+    
@@ -43,21 +39,5 @@ public class LogsRepository : ILogsRepository
         }
         
         return LogsTable;
-    }
-
-    public void InsertLog(Logs logs)
-    {
-        using (var connection = (SqlConnection)_dbConnection.GetConnection())
-        {
-            string query = "INSERT INTO Logs(TicketId, ClientId, AgentId, Time, Details) VALUES(@TicketId, @ClientId, @AgentId, GETDATE(), @Details)";
-            SqlCommand command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@TicketId", logs.TicketId);
-            command.Parameters.AddWithValue("@ClientId", logs.AgentId);
-            command.Parameters.AddWithValue("@AgentId", logs.AgentId);
-            command.Parameters.AddWithValue("@Details", logs.Details);
-            connection.Open();
-            
-            command.ExecuteNonQuery();
-        }
     }
 }

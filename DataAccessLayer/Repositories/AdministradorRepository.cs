@@ -21,7 +21,7 @@ public class AdministradorRepository : IAdministradorRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "SELECT * FROM Administrador";
+            string query = "SELECT * FROM Administrador WHERE IdRol = 2";
             SqlCommand command = new SqlCommand(query, connection);
             
             connection.Open();
