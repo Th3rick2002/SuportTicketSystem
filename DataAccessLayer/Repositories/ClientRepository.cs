@@ -111,4 +111,19 @@ public class ClientRepository : IClientRepository
         
         return client;
     }
+
+    //metodo para validar si el email ya existe en la base de datos
+    public bool VerifyEmailExist(string email)
+    {
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
+        {
+            string query = "SELECT COUNT(1) FROM Client WHERE Email = @Email";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.Add("@Email", SqlDbType.NVarChar, 100).Value = email;
+            connection.Open();
+
+            // Devuelve true si el conteo es mayor que 0
+            return (int)command.ExecuteScalar() > 0;
+        }
+    }
 }

@@ -9,4 +9,5 @@ public interface IclientService
     public void InsertClient(Client client);
     public void UpdateClient(Client client);
     public void DeleteClient(int id);
+    public bool VerifyEmailExist(string email);
 }

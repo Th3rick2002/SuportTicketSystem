@@ -22,7 +22,7 @@ public class TicketRepository : ITicketRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "SELECT NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Client, Id_Agent FROM Ticket";
+            string query = "SELECT NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Agent FROM Ticket";
             
             using (var reader = connection.ExecuteReader(query))
             {
@@ -35,7 +35,7 @@ public class TicketRepository : ITicketRepository
 
 
     //metodo para agregar ticket
-    public bool AddTicked(Ticket ticket, Client client)
+    public bool AddTicked(Ticket ticket)
     {
         try
         {
@@ -67,7 +67,7 @@ public class TicketRepository : ITicketRepository
     }
 
     //metodo para actualizar ticket
-    public bool UpdateTicketByAdmin(Ticket ticket, Agent agent)
+    public bool UpdateTicketByAdmin(Ticket ticket)
     {
         try
         {
@@ -83,7 +83,7 @@ public class TicketRepository : ITicketRepository
                     @Categorie = ticket.categorie,
                     @Tag = ticket.tag,
                     @Id_Client = ticket.IdClient,
-                    @AgentId = agent.IdAgent,
+                    @AgentId = ticket.IdAgent,
                     @Details = "Actualización del ticket"
                 };
                 
@@ -99,7 +99,7 @@ public class TicketRepository : ITicketRepository
     }
 
     
-    public bool DeleteTicket(Ticket ticket, Agent agent)
+    public bool DeleteTicket(Ticket ticket)
     {
         try
         {
@@ -109,7 +109,7 @@ public class TicketRepository : ITicketRepository
                 {
                     @TicketId = ticket.IdTicket,
                     @Id_Client = ticket.IdClient,
-                    @AgentId = agent.IdAgent,
+                    @AgentId = ticket.IdAgent,
                     @Details = "Eliminación del ticket"
                 };
                 var result = connection.Execute("sp_EliminarTicketYLog", parameters, commandType: CommandType.StoredProcedure);

@@ -32,4 +32,9 @@ public class clientService: IclientService
     {
         _clientRepository.DeleteClient(id);
     }
+
+    public bool VerifyEmailExist(string email)
+    {
+        return _clientRepository.VerifyEmailExist(email);
+    }
 }

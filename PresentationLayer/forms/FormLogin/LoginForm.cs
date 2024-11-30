@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using BussisnesLayer.Services;
 using PresentationLayer.forms.FormAgent;
+using DataAccessLayer.Repositories;
+using CommonLayer.Entities;
 
 namespace PresentationLayer.forms
 {
@@ -60,7 +62,16 @@ namespace PresentationLayer.forms
                 }
                 else if (user.Role == "Cliente")
                 {
-                    nextForm = new FormClient();
+                    Client client = new Client
+                    {
+                        IdClient = user.Id,           
+                        FirstName = user.Username.Split(' ')[0],  
+                        LastName = user.Username.Split(' ')[1],   
+                        Email = username,                
+                        Password = password,             
+                        idRol = 4                         
+                    };
+                    nextForm = new FormClient(client);
                 }
 
                 if (nextForm != null)

@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(registerForm));
             btnSave = new Button();
             textBoxName = new TextBox();
-            textBoxFirstname = new TextBox();
+            textBoxLastName = new TextBox();
             labelName = new Label();
             labelFirstName = new Label();
             labelGmail = new Label();
-            textBoxGmail = new TextBox();
+            textBoxEmail = new TextBox();
             labelPasword = new Label();
             textBoxPasword = new TextBox();
             labelVerifyPassword = new Label();
@@ -57,10 +57,9 @@
             // 
             btnSave.BackColor = Color.FromArgb(235, 239, 242);
             btnSave.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnSave.Location = new Point(17, 408);
-            btnSave.Margin = new Padding(3, 4, 3, 4);
+            btnSave.Location = new Point(15, 306);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(151, 43);
+            btnSave.Size = new Size(132, 32);
             btnSave.TabIndex = 8;
             btnSave.Text = "Guardar";
             btnSave.UseVisualStyleBackColor = false;
@@ -68,19 +67,17 @@
             // 
             // textBoxName
             // 
-            textBoxName.Location = new Point(17, 46);
-            textBoxName.Margin = new Padding(3, 4, 3, 4);
+            textBoxName.Location = new Point(15, 34);
             textBoxName.Name = "textBoxName";
-            textBoxName.Size = new Size(350, 27);
+            textBoxName.Size = new Size(307, 23);
             textBoxName.TabIndex = 6;
             // 
-            // textBoxFirstname
+            // textBoxLastName
             // 
-            textBoxFirstname.Location = new Point(17, 115);
-            textBoxFirstname.Margin = new Padding(3, 4, 3, 4);
-            textBoxFirstname.Name = "textBoxFirstname";
-            textBoxFirstname.Size = new Size(350, 27);
-            textBoxFirstname.TabIndex = 12;
+            textBoxLastName.Location = new Point(15, 86);
+            textBoxLastName.Name = "textBoxLastName";
+            textBoxLastName.Size = new Size(307, 23);
+            textBoxLastName.TabIndex = 12;
             // 
             // labelName
             // 
@@ -88,9 +85,9 @@
             labelName.BackColor = Color.FromArgb(207, 206, 242);
             labelName.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelName.ForeColor = SystemColors.ActiveCaptionText;
-            labelName.Location = new Point(17, 19);
+            labelName.Location = new Point(15, 14);
             labelName.Name = "labelName";
-            labelName.Size = new Size(80, 23);
+            labelName.Size = new Size(66, 19);
             labelName.TabIndex = 13;
             labelName.Text = "Nombres";
             // 
@@ -100,9 +97,9 @@
             labelFirstName.BackColor = Color.FromArgb(207, 206, 242);
             labelFirstName.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelFirstName.ForeColor = SystemColors.ActiveCaptionText;
-            labelFirstName.Location = new Point(17, 88);
+            labelFirstName.Location = new Point(15, 66);
             labelFirstName.Name = "labelFirstName";
-            labelFirstName.Size = new Size(77, 23);
+            labelFirstName.Size = new Size(65, 19);
             labelFirstName.TabIndex = 14;
             labelFirstName.Text = "apellidos";
             // 
@@ -112,19 +109,18 @@
             labelGmail.BackColor = Color.FromArgb(207, 206, 242);
             labelGmail.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelGmail.ForeColor = SystemColors.ActiveCaptionText;
-            labelGmail.Location = new Point(17, 163);
+            labelGmail.Location = new Point(15, 122);
             labelGmail.Name = "labelGmail";
-            labelGmail.Size = new Size(59, 23);
+            labelGmail.Size = new Size(49, 19);
             labelGmail.TabIndex = 16;
             labelGmail.Text = "correo";
             // 
-            // textBoxGmail
+            // textBoxEmail
             // 
-            textBoxGmail.Location = new Point(17, 190);
-            textBoxGmail.Margin = new Padding(3, 4, 3, 4);
-            textBoxGmail.Name = "textBoxGmail";
-            textBoxGmail.Size = new Size(350, 27);
-            textBoxGmail.TabIndex = 15;
+            textBoxEmail.Location = new Point(15, 142);
+            textBoxEmail.Name = "textBoxEmail";
+            textBoxEmail.Size = new Size(307, 23);
+            textBoxEmail.TabIndex = 15;
             // 
             // labelPasword
             // 
@@ -132,19 +128,19 @@
             labelPasword.BackColor = Color.FromArgb(207, 206, 242);
             labelPasword.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelPasword.ForeColor = SystemColors.ActiveCaptionText;
-            labelPasword.Location = new Point(17, 235);
+            labelPasword.Location = new Point(15, 176);
             labelPasword.Name = "labelPasword";
-            labelPasword.Size = new Size(97, 23);
+            labelPasword.Size = new Size(79, 19);
             labelPasword.TabIndex = 18;
             labelPasword.Text = "Contraseña";
             // 
             // textBoxPasword
             // 
-            textBoxPasword.Location = new Point(17, 262);
-            textBoxPasword.Margin = new Padding(3, 4, 3, 4);
+            textBoxPasword.Location = new Point(15, 196);
             textBoxPasword.Name = "textBoxPasword";
-            textBoxPasword.Size = new Size(350, 27);
+            textBoxPasword.Size = new Size(307, 23);
             textBoxPasword.TabIndex = 17;
+            textBoxPasword.UseSystemPasswordChar = true;
             // 
             // labelVerifyPassword
             // 
@@ -152,28 +148,27 @@
             labelVerifyPassword.BackColor = Color.FromArgb(207, 206, 242);
             labelVerifyPassword.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelVerifyPassword.ForeColor = SystemColors.ActiveCaptionText;
-            labelVerifyPassword.Location = new Point(17, 323);
+            labelVerifyPassword.Location = new Point(15, 242);
             labelVerifyPassword.Name = "labelVerifyPassword";
-            labelVerifyPassword.Size = new Size(160, 23);
+            labelVerifyPassword.Size = new Size(131, 19);
             labelVerifyPassword.TabIndex = 20;
             labelVerifyPassword.Text = "Verficar Contraseña";
             // 
             // textBoxVerifyPassword
             // 
-            textBoxVerifyPassword.Location = new Point(17, 350);
-            textBoxVerifyPassword.Margin = new Padding(3, 4, 3, 4);
+            textBoxVerifyPassword.Location = new Point(15, 262);
             textBoxVerifyPassword.Name = "textBoxVerifyPassword";
-            textBoxVerifyPassword.Size = new Size(350, 27);
+            textBoxVerifyPassword.Size = new Size(307, 23);
             textBoxVerifyPassword.TabIndex = 19;
+            textBoxVerifyPassword.UseSystemPasswordChar = true;
             // 
             // btnExit
             // 
             btnExit.BackColor = Color.FromArgb(235, 239, 242);
             btnExit.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnExit.Location = new Point(204, 408);
-            btnExit.Margin = new Padding(3, 4, 3, 4);
+            btnExit.Location = new Point(178, 306);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(149, 43);
+            btnExit.Size = new Size(130, 32);
             btnExit.TabIndex = 21;
             btnExit.Text = "Salir";
             btnExit.UseVisualStyleBackColor = false;
@@ -184,20 +179,21 @@
             textBox1.BackColor = Color.FromArgb(207, 206, 242);
             textBox1.Dock = DockStyle.Top;
             textBox1.Location = new Point(0, 0);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(914, 69);
+            textBox1.Size = new Size(800, 53);
             textBox1.TabIndex = 22;
             // 
             // labelRegisterNewTicket
             // 
             labelRegisterNewTicket.AutoSize = true;
             labelRegisterNewTicket.BackColor = Color.FromArgb(207, 206, 242);
-            labelRegisterNewTicket.Font = new Font("Stencil", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelRegisterNewTicket.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelRegisterNewTicket.ForeColor = SystemColors.ActiveCaptionText;
-            labelRegisterNewTicket.Location = new Point(12, 9);
+            labelRegisterNewTicket.Location = new Point(10, 7);
             labelRegisterNewTicket.Name = "labelRegisterNewTicket";
-            labelRegisterNewTicket.Size = new Size(598, 47);
+            labelRegisterNewTicket.Size = new Size(412, 37);
             labelRegisterNewTicket.TabIndex = 23;
             labelRegisterNewTicket.Text = "Registro de Nuevo Cliente";
             // 
@@ -215,12 +211,14 @@
             groupBoxRegister.Controls.Add(btnSave);
             groupBoxRegister.Controls.Add(textBoxName);
             groupBoxRegister.Controls.Add(textBoxVerifyPassword);
-            groupBoxRegister.Controls.Add(textBoxFirstname);
-            groupBoxRegister.Controls.Add(textBoxGmail);
+            groupBoxRegister.Controls.Add(textBoxLastName);
+            groupBoxRegister.Controls.Add(textBoxEmail);
             groupBoxRegister.Controls.Add(textBoxPasword);
-            groupBoxRegister.Location = new Point(59, 97);
+            groupBoxRegister.Location = new Point(52, 73);
+            groupBoxRegister.Margin = new Padding(3, 2, 3, 2);
             groupBoxRegister.Name = "groupBoxRegister";
-            groupBoxRegister.Size = new Size(382, 475);
+            groupBoxRegister.Padding = new Padding(3, 2, 3, 2);
+            groupBoxRegister.Size = new Size(334, 356);
             groupBoxRegister.TabIndex = 24;
             groupBoxRegister.TabStop = false;
             // 
@@ -228,9 +226,10 @@
             // 
             pictureBox1.BackColor = Color.FromArgb(235, 239, 242);
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(216, 413);
+            pictureBox1.Location = new Point(189, 310);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(36, 32);
+            pictureBox1.Size = new Size(32, 24);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 26;
             pictureBox1.TabStop = false;
@@ -239,9 +238,10 @@
             // 
             pictureBox2.BackColor = Color.FromArgb(235, 239, 242);
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(29, 413);
+            pictureBox2.Location = new Point(25, 310);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(25, 30);
+            pictureBox2.Size = new Size(22, 22);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 27;
             pictureBox2.TabStop = false;
@@ -250,24 +250,24 @@
             // 
             pictureBoxRegister.BorderStyle = BorderStyle.Fixed3D;
             pictureBoxRegister.Image = (Image)resources.GetObject("pictureBoxRegister.Image");
-            pictureBoxRegister.Location = new Point(501, 157);
+            pictureBoxRegister.Location = new Point(438, 118);
+            pictureBoxRegister.Margin = new Padding(3, 2, 3, 2);
             pictureBoxRegister.Name = "pictureBoxRegister";
-            pictureBoxRegister.Size = new Size(375, 346);
+            pictureBoxRegister.Size = new Size(329, 260);
             pictureBoxRegister.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxRegister.TabIndex = 25;
             pictureBoxRegister.TabStop = false;
             // 
             // registerForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(170, 167, 242);
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(800, 450);
             Controls.Add(pictureBoxRegister);
             Controls.Add(groupBoxRegister);
             Controls.Add(labelRegisterNewTicket);
             Controls.Add(textBox1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "registerForm";
             Text = "registerForm";
             groupBoxRegister.ResumeLayout(false);
@@ -283,11 +283,11 @@
 
         private Button btnSave;
         private TextBox textBoxName;
-        private TextBox textBoxFirstname;
+        private TextBox textBoxLastName;
         private Label labelName;
         private Label labelFirstName;
         private Label labelGmail;
-        private TextBox textBoxGmail;
+        private TextBox textBoxEmail;
         private Label labelPasword;
         private TextBox textBoxPasword;
         private Label labelVerifyPassword;

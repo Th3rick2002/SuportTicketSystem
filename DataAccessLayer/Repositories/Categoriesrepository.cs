@@ -12,7 +12,7 @@ public class Categoriesrepository : ICategoriesrepository
     {
         _dbConnection = new SqlDataAccess();
     }
-    
+
     //metodo para traer todas las categorias en forma de lista
     public List<Categories> GetAllCategories()
     {
@@ -20,7 +20,7 @@ public class Categoriesrepository : ICategoriesrepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "SELECT NameCategorie FROM Categories";
+            string query = "SELECT Id, NameCategorie FROM Categories";
             SqlCommand command = new SqlCommand(query, connection);
             connection.Open();
 
@@ -30,7 +30,8 @@ public class Categoriesrepository : ICategoriesrepository
                 {
                     Categories category = new Categories
                     {
-                        NameCategorie = reader.GetString(0)
+                        Id = reader.GetInt32(0),
+                        NameCategorie = reader.GetString(1)
                     };
                     categories.Add(category);
                 }

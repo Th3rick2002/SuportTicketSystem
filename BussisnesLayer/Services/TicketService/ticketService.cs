@@ -18,18 +18,18 @@ public class ticketService: ITicketService
         return _ticketRepository.GetTickets();
     }
 
-    public bool AddTicked(Ticket ticket, Client client)
+    public bool AddTicked(Ticket ticket)
     {
-        return _ticketRepository.AddTicked(ticket, client);
+        return _ticketRepository.AddTicked(ticket);
     }
 
-    public bool UpdateTicketByAdmin(Ticket ticket, Agent agent)
+    public bool UpdateTicketByAdmin(Ticket ticket)
     {
-        return _ticketRepository.UpdateTicketByAdmin(ticket, agent);
+        return _ticketRepository.UpdateTicketByAdmin(ticket);
     }
 
-    public bool DeleteTicket(Ticket ticket, Agent agent)
+    public bool DeleteTicket(Ticket ticket)
     {
-        return _ticketRepository.DeleteTicket(ticket, agent);
+        return _ticketRepository.DeleteTicket(ticket);
     }
 }

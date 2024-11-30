@@ -33,18 +33,11 @@
             btnAdd = new Button();
             lblClient = new Label();
             pictureBoxCustomer = new PictureBox();
-            FirstName = new DataGridViewTextBoxColumn();
-            Tag = new DataGridViewTextBoxColumn();
-            Categorie = new DataGridViewTextBoxColumn();
-            Status = new DataGridViewTextBoxColumn();
-            Priority = new DataGridViewTextBoxColumn();
-            DescriptionTicket = new DataGridViewTextBoxColumn();
-            NameTicket = new DataGridViewTextBoxColumn();
-            dataGridViewCustomer = new DataGridView();
+            dataGridViewTickets = new DataGridView();
             textBoxCustomer = new TextBox();
             CustomertextBox = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBoxCustomer).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewCustomer).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewTickets).BeginInit();
             SuspendLayout();
             // 
             // btnExit
@@ -84,7 +77,7 @@
             lblClient.Location = new Point(13, 17);
             lblClient.Margin = new Padding(4, 0, 4, 0);
             lblClient.Name = "lblClient";
-            lblClient.Size = new Size(400, 46);
+            lblClient.Size = new Size(317, 36);
             lblClient.TabIndex = 29;
             lblClient.Text = "PANEL DE CLIENTE";
             // 
@@ -101,66 +94,16 @@
             pictureBoxCustomer.TabIndex = 42;
             pictureBoxCustomer.TabStop = false;
             // 
-            // FirstName
+            // dataGridViewTickets
             // 
-            FirstName.HeaderText = "Agente";
-            FirstName.MinimumWidth = 6;
-            FirstName.Name = "FirstName";
-            FirstName.Width = 125;
-            // 
-            // Tag
-            // 
-            Tag.HeaderText = "Etiqueta";
-            Tag.MinimumWidth = 6;
-            Tag.Name = "Tag";
-            Tag.Width = 125;
-            // 
-            // Categorie
-            // 
-            Categorie.HeaderText = "Categoria";
-            Categorie.MinimumWidth = 6;
-            Categorie.Name = "Categorie";
-            Categorie.Width = 125;
-            // 
-            // Status
-            // 
-            Status.HeaderText = "Estado";
-            Status.MinimumWidth = 6;
-            Status.Name = "Status";
-            Status.Width = 125;
-            // 
-            // Priority
-            // 
-            Priority.HeaderText = "Prioridad";
-            Priority.MinimumWidth = 6;
-            Priority.Name = "Priority";
-            Priority.Width = 125;
-            // 
-            // DescriptionTicket
-            // 
-            DescriptionTicket.HeaderText = "Descripcion Ticket";
-            DescriptionTicket.MinimumWidth = 6;
-            DescriptionTicket.Name = "DescriptionTicket";
-            DescriptionTicket.Width = 125;
-            // 
-            // NameTicket
-            // 
-            NameTicket.HeaderText = "Nombre Ticket";
-            NameTicket.MinimumWidth = 6;
-            NameTicket.Name = "NameTicket";
-            NameTicket.Width = 125;
-            // 
-            // dataGridViewCustomer
-            // 
-            dataGridViewCustomer.BackgroundColor = Color.FromArgb(207, 206, 242);
-            dataGridViewCustomer.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCustomer.Columns.AddRange(new DataGridViewColumn[] { NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, FirstName });
-            dataGridViewCustomer.Location = new Point(66, 121);
-            dataGridViewCustomer.Margin = new Padding(3, 4, 3, 4);
-            dataGridViewCustomer.Name = "dataGridViewCustomer";
-            dataGridViewCustomer.RowHeadersWidth = 51;
-            dataGridViewCustomer.Size = new Size(929, 562);
-            dataGridViewCustomer.TabIndex = 43;
+            dataGridViewTickets.BackgroundColor = Color.FromArgb(207, 206, 242);
+            dataGridViewTickets.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewTickets.Location = new Point(66, 121);
+            dataGridViewTickets.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewTickets.Name = "dataGridViewTickets";
+            dataGridViewTickets.RowHeadersWidth = 51;
+            dataGridViewTickets.Size = new Size(929, 562);
+            dataGridViewTickets.TabIndex = 43;
             // 
             // textBoxCustomer
             // 
@@ -184,7 +127,7 @@
             // 
             // FormClient
             // 
-            AutoScaleDimensions = new SizeF(10F, 23F);
+            AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(170, 167, 242);
             ClientSize = new Size(1320, 749);
@@ -194,13 +137,13 @@
             Controls.Add(btnAdd);
             Controls.Add(pictureBoxCustomer);
             Controls.Add(textBoxCustomer);
-            Controls.Add(dataGridViewCustomer);
+            Controls.Add(dataGridViewTickets);
             Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             Margin = new Padding(4, 5, 4, 5);
             Name = "FormClient";
             Text = "RequestForm";
             ((System.ComponentModel.ISupportInitialize)pictureBoxCustomer).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewCustomer).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewTickets).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -218,7 +161,7 @@
         private DataGridViewTextBoxColumn Priority;
         private DataGridViewTextBoxColumn DescriptionTicket;
         private DataGridViewTextBoxColumn NameTicket;
-        private DataGridView dataGridViewCustomer;
+        private DataGridView dataGridViewTickets;
         private TextBox textBoxCustomer;
         private TextBox CustomertextBox;
     }

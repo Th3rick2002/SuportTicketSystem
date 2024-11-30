@@ -20,7 +20,7 @@ public class TagRepository : ITagRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "SELECT NameTag FROM Tags";
+            string query = "SELECT Id, NameTag FROM Tag";
             SqlCommand command = new SqlCommand(query, connection);
             connection.Open();
 
@@ -30,7 +30,8 @@ public class TagRepository : ITagRepository
                 {
                     Tag tag = new Tag()
                     {
-                        NameTag = reader.GetString(0)
+                        Id = reader.GetInt32(0),
+                        NameTag = reader.GetString(1)
                     };
                     tags.Add(tag);
                 }

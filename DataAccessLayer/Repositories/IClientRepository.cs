@@ -10,4 +10,5 @@ public interface IClientRepository
     void UpdateClient(Client client);
     void DeleteClient(int id);
     Client GetByEmailandPassword(string email, string password);
+    bool VerifyEmailExist(string email);
 }

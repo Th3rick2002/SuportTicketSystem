@@ -1,4 +1,6 @@
 ﻿using BussisnesLayer.Services;
+using BussisnesLayer.Services.TicketService;
+using CommonLayer.Entities;
 using DataAccessLayer.Repositories;
 using System;
 using System.Collections.Generic;
@@ -14,25 +16,25 @@ namespace PresentationLayer.forms
 {
     public partial class FormClient : Form
     {
-        
-        private ITicketRepository _TicketRepository;
+        private TicketRepository _TicketRepository;
+        private ticketService _TicketService;
+        private Client _Client;
 
-        public FormClient() : this(new TicketRepository())
+       
+        public FormClient(Client client)
         {
-        }
-        public FormClient(ITicketRepository TicketRepository)
-        
-        {
+            _Client = client;
+            _TicketService = new ticketService();
             InitializeComponent();  
             LoadTicketData();
-
-            
         }
 
 
         public void LoadTicketData()
         {
-            
+            var tickets = _TicketService.GetTickets();
+
+            dataGridViewTickets.DataSource = tickets;
 
         }
 
@@ -50,9 +52,9 @@ namespace PresentationLayer.forms
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            var formModal = new AddTicketClient(this, _TicketRepository)
+            var formModal = new AddTicketClient(this, _TicketRepository, _Client)
             {
-                editMode = false
+                
             };
 
             if (formModal.ShowDialog(this) == DialogResult.OK)
