@@ -21,7 +21,7 @@ public class ClientRepository : IClientRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "SELECT Id, FirstName, LastName, Email FROM Clients";
+            string query = "SELECT client.Id, client.FirstName, client.LastName, client.Email, client.IdRol, Rol.NameRol AS Rol FROM Client INNER JOIN Rol ON client.IdRol = Rol.Id";
             
             SqlCommand command = new SqlCommand(query, connection);
             connection.Open();

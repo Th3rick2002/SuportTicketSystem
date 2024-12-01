@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CommonLayer.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace PresentationLayer.forms
 {
     public partial class FormAdministrator : Form
     {
+        private administrador _administrador;
+        
         public FormAdministrator()
         {
             InitializeComponent();
@@ -33,6 +36,11 @@ namespace PresentationLayer.forms
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormAdministrator_Load(object sender, EventArgs e)
         {
 
         }

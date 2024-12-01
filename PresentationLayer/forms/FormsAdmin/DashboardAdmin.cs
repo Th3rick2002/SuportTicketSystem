@@ -50,7 +50,7 @@ namespace PresentationLayer.forms.FormAgent
 
         private void FormAdmin_ClientButton_Click(object sender, EventArgs e)
         {
-            openChildForm(new FormClientAdmin());
+            openChildForm(new FormClientAdmin(_administrador));
         }
 
         private void FormAdmin_AgentButton_Click(object sender, EventArgs e)

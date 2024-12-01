@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTicketAdmin));
-            buttonAssingAgent = new Button();
             dataGridViewTicket = new DataGridView();
             pictureBoxTicket = new PictureBox();
             btnUpdate = new Button();
@@ -41,19 +40,6 @@
             ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxTicket).BeginInit();
             SuspendLayout();
-            // 
-            // buttonAssingAgent
-            // 
-            buttonAssingAgent.BackColor = Color.FromArgb(235, 239, 242);
-            buttonAssingAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            buttonAssingAgent.ForeColor = Color.Black;
-            buttonAssingAgent.Location = new Point(827, 344);
-            buttonAssingAgent.Margin = new Padding(4);
-            buttonAssingAgent.Name = "buttonAssingAgent";
-            buttonAssingAgent.Size = new Size(141, 35);
-            buttonAssingAgent.TabIndex = 55;
-            buttonAssingAgent.Text = "Asignar agente";
-            buttonAssingAgent.UseVisualStyleBackColor = false;
             // 
             // dataGridViewTicket
             // 
@@ -125,7 +111,7 @@
             buttonDelete.BackColor = Color.FromArgb(235, 239, 242);
             buttonDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             buttonDelete.ForeColor = Color.Black;
-            buttonDelete.Location = new Point(827, 416);
+            buttonDelete.Location = new Point(827, 343);
             buttonDelete.Margin = new Padding(4);
             buttonDelete.Name = "buttonDelete";
             buttonDelete.Size = new Size(141, 35);
@@ -163,7 +149,6 @@
             BackColor = Color.FromArgb(170, 167, 242);
             ClientSize = new Size(988, 548);
             Controls.Add(buttonDelete);
-            Controls.Add(buttonAssingAgent);
             Controls.Add(btnUpdate);
             Controls.Add(btnAdd);
             Controls.Add(pictureBoxTicket);
@@ -182,8 +167,6 @@
         }
 
         #endregion
-
-        private Button buttonAssingAgent;
         private DataGridView dataGridViewTicket;
         private PictureBox pictureBoxTicket;
         private Button btnUpdate;
