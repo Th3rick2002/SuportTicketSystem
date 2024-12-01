@@ -51,10 +51,33 @@ namespace PresentationLayer.forms
             if (user != null)
             {
                 Form nextForm = null; 
-
-                if (user.Role == "Administrador")
+                if(user.Role == "SuperAdministador")
                 {
-                    nextForm = new DashboardAdmin();
+                    administrador admin = new administrador
+                    {
+                        Id = user.Id,
+                        FirstName = user.Username.Split(' ')[0],
+                        LastName = user.Username.Split(' ')[1],
+                        Email = username,
+                        Password = password,
+                        idRol = 1
+                    };
+
+                    nextForm = new DashboardAdmin(admin);
+                }
+                else if (user.Role == "Administrador")
+                {
+                    administrador admin = new administrador
+                    {
+                        Id = user.Id,
+                        FirstName = user.Username.Split(' ')[0],
+                        LastName = user.Username.Split(' ')[1],
+                        Email = username,
+                        Password = password,
+                        idRol = 2
+                    };
+
+                    nextForm = new DashboardAdmin(admin);
                 }
                 else if (user.Role == "Agente")
                 {

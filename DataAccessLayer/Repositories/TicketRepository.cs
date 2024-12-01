@@ -22,7 +22,7 @@ public class TicketRepository : ITicketRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "SELECT NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Agent FROM Ticket";
+            string query = "SELECT ticket.IdTicket, ticket.NameTicket, ticket.DescriptionTicket, ticket.Priority, ticket.Status, Categories.NameCategorie AS Categorie, Tag.NameTag AS Tag,Client.FirstName + ' ' + Client.LastName AS Client ,COALESCE(Agent.FirstName + ' ' + Agent.LastName, 'Sin asignar') AS Agent FROM Ticket INNER JOIN Categories ON ticket.Categorie = Categories.Id INNER JOIN Tag ON ticket.Tag = Tag.Id INNER JOIN Client ON ticket.Id_Client = Client.Id LEFT JOIN Agent ON ticket.Id_Agent = Agent.Id";
             
             using (var reader = connection.ExecuteReader(query))
             {
