@@ -6,6 +6,7 @@ using CommonLayer.Entities;
 using DataAccessLayer.Repositories;
 using FluentValidation.Results;
 using PresentationLayer.Validations;
+using PresentationLayer.Validations.ValidationsClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -66,28 +67,47 @@ namespace PresentationLayer.forms
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            Ticket ticket = new Ticket();
+            // Limpiar errores previos en el ErrorProvider
+            validationErrorTicketProvider.Clear();
 
-            ticket.NameTicket = nameTicketTextBox.Text;
-            ticket.DescriptionTicket = DescriptionTicketTextBox.Text;
-            ticket.Priority = comboBoxPriority.SelectedItem.ToString();
-            ticket.Status = "activo";
-            ticket.categorie = (int)comboBoxCategories.SelectedValue;
-            ticket.tag = (int)comboBoxTags.SelectedValue;
-            ticket.IdClient = _client.IdClient;
-            ticket.IdAgent = null;
+            // Crear el objeto ticket con los valores de los controles
+            Ticket ticket = new Ticket
+            {
+                NameTicket = nameTicketTextBox.Text,
+                DescriptionTicket = DescriptionTicketTextBox.Text,
+                Priority = comboBoxPriority.SelectedItem?.ToString(), // Usar null-coalescing para evitar excepciones
+                Status = "activo",
+                categorie = comboBoxCategories.SelectedValue != null ? (int)comboBoxCategories.SelectedValue : 0,
+                tag = comboBoxTags.SelectedValue != null ? (int)comboBoxTags.SelectedValue : 0,
+                IdClient = _client.IdClient,
+                IdAgent = null
+            };
 
+            // Crear el validador y validar el ticket
+            TicketValidator validator = new TicketValidator();
+            var validationResult = validator.Validate(ticket);
+
+            // Mostrar errores en el ErrorProvider
+            DisplayValidatorErrors(validationResult);
+
+            // Si hay errores de validación, no continuar
+            if (!validationResult.IsValid)
+            {
+                return;
+            }
+
+            // Si no hay errores, proceder a guardar el ticket
             try
             {
                 _ticketService.AddTicked(ticket);
-
                 MessageBox.Show("El ticket ha sido creado exitosamente");
-            }catch
+                formClient.LoadTicketData();
+                this.DialogResult = DialogResult.OK;
+            }
+            catch
             {
                 MessageBox.Show("Ha ocurrido un error al crear el ticket");
             }
-            
-
         }
 
         private void DisplayValidatorErrors(ValidationResult result)
@@ -103,6 +123,15 @@ namespace PresentationLayer.forms
                         break;
                     case nameof(Ticket.DescriptionTicket):
                         validationErrorTicketProvider.SetError(DescriptionTicketTextBox, error.ErrorMessage);
+                        break;
+                    case nameof(Ticket.Priority):
+                        validationErrorTicketProvider.SetError(comboBoxPriority, error.ErrorMessage);
+                        break;
+                    case nameof(Ticket.categorie):
+                        validationErrorTicketProvider.SetError(comboBoxCategories, error.ErrorMessage);
+                        break;
+                    case nameof(Ticket.tag):
+                        validationErrorTicketProvider.SetError(comboBoxTags, error.ErrorMessage);
                         break;
                 }
             }

@@ -35,7 +35,7 @@ namespace PresentationLayer.forms
             var tickets = _TicketService.GetTickets();
 
             dataGridViewTickets.DataSource = tickets;
-
+            dataGridViewTickets.Refresh();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
