@@ -21,12 +21,23 @@ public class LoginService : ILoginService
         var admin = _adminRepository.GetByEmailAndPassword(username, password);
         if (admin != null)
         {
-            return new UserDTO
+            if (admin.idRol == 1)
             {
-                Id = admin.Id,
-                Role = "Administrador",
-                Username = $"{admin.FirstName} {admin.LastName}"
-            };
+                return new UserDTO
+                {
+                    Id = admin.Id,
+                    Role = "SuperAdministador",
+                    Username = $"{admin.FirstName} {admin.LastName}"
+                };
+            }else
+            {
+                return new UserDTO
+                {
+                    Id = admin.Id,
+                    Role = "Administrador",
+                    Username = $"{admin.FirstName} {admin.LastName}"
+                };
+            }
         }
         
         var agent = _agentRepository.GetAgentByEmailAndPassword(username, password);

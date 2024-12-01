@@ -1,4 +1,5 @@
-﻿using PresentationLayer.forms.FormsAdmin;
+﻿using CommonLayer.Entities;
+using PresentationLayer.forms.FormsAdmin;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,11 +14,12 @@ namespace PresentationLayer.forms.FormAgent
 {
     public partial class DashboardAdmin : Form
     {
+        private administrador _administrador;
 
-        public DashboardAdmin()
+        public DashboardAdmin(administrador administrador)
         {
+            _administrador = administrador;
             InitializeComponent();
-            System.Diagnostics.Debug.WriteLine("Formulario DashboardAdmin inicializado");
         }
 
         private Form? activeForm = null;
@@ -58,7 +60,7 @@ namespace PresentationLayer.forms.FormAgent
 
         private void FormAdmin_TicketsButton_Click(object sender, EventArgs e)
         {
-            openChildForm(new FormTicketAdmin());
+            openChildForm(new FormTicketAdmin(_administrador));
         }
 
         private void buttonExit_Click(object sender, EventArgs e)

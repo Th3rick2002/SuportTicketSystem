@@ -10,5 +10,5 @@ public class Ticket
     public int categorie { get; set; }
     public int tag { get; set; }
     public int IdClient { get; set; }
-    public int? IdAgent { get; set; }  // null
+    public int? IdAgent { get; set; }
 }

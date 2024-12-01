@@ -86,7 +86,6 @@ namespace PresentationLayer.forms
             {
                 MessageBox.Show("Ha ocurrido un error al crear el ticket");
             }
-            
 
         }
 
