@@ -103,9 +103,9 @@
             Labeladdicket.Location = new Point(283, 34);
             Labeladdicket.Margin = new Padding(4, 0, 4, 0);
             Labeladdicket.Name = "Labeladdicket";
-            Labeladdicket.Size = new Size(237, 32);
+            Labeladdicket.Size = new Size(182, 32);
             Labeladdicket.TabIndex = 50;
-            Labeladdicket.Text = "Agregar/Edit Ticket";
+            Labeladdicket.Text = "Agregar Ticket";
             // 
             // comboBoxCategories
             // 

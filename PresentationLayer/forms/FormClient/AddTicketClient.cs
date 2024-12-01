@@ -67,15 +67,13 @@ namespace PresentationLayer.forms
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            // Limpiar errores previos en el ErrorProvider
             validationErrorTicketProvider.Clear();
 
-            // Crear el objeto ticket con los valores de los controles
             Ticket ticket = new Ticket
             {
                 NameTicket = nameTicketTextBox.Text,
                 DescriptionTicket = DescriptionTicketTextBox.Text,
-                Priority = comboBoxPriority.SelectedItem?.ToString(), // Usar null-coalescing para evitar excepciones
+                Priority = comboBoxPriority.SelectedItem?.ToString(),
                 Status = "activo",
                 categorie = comboBoxCategories.SelectedValue != null ? (int)comboBoxCategories.SelectedValue : 0,
                 tag = comboBoxTags.SelectedValue != null ? (int)comboBoxTags.SelectedValue : 0,
@@ -83,20 +81,19 @@ namespace PresentationLayer.forms
                 IdAgent = null
             };
 
-            // Crear el validador y validar el ticket
+            
             TicketValidator validator = new TicketValidator();
             var validationResult = validator.Validate(ticket);
 
-            // Mostrar errores en el ErrorProvider
+            
             DisplayValidatorErrors(validationResult);
 
-            // Si hay errores de validación, no continuar
+            
             if (!validationResult.IsValid)
             {
                 return;
             }
 
-            // Si no hay errores, proceder a guardar el ticket
             try
             {
                 _ticketService.AddTicked(ticket);

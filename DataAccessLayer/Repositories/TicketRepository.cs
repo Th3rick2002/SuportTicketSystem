@@ -1,5 +1,6 @@
 using System.Data;
 using System.Data.SqlClient;
+using System.Net.Sockets;
 using CommonLayer.Entities;
 using Dapper;
 using DataAccessLayer.DbConnection;
@@ -22,8 +23,26 @@ public class TicketRepository : ITicketRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "SELECT ticket.IdTicket, ticket.NameTicket, ticket.DescriptionTicket, ticket.Priority, ticket.Status, Categories.NameCategorie AS Categorie, Tag.NameTag AS Tag,Client.FirstName + ' ' + Client.LastName AS Client ,COALESCE(Agent.FirstName + ' ' + Agent.LastName, 'Sin asignar') AS Agent FROM Ticket INNER JOIN Categories ON ticket.Categorie = Categories.Id INNER JOIN Tag ON ticket.Tag = Tag.Id INNER JOIN Client ON ticket.Id_Client = Client.Id LEFT JOIN Agent ON ticket.Id_Agent = Agent.Id";
-            
+            string query = "SELECT " +
+                    "ticket.IdTicket, " +
+                    "ticket.NameTicket, " +
+                    "ticket.DescriptionTicket, " +
+                    "ticket.Priority, " +
+                    "ticket.Status, " +
+                    "Categories.NameCategorie AS Categorie, " +
+                    "Tag.NameTag AS Tag, " +
+                    "Client.FirstName + ' ' + Client.LastName AS Client, " +
+                    "COALESCE(Agent.FirstName + ' ' + Agent.LastName, 'Sin asignar') AS Agent, " +
+                    "ticket.Categorie AS IdCategorie, " +
+                    "ticket.Tag AS IdTag, " +
+                    "ticket.Id_Agent AS IdAgent, " +
+                    "ticket.Id_Client AS IdClient " +
+                "FROM Ticket " +
+                    "INNER JOIN Categories ON ticket.Categorie = Categories.Id " +
+                    "INNER JOIN Tag ON ticket.Tag = Tag.Id " +
+                    "INNER JOIN Client ON ticket.Id_Client = Client.Id " +
+                    "LEFT JOIN Agent ON ticket.Id_Agent = Agent.Id;";
+
             using (var reader = connection.ExecuteReader(query))
             {
                 ticketsTable.Load(reader);
@@ -35,91 +54,59 @@ public class TicketRepository : ITicketRepository
 
 
     //metodo para agregar ticket
-    public bool AddTicked(Ticket ticket)
+    public void AddTicked(Ticket ticket)
     {
-        try
-        {
             using (var connection = (SqlConnection)_dbConnection.GetConnection())
             {
-                var parameters = new
-                {
-                    @NameTicket = ticket.NameTicket,
-                    @DescriptionTicket = ticket.DescriptionTicket,
-                    @Priority = ticket.Priority,
-                    @Status = ticket.Status,
-                    @Categorie = ticket.categorie,
-                    @Tag = ticket.tag,
-                    @Id_Client = ticket.IdClient,
-                    @AgentId = ticket.IdAgent,
-                    @Details = "Creación del Ticket"
-                };
-            
-                var result = connection.Execute("sp_InsertarTicketYLog", parameters, commandType: CommandType.StoredProcedure);
+                string query = "INSERT INTO Ticket(NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Client, Id_Agent) VALUES (@NameTicket, @DescriptionTicket, @Priority, @Status, @Categorie, @Tag, @Id_Client, @Id_Agent)";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@NameTicket", ticket.NameTicket);
+                command.Parameters.AddWithValue("@DescriptionTicket", ticket.DescriptionTicket);
+                command.Parameters.AddWithValue("@Priority", ticket.Priority);
+                command.Parameters.AddWithValue("@Categorie", ticket.categorie);
+                command.Parameters.AddWithValue("@Tag", ticket.tag);
+                command.Parameters.AddWithValue("@Status", ticket.Status);
+                command.Parameters.AddWithValue("@Id_Client", ticket.IdClient);
+                command.Parameters.AddWithValue("@Id_Agent", ticket.IdAgent);
+                connection.Open();
 
-                return result == 1;
+                command.ExecuteNonQuery();
             }
-        }
-        catch (Exception e)
-        {
-            return false;
-        }
-        
     }
 
     //metodo para actualizar ticket
-    public bool UpdateTicketByAdmin(Ticket ticket)
+    public void UpdateTicketByAdmin(Ticket ticket)
     {
-        try
-        {
+       
             using (var connection = (SqlConnection)_dbConnection.GetConnection())
             {
-                var parameters = new
-                {
-                    @TicketId = ticket.IdTicket,
-                    @NameTicket = ticket.NameTicket,
-                    @DescriptionTicket = ticket.DescriptionTicket,
-                    @Priority = ticket.Priority,
-                    @Status = ticket.Status,
-                    @Categorie = ticket.categorie,
-                    @Tag = ticket.tag,
-                    @Id_Client = ticket.IdClient,
-                    @AgentId = ticket.IdAgent,
-                    @Details = "Actualización del ticket"
-                };
-                
-                connection.Execute("sp_ActualizarTicketYLog", parameters, commandType: CommandType.StoredProcedure);
-                
-                return true;
+                string query = "UPDATE Ticket SET NameTicket = @NameTicket, DescriptionTicket = @DescriptionTicket, Priority = @Priority, Categorie = @Categorie, Tag = @Tag, Id_Agent = @Id_Agent WHERE idTicket = @IdTicket";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@IdTicket", ticket.IdTicket);
+                command.Parameters.AddWithValue("@NameTicket", ticket.NameTicket);
+                command.Parameters.AddWithValue("@DescriptionTicket", ticket.DescriptionTicket);
+                command.Parameters.AddWithValue("@Priority", ticket.Priority);
+                command.Parameters.AddWithValue("@Categorie", ticket.categorie);
+                command.Parameters.AddWithValue("@Tag", ticket.tag);
+                command.Parameters.AddWithValue("@Id_Agent", ticket.IdAgent);
+                connection.Open();
+
+                command.ExecuteNonQuery();
             }
-        }
-        catch (Exception ex)
-        {
-            return false;
-        }
     }
 
     
-    public bool DeleteTicket(Ticket ticket)
+    public void DeleteTicket(int id)
     {
-        try
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            using (var connection = (SqlConnection)_dbConnection.GetConnection())
-            {
-                var parameters = new
-                {
-                    @TicketId = ticket.IdTicket,
-                    @Id_Client = ticket.IdClient,
-                    @AgentId = ticket.IdAgent,
-                    @Details = "Eliminación del ticket"
-                };
-                var result = connection.Execute("sp_EliminarTicketYLog", parameters, commandType: CommandType.StoredProcedure);
-                
-                return result == 1;
-            }
-        }
-        catch (Exception e)
-        {
-            return false;
+            string query = "DELETE FROM Ticket WHERE idTicket = @IdTicket";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@IdTicket", id);
+            connection.Open();
+
+            command.ExecuteNonQuery();
+
         }
     }
 

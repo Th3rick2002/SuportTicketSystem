@@ -29,18 +29,56 @@ namespace PresentationLayer.forms.FormsAdmin
             var tickets = _TicketService.GetTickets();
 
             dataGridViewTicket.DataSource = tickets;
+
+            dataGridViewTicket.Columns["IdCategorie"].Visible = false;
+            dataGridViewTicket.Columns["IdTag"].Visible = false;
+            dataGridViewTicket.Columns["IdAgent"].Visible = false;
+            dataGridViewTicket.Columns["IdClient"].Visible = false;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             addTicket addTicket = new addTicket(_administrador);
             addTicket.ShowDialog();
+            LoadTickets();
         }
 
         private void buttonDelete_Click(object sender, EventArgs e)
         {
-            Ticket ticket = new Ticket();
+            try
+            {
+                Ticket ticket = new Ticket();
 
+                if (dataGridViewTicket.SelectedRows.Count == 0)
+                {
+                    MessageBox.Show("Debe seleccionar un ticket.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                DataGridViewRow selectedRow = dataGridViewTicket.SelectedRows[0];
+                int ticketId = Convert.ToInt32(selectedRow.Cells["IdTicket"].Value);
+                _TicketService.DeleteTicket(ticketId);
+                MessageBox.Show("Ticket eliminado correctamente", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LoadTickets();
+            }
+            catch
+            {
+                MessageBox.Show("Error al eliminar el ticket", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+        private void LoadTickets()
+        {
+            var tickets = _TicketService.GetTickets();
+
+            dataGridViewTicket.DataSource = null;
+
+            dataGridViewTicket.DataSource = tickets;
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
             if (dataGridViewTicket.SelectedRows.Count == 0)
             {
                 MessageBox.Show("Debe seleccionar un ticket.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -55,34 +93,14 @@ namespace PresentationLayer.forms.FormsAdmin
                 NameTicket = selectedRow.Cells["NameTicket"].Value?.ToString() ?? string.Empty,
                 DescriptionTicket = selectedRow.Cells["DescriptionTicket"].Value?.ToString() ?? string.Empty,
                 Priority = selectedRow.Cells["Priority"].Value?.ToString() ?? string.Empty,
-                Status = selectedRow.Cells["Status"].Value?.ToString() ?? string.Empty,
-                categorie = Convert.ToInt32(selectedRow.Cells["Categorie"].Value),  // Verifica que el nombre sea 'Categorie'
-                tag = Convert.ToInt32(selectedRow.Cells["Tag"].Value),            // Verifica que el nombre sea 'Tag'
-                IdClient = Convert.ToInt32(selectedRow.Cells["Client"].Value),    // Verifica que el nombre sea 'Client'
-                IdAgent = selectedRow.Cells["Agent"].Value == DBNull.Value || selectedRow.Cells["Agent"].Value.ToString() == "Sin asignar"
-                ? (int?)null
-                : Convert.ToInt32(selectedRow.Cells["Agent"].Value)  // Verifica el valor de la celda de "Agent"
+                categorie = Convert.ToInt32(selectedRow.Cells["IdCategorie"].Value),
+                tag = Convert.ToInt32(selectedRow.Cells["IdTag"].Value),
+                IdAgent = selectedRow.Cells["IdAgent"].Value == DBNull.Value ? (int?)null : Convert.ToInt32(selectedRow.Cells["IdAgent"].Value)
             };
-            ProcessSelectedTicket(selectedTicket);
-            //MessageBox.Show($"{selectedTicket}");
 
-            //_TicketService.DeleteTicket(selectedTicket);
-        }
-
-        private void ProcessSelectedTicket(Ticket ticket)
-        {
-            // Procesar el objeto Ticket como desees
-            MessageBox.Show($"Ticket seleccionado:\n" +
-                             $"ID: {ticket.IdTicket}\n" +
-                             $"Nombre: {ticket.NameTicket}\n" +
-                             $"Descripción: {ticket.DescriptionTicket}\n" +
-                             $"Prioridad: {ticket.Priority}\n" +
-                             $"Estado: {ticket.Status}\n" +
-                             $"Categoria: {ticket.categorie}\n" +
-                             $"Tag: {ticket.tag}\n" +
-                             $"Cliente ID: {ticket.IdClient}\n" +
-                             $"Agente ID: {ticket.IdAgent?.ToString() ?? "N/A"}",
-                             "Ticket Seleccionado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            editTicket editTicket = new editTicket(_administrador, selectedTicket);
+            editTicket.ShowDialog();
+            LoadTickets();
         }
     }
 }

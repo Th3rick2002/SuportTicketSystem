@@ -3,15 +3,7 @@ using BussisnesLayer.Services.categoryService;
 using BussisnesLayer.Services.tagService;
 using BussisnesLayer.Services.TicketService;
 using CommonLayer.Entities;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace PresentationLayer.forms
 {

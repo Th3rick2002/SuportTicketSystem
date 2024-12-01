@@ -6,7 +6,7 @@ namespace DataAccessLayer.Repositories;
 public interface ITicketRepository
 {
     DataTable GetTickets();
-    bool AddTicked(Ticket ticket);
-    bool UpdateTicketByAdmin(Ticket ticket);
-    public bool DeleteTicket(Ticket ticket);
+    void AddTicked(Ticket ticket);
+    void UpdateTicketByAdmin(Ticket ticket);
+    public void DeleteTicket(int id);
 }

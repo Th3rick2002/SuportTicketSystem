@@ -91,6 +91,7 @@
             btnUpdate.TabIndex = 52;
             btnUpdate.Text = "Actualizar ";
             btnUpdate.UseVisualStyleBackColor = false;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnAdd
             // 
