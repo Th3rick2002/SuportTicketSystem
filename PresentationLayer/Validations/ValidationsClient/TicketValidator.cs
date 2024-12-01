@@ -11,11 +11,18 @@ namespace PresentationLayer.Validations.ValidationsClient
 
             RuleFor(ticket => ticket.NameTicket)
                 .NotEmpty()
-                .WithMessage("El nombre del ticket es obligatorio.");
+                .WithMessage("El nombre del ticket es obligatorio.")
+                .MinimumLength(3).WithMessage("El nombre debe contener minimo 3 letras")
+                .MaximumLength(100).WithMessage("El nombre no puede tener mas de 100 letras")
+                .Matches(@"^[a-zA-Z\s]+$").WithMessage("El nombre solo puede contener letras y espacios");
+
 
             RuleFor(ticket => ticket.DescriptionTicket)
                 .NotEmpty()
-                .WithMessage("La descripción del ticket es obligatoria.");
+                .WithMessage("La descripción del ticket es obligatoria.")
+                .MinimumLength(5).WithMessage("La descripción debe contener minimo 5 letras")
+                .MaximumLength(100).WithMessage("La descripción no puede tener mas de 100 letras")
+                .Matches(@"^[a-zA-Z\s]+$").WithMessage("La descripción solo puede contener letras y espacios");
 
             RuleFor(ticket => ticket.Priority)
                 .NotEmpty()
@@ -23,15 +30,11 @@ namespace PresentationLayer.Validations.ValidationsClient
 
             RuleFor(ticket => ticket.categorie)
                 .GreaterThan(0)
-                .WithMessage("Debes seleccionar una categoría válida.");
+                .WithMessage("Debes seleccionar una categoría.");
 
             RuleFor(ticket => ticket.tag)
                 .GreaterThan(0)
-                .WithMessage("Debes seleccionar una etiqueta válida.");
-
-            RuleFor(ticket => ticket.tag)
-                .GreaterThan(0)
-                .WithMessage("La etiqueta del ticket debe ser válida.");
+                .WithMessage("Debes seleccionar una etiqueta.");
         }
     }
 }

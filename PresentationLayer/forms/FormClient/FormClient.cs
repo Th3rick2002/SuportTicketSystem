@@ -38,17 +38,6 @@ namespace PresentationLayer.forms
             dataGridViewTickets.Refresh();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            LoginForm loginForm = Application.OpenForms.OfType<LoginForm>().FirstOrDefault();
-            if (loginForm != null)
-            {
-                loginForm.ResetLoginForm();
-                loginForm.Show();
-            }
-
-            this.Close();
-        }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -61,6 +50,11 @@ namespace PresentationLayer.forms
             {
                 LoadTicketData();
             }
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

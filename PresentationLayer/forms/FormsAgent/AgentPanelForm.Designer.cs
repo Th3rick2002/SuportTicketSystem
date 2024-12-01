@@ -29,86 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AgentPanelForm));
-            dataGridViewAgent = new DataGridView();
-            NameTicket = new DataGridViewTextBoxColumn();
-            DescriptionTicket = new DataGridViewTextBoxColumn();
-            Priority = new DataGridViewTextBoxColumn();
-            Status = new DataGridViewTextBoxColumn();
-            Categorie = new DataGridViewTextBoxColumn();
-            Tag = new DataGridViewTextBoxColumn();
-            FirstName = new DataGridViewTextBoxColumn();
             label2 = new Label();
             labelText = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            StartTicket = new Button();
+            FinalizeTicket = new Button();
+            btnExit = new Button();
             textBox1 = new TextBox();
             PanelAgenttextBox = new TextBox();
             pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAgent).BeginInit();
+            dataGridViewTickets = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewTickets).BeginInit();
             SuspendLayout();
-            // 
-            // dataGridViewAgent
-            // 
-            dataGridViewAgent.BackgroundColor = Color.FromArgb(235, 239, 242);
-            dataGridViewAgent.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAgent.Columns.AddRange(new DataGridViewColumn[] { NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, FirstName });
-            dataGridViewAgent.Location = new Point(43, 133);
-            dataGridViewAgent.Margin = new Padding(3, 4, 3, 4);
-            dataGridViewAgent.Name = "dataGridViewAgent";
-            dataGridViewAgent.RowHeadersWidth = 51;
-            dataGridViewAgent.Size = new Size(930, 519);
-            dataGridViewAgent.TabIndex = 25;
-            // 
-            // NameTicket
-            // 
-            NameTicket.HeaderText = "Nombre Ticket";
-            NameTicket.MinimumWidth = 6;
-            NameTicket.Name = "NameTicket";
-            NameTicket.Width = 125;
-            // 
-            // DescriptionTicket
-            // 
-            DescriptionTicket.HeaderText = "Descripcion Ticket";
-            DescriptionTicket.MinimumWidth = 6;
-            DescriptionTicket.Name = "DescriptionTicket";
-            DescriptionTicket.Width = 125;
-            // 
-            // Priority
-            // 
-            Priority.HeaderText = "Prioridad";
-            Priority.MinimumWidth = 6;
-            Priority.Name = "Priority";
-            Priority.Width = 125;
-            // 
-            // Status
-            // 
-            Status.HeaderText = "Estado";
-            Status.MinimumWidth = 6;
-            Status.Name = "Status";
-            Status.Width = 125;
-            // 
-            // Categorie
-            // 
-            Categorie.HeaderText = "Categoria";
-            Categorie.MinimumWidth = 6;
-            Categorie.Name = "Categorie";
-            Categorie.Width = 125;
-            // 
-            // Tag
-            // 
-            Tag.HeaderText = "Etiqueta";
-            Tag.MinimumWidth = 6;
-            Tag.Name = "Tag";
-            Tag.Width = 125;
-            // 
-            // FirstName
-            // 
-            FirstName.HeaderText = "Agente";
-            FirstName.MinimumWidth = 6;
-            FirstName.Name = "FirstName";
-            FirstName.Width = 125;
             // 
             // label2
             // 
@@ -130,42 +62,43 @@
             labelText.TabIndex = 26;
             labelText.Text = "PANEL DE AGENTE";
             // 
-            // button1
+            // StartTicket
             // 
-            button1.BackColor = Color.FromArgb(235, 239, 242);
-            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(1048, 174);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(150, 59);
-            button1.TabIndex = 27;
-            button1.Text = "Empezar";
-            button1.UseVisualStyleBackColor = false;
+            StartTicket.BackColor = Color.FromArgb(235, 239, 242);
+            StartTicket.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            StartTicket.Location = new Point(1048, 174);
+            StartTicket.Margin = new Padding(3, 4, 3, 4);
+            StartTicket.Name = "StartTicket";
+            StartTicket.Size = new Size(150, 59);
+            StartTicket.TabIndex = 27;
+            StartTicket.Text = "Empezar";
+            StartTicket.UseVisualStyleBackColor = false;
+            StartTicket.Click += StartTicket_Click;
             // 
-            // button2
+            // FinalizeTicket
             // 
-            button2.BackColor = Color.FromArgb(235, 239, 242);
-            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(1048, 308);
-            button2.Margin = new Padding(3, 4, 3, 11);
-            button2.Name = "button2";
-            button2.Size = new Size(150, 59);
-            button2.TabIndex = 28;
-            button2.Text = "Finalizar";
-            button2.UseVisualStyleBackColor = false;
+            FinalizeTicket.BackColor = Color.FromArgb(235, 239, 242);
+            FinalizeTicket.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            FinalizeTicket.Location = new Point(1048, 308);
+            FinalizeTicket.Margin = new Padding(3, 4, 3, 11);
+            FinalizeTicket.Name = "FinalizeTicket";
+            FinalizeTicket.Size = new Size(150, 59);
+            FinalizeTicket.TabIndex = 28;
+            FinalizeTicket.Text = "Finalizar";
+            FinalizeTicket.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnExit
             // 
-            button3.BackColor = Color.FromArgb(235, 239, 242);
-            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(1048, 439);
-            button3.Margin = new Padding(3, 4, 3, 4);
-            button3.Name = "button3";
-            button3.Size = new Size(150, 59);
-            button3.TabIndex = 29;
-            button3.Text = "Cerrar sesión";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            btnExit.BackColor = Color.FromArgb(235, 239, 242);
+            btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnExit.Location = new Point(1048, 439);
+            btnExit.Margin = new Padding(3, 4, 3, 4);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(150, 59);
+            btnExit.TabIndex = 29;
+            btnExit.Text = "Cerrar sesión";
+            btnExit.UseVisualStyleBackColor = false;
+            btnExit.Click += btnExit_Click;
             // 
             // textBox1
             // 
@@ -201,6 +134,17 @@
             pictureBox1.TabIndex = 32;
             pictureBox1.TabStop = false;
             // 
+            // dataGridViewTickets
+            // 
+            dataGridViewTickets.BackgroundColor = Color.FromArgb(207, 206, 242);
+            dataGridViewTickets.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewTickets.Location = new Point(59, 122);
+            dataGridViewTickets.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewTickets.Name = "dataGridViewTickets";
+            dataGridViewTickets.RowHeadersWidth = 51;
+            dataGridViewTickets.Size = new Size(929, 562);
+            dataGridViewTickets.TabIndex = 44;
+            // 
             // AgentPanelForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -208,13 +152,13 @@
             BackColor = Color.FromArgb(170, 167, 242);
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1210, 697);
+            Controls.Add(dataGridViewTickets);
             Controls.Add(pictureBox1);
-            Controls.Add(button1);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(StartTicket);
+            Controls.Add(btnExit);
+            Controls.Add(FinalizeTicket);
             Controls.Add(labelText);
             Controls.Add(textBox1);
-            Controls.Add(dataGridViewAgent);
             Controls.Add(label2);
             Controls.Add(PanelAgenttextBox);
             DoubleBuffered = true;
@@ -222,28 +166,21 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "AgentPanelForm";
             Text = "AgentForm";
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAgent).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewTickets).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private DataGridView dataGridViewAgent;
         private Label label2;
         private Label labelText;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private DataGridViewTextBoxColumn NameTicket;
-        private DataGridViewTextBoxColumn DescriptionTicket;
-        private DataGridViewTextBoxColumn Priority;
-        private DataGridViewTextBoxColumn Status;
-        private DataGridViewTextBoxColumn Categorie;
-        private DataGridViewTextBoxColumn Tag;
-        private DataGridViewTextBoxColumn FirstName;
+        private Button StartTicket;
+        private Button FinalizeTicket;
+        private Button btnExit;
         private TextBox textBox1;
         private TextBox PanelAgenttextBox;
         private PictureBox pictureBox1;
+        private DataGridView dataGridViewTickets;
     }
 }
