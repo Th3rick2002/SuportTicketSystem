@@ -1,29 +1,33 @@
-﻿namespace PresentationLayer.forms
+﻿using BussisnesLayer.Services.TicketService;
+using DataAccessLayer.Repositories;
+
+namespace PresentationLayer.forms
 {
     public partial class AgentPanelForm : Form
     {
+        private TicketRepository _TicketRepository;
+        private ticketService _TicketService;
         public AgentPanelForm()
         {
             InitializeComponent();
+            _TicketService = new ticketService();
+            LoadTicketData();
 
-            // Suscribir eventos MouseEnter y MouseLeave para cada botón
-            //btnExit.MouseEnter += Button_MouseEnter;
-            //btnExit.MouseLeave += Button_MouseLeave;
-            //btnFinish.MouseEnter += Button_MouseEnter;
-            //btnFinish.MouseLeave += Button_MouseLeave;
         }
 
-        private void Button_MouseEnter(object sender, EventArgs e)
+
+        public void LoadTicketData()
         {
-            Button button = (Button)sender;
-            button.BackColor = Color.LightGreen;
+            var tickets = _TicketService.GetTickets();
+
+            dataGridViewTickets.DataSource = tickets;
+            dataGridViewTickets.Refresh();
         }
 
-        private void Button_MouseLeave(object sender, EventArgs e)
-        {
-            Button button = (Button)sender;
-            button.BackColor = Color.DarkGreen;
-        }
+
+
+
+
 
         private void btnExit_Click(object sender, EventArgs e)
         {
@@ -38,14 +42,9 @@
             this.Close();
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void StartTicket_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
