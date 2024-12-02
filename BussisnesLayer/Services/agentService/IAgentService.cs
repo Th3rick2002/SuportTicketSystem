@@ -9,4 +9,6 @@ public interface IAgentService
     public void InsertAgent(Agent agent);
     public void UpdateAgent(Agent agent);
     public void DeleteAgent(int id);
+
+    public bool VerifyEmailExist(string email);
 }

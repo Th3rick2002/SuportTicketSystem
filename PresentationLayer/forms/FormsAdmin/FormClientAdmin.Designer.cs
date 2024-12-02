@@ -29,28 +29,29 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormClientAdmin));
-            dataGridViewAgents = new DataGridView();
+            dataGridViewClients = new DataGridView();
             pictureBox1 = new PictureBox();
             btnAdd = new Button();
             textBoxCustomer = new TextBox();
             textBoxCouster = new TextBox();
             label1 = new Label();
             btnUpdate = new Button();
-            button3 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAgents).BeginInit();
+            buttonDelete = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewClients).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // dataGridViewAgents
+            // dataGridViewClients
             // 
-            dataGridViewAgents.BackgroundColor = Color.FromArgb(235, 239, 242);
-            dataGridViewAgents.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAgents.GridColor = Color.Black;
-            dataGridViewAgents.Location = new Point(12, 89);
-            dataGridViewAgents.Name = "dataGridViewAgents";
-            dataGridViewAgents.RowHeadersWidth = 51;
-            dataGridViewAgents.Size = new Size(779, 447);
-            dataGridViewAgents.TabIndex = 48;
+            dataGridViewClients.BackgroundColor = Color.FromArgb(235, 239, 242);
+            dataGridViewClients.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewClients.GridColor = Color.Black;
+            dataGridViewClients.Location = new Point(12, 89);
+            dataGridViewClients.Name = "dataGridViewClients";
+            dataGridViewClients.RowHeadersWidth = 51;
+            dataGridViewClients.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridViewClients.Size = new Size(779, 447);
+            dataGridViewClients.TabIndex = 48;
             // 
             // pictureBox1
             // 
@@ -126,18 +127,19 @@
             btnUpdate.UseVisualStyleBackColor = false;
             btnUpdate.Click += btnUpdate_Click;
             // 
-            // button3
+            // buttonDelete
             // 
-            button3.BackColor = Color.FromArgb(235, 239, 242);
-            button3.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            button3.ForeColor = Color.Black;
-            button3.Location = new Point(819, 345);
-            button3.Margin = new Padding(4);
-            button3.Name = "button3";
-            button3.Size = new Size(141, 35);
-            button3.TabIndex = 49;
-            button3.Text = "Eliminar ";
-            button3.UseVisualStyleBackColor = false;
+            buttonDelete.BackColor = Color.FromArgb(235, 239, 242);
+            buttonDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            buttonDelete.ForeColor = Color.Black;
+            buttonDelete.Location = new Point(819, 345);
+            buttonDelete.Margin = new Padding(4);
+            buttonDelete.Name = "buttonDelete";
+            buttonDelete.Size = new Size(141, 35);
+            buttonDelete.TabIndex = 49;
+            buttonDelete.Text = "Eliminar ";
+            buttonDelete.UseVisualStyleBackColor = false;
+            buttonDelete.Click += buttonDelete_Click;
             // 
             // FormClientAdmin
             // 
@@ -147,17 +149,17 @@
             ClientSize = new Size(988, 548);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
-            Controls.Add(button3);
+            Controls.Add(buttonDelete);
             Controls.Add(btnUpdate);
             Controls.Add(btnAdd);
-            Controls.Add(dataGridViewAgents);
+            Controls.Add(dataGridViewClients);
             Controls.Add(textBoxCouster);
             Controls.Add(textBoxCustomer);
             Margin = new Padding(3, 2, 3, 2);
             Name = "FormClientAdmin";
             Text = "FormClientAdmin";
             Load += FormClientAdmin_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridViewAgents).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewClients).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -165,13 +167,13 @@
 
         #endregion
 
-        private DataGridView dataGridViewAgents;
+        private DataGridView dataGridViewClients;
         private PictureBox pictureBox1;
         private Button btnAdd;
         private TextBox textBoxCustomer;
         private TextBox textBoxCouster;
         private Label label1;
         private Button btnUpdate;
-        private Button button3;
+        private Button buttonDelete;
     }
 }

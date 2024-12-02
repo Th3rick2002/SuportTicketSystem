@@ -10,4 +10,6 @@ public interface IAgentRepository
     void UpdateAgent(Agent agent);
     void DeleteAgent(int id);
     Agent GetAgentByEmailAndPassword(string email, string password);
+
+    bool VerifyEmailExist(string email);
 }

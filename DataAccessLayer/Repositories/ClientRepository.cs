@@ -21,7 +21,7 @@ public class ClientRepository : IClientRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "SELECT client.Id, client.FirstName, client.LastName, client.Email, client.IdRol, Rol.NameRol AS Rol FROM Client INNER JOIN Rol ON client.IdRol = Rol.Id";
+            string query = "SELECT client.Id, client.FirstName, client.LastName, client.Email, client.Password, client.IdRol, Rol.NameRol AS Rol FROM Client INNER JOIN Rol ON client.IdRol = Rol.Id";
             
             SqlCommand command = new SqlCommand(query, connection);
             connection.Open();
@@ -122,7 +122,6 @@ public class ClientRepository : IClientRepository
             command.Parameters.Add("@Email", SqlDbType.NVarChar, 100).Value = email;
             connection.Open();
 
-            // Devuelve true si el conteo es mayor que 0
             return (int)command.ExecuteScalar() > 0;
         }
     }

@@ -32,4 +32,9 @@ public class agentService: IAgentService
     {
         _agentRepository.DeleteAgent(id);
     }
+
+    public bool VerifyEmailExist(string email)
+    {
+        return _agentRepository.VerifyEmailExist(email);
+    }
 }

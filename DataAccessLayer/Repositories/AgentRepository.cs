@@ -111,4 +111,18 @@ public class AgentRepository : IAgentRepository
         
         return agent;
     }
+
+    public bool VerifyEmailExist(string email)
+    {
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
+        {
+            string query = "SELECT COUNT(1) FROM Agent WHERE Email = @Email";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.Add("@Email", SqlDbType.NVarChar, 100).Value = email;
+            connection.Open();
+
+            // Devuelve true si el conteo es mayor que 0
+            return (int)command.ExecuteScalar() > 0;
+        }
+    }
 }
