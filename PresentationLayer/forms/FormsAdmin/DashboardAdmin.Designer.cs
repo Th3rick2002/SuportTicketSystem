@@ -29,48 +29,23 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardAdmin));
-            button5 = new Button();
-            AdminButton = new Button();
             FormAdmin_AgentButton = new Button();
             FormAdmin_TicketsButton = new Button();
             principalPictureBox = new PictureBox();
-            buttonTag = new Button();
             Homebutton = new Button();
             FormAdmin_ClientButton = new Button();
             buttonExit = new Button();
             ((System.ComponentModel.ISupportInitialize)principalPictureBox).BeginInit();
             SuspendLayout();
             // 
-            // button5
-            // 
-            button5.BackColor = Color.FromArgb(235, 239, 242);
-            button5.ForeColor = Color.Black;
-            button5.Location = new Point(22, 479);
-            button5.Name = "button5";
-            button5.Size = new Size(206, 57);
-            button5.TabIndex = 6;
-            button5.Text = "Registro";
-            button5.UseVisualStyleBackColor = false;
-            // 
-            // AdminButton
-            // 
-            AdminButton.BackColor = Color.FromArgb(235, 239, 242);
-            AdminButton.ForeColor = Color.Black;
-            AdminButton.Location = new Point(22, 227);
-            AdminButton.Name = "AdminButton";
-            AdminButton.Size = new Size(206, 57);
-            AdminButton.TabIndex = 8;
-            AdminButton.Text = "Admin";
-            AdminButton.UseVisualStyleBackColor = false;
-            AdminButton.Click += AdminButton_Click;
-            // 
             // FormAdmin_AgentButton
             // 
             FormAdmin_AgentButton.BackColor = Color.FromArgb(235, 239, 242);
             FormAdmin_AgentButton.ForeColor = Color.Black;
-            FormAdmin_AgentButton.Location = new Point(22, 353);
+            FormAdmin_AgentButton.Location = new Point(19, 272);
+            FormAdmin_AgentButton.Margin = new Padding(3, 2, 3, 2);
             FormAdmin_AgentButton.Name = "FormAdmin_AgentButton";
-            FormAdmin_AgentButton.Size = new Size(206, 57);
+            FormAdmin_AgentButton.Size = new Size(180, 43);
             FormAdmin_AgentButton.TabIndex = 10;
             FormAdmin_AgentButton.Text = "Agentes";
             FormAdmin_AgentButton.UseVisualStyleBackColor = false;
@@ -80,9 +55,10 @@
             // 
             FormAdmin_TicketsButton.BackColor = Color.FromArgb(235, 239, 242);
             FormAdmin_TicketsButton.ForeColor = Color.Black;
-            FormAdmin_TicketsButton.Location = new Point(22, 416);
+            FormAdmin_TicketsButton.Location = new Point(19, 350);
+            FormAdmin_TicketsButton.Margin = new Padding(3, 2, 3, 2);
             FormAdmin_TicketsButton.Name = "FormAdmin_TicketsButton";
-            FormAdmin_TicketsButton.Size = new Size(206, 57);
+            FormAdmin_TicketsButton.Size = new Size(180, 43);
             FormAdmin_TicketsButton.TabIndex = 11;
             FormAdmin_TicketsButton.Text = "Tickets";
             FormAdmin_TicketsButton.UseVisualStyleBackColor = false;
@@ -92,31 +68,22 @@
             // 
             principalPictureBox.BackColor = Color.LightGreen;
             principalPictureBox.Image = (Image)resources.GetObject("principalPictureBox.Image");
-            principalPictureBox.Location = new Point(249, -1);
+            principalPictureBox.Location = new Point(218, -1);
+            principalPictureBox.Margin = new Padding(3, 2, 3, 2);
             principalPictureBox.Name = "principalPictureBox";
-            principalPictureBox.Size = new Size(1128, 777);
+            principalPictureBox.Size = new Size(987, 583);
             principalPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
             principalPictureBox.TabIndex = 1;
             principalPictureBox.TabStop = false;
-            // 
-            // buttonTag
-            // 
-            buttonTag.BackColor = Color.FromArgb(235, 239, 242);
-            buttonTag.ForeColor = Color.Black;
-            buttonTag.Location = new Point(22, 542);
-            buttonTag.Name = "buttonTag";
-            buttonTag.Size = new Size(206, 57);
-            buttonTag.TabIndex = 12;
-            buttonTag.Text = "Categorias/Etiquetas";
-            buttonTag.UseVisualStyleBackColor = false;
             // 
             // Homebutton
             // 
             Homebutton.BackColor = Color.FromArgb(235, 239, 242);
             Homebutton.ForeColor = Color.Black;
-            Homebutton.Location = new Point(22, 164);
+            Homebutton.Location = new Point(19, 123);
+            Homebutton.Margin = new Padding(3, 2, 3, 2);
             Homebutton.Name = "Homebutton";
-            Homebutton.Size = new Size(206, 57);
+            Homebutton.Size = new Size(180, 43);
             Homebutton.TabIndex = 0;
             Homebutton.Text = "Inicio";
             Homebutton.UseVisualStyleBackColor = false;
@@ -126,9 +93,10 @@
             // 
             FormAdmin_ClientButton.BackColor = Color.FromArgb(235, 239, 242);
             FormAdmin_ClientButton.ForeColor = Color.Black;
-            FormAdmin_ClientButton.Location = new Point(22, 290);
+            FormAdmin_ClientButton.Location = new Point(19, 191);
+            FormAdmin_ClientButton.Margin = new Padding(3, 2, 3, 2);
             FormAdmin_ClientButton.Name = "FormAdmin_ClientButton";
-            FormAdmin_ClientButton.Size = new Size(206, 57);
+            FormAdmin_ClientButton.Size = new Size(180, 43);
             FormAdmin_ClientButton.TabIndex = 9;
             FormAdmin_ClientButton.Text = "Clientes";
             FormAdmin_ClientButton.UseVisualStyleBackColor = false;
@@ -138,9 +106,10 @@
             // 
             buttonExit.BackColor = Color.FromArgb(235, 239, 242);
             buttonExit.ForeColor = Color.Black;
-            buttonExit.Location = new Point(22, 678);
+            buttonExit.Location = new Point(19, 508);
+            buttonExit.Margin = new Padding(3, 2, 3, 2);
             buttonExit.Name = "buttonExit";
-            buttonExit.Size = new Size(206, 57);
+            buttonExit.Size = new Size(180, 43);
             buttonExit.TabIndex = 13;
             buttonExit.Text = "Cerrar sesión";
             buttonExit.UseVisualStyleBackColor = false;
@@ -148,20 +117,18 @@
             // 
             // DashboardAdmin
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(170, 167, 242);
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1378, 777);
+            ClientSize = new Size(1206, 583);
             Controls.Add(buttonExit);
             Controls.Add(Homebutton);
-            Controls.Add(buttonTag);
             Controls.Add(FormAdmin_TicketsButton);
             Controls.Add(FormAdmin_AgentButton);
             Controls.Add(FormAdmin_ClientButton);
-            Controls.Add(AdminButton);
-            Controls.Add(button5);
             Controls.Add(principalPictureBox);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "DashboardAdmin";
             Text = "DashboardAgent";
             ((System.ComponentModel.ISupportInitialize)principalPictureBox).EndInit();
@@ -169,12 +136,9 @@
         }
 
         #endregion
-        private Button button5;
-        private Button AdminButton;
         private Button FormAdmin_AgentButton;
         private Button FormAdmin_TicketsButton;
         private PictureBox principalPictureBox;
-        private Button buttonTag;
         private Button Homebutton;
         private Button FormAdmin_ClientButton;
         private Button buttonExit;

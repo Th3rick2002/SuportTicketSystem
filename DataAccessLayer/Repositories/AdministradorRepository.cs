@@ -21,7 +21,7 @@ public class AdministradorRepository : IAdministradorRepository
 
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "SELECT * FROM Administrador WHERE IdRol = 2";
+            string query = "SELECT Id, FirstName, LastName, Email, Password FROM Administrador WHERE IdRol = 2";
             SqlCommand command = new SqlCommand(query, connection);
             
             connection.Open();
@@ -34,7 +34,7 @@ public class AdministradorRepository : IAdministradorRepository
     {
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "INSERT INTO Administrador(FirstName, LastName, Email, Password, IdRol) VALUES(@FirstName, @LastName, @Email, @Password, 1)";
+            string query = "INSERT INTO Administrador(FirstName, LastName, Email, Password, IdRol) VALUES(@FirstName, @LastName, @Email, @Password, 2)";
             SqlCommand command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@FirstName", administrador.FirstName);
             command.Parameters.AddWithValue("@LastName", administrador.LastName);
@@ -105,6 +105,19 @@ public class AdministradorRepository : IAdministradorRepository
             }
 
             return administrador;
+        }
+    }
+
+    public bool VerifyEmailExist(string email)
+    {
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
+        {
+            string query = "SELECT COUNT(1) FROM Administrador WHERE Email = @Email";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.Add("@Email", SqlDbType.NVarChar, 100).Value = email;
+            connection.Open();
+
+            return (int)command.ExecuteScalar() > 0;
         }
     }
 }

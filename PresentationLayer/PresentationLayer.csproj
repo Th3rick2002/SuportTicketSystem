@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BussisnesLayer\BussisnesLayer.csproj" />
+    <ProjectReference Include="..\CommonLayer\CommonLayer.csproj" />
   </ItemGroup>
 
   <ItemGroup>

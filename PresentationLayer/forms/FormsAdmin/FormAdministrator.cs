@@ -1,4 +1,5 @@
 ﻿using CommonLayer.Entities;
+using BussisnesLayer.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,16 +9,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BussisnesLayer.Services.agentService;
 
 namespace PresentationLayer.forms
 {
     public partial class FormAdministrator : Form
     {
-        private administrador _administrador;
-        
+        //private administradorService _administradorService;
+
         public FormAdministrator()
         {
             InitializeComponent();
+            //_administradorService = new administradorService();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -42,6 +45,7 @@ namespace PresentationLayer.forms
 
         private void FormAdministrator_Load(object sender, EventArgs e)
         {
+            //_administradorService.GetAllAdmins();
 
         }
     }
