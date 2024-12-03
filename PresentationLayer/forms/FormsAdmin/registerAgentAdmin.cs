@@ -1,6 +1,7 @@
 ﻿using BussisnesLayer.Services.agentService;
 using BussisnesLayer.Services.userService;
 using CommonLayer.Entities;
+using PresentationLayer.Validations.ValidationsAgent;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,50 +11,133 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FluentValidation.Results;
 
 namespace PresentationLayer.forms.FormsAdmin
 {
     public partial class registerAgentAdmin : Form
     {
-        private agentService agentService;
+        private readonly agentService _agentService = new agentService();
+        private readonly AgentValidator _validator = new AgentValidator();
+        private readonly ErrorProvider _registerAgentErrorProvider = new ErrorProvider();
+        public bool EditMode { get; set; } = false;
+        public Agent AgentData { get; set; }
+
         public registerAgentAdmin()
         {
             InitializeComponent();
-            agentService = new agentService();
-            
+            ConfigureErrorProvider();
         }
 
-        private void labelRegisterNewAgent_Click(object sender, EventArgs e)
+        private void ConfigureErrorProvider()
         {
+            _registerAgentErrorProvider.ContainerControl = this;
+            _registerAgentErrorProvider.BlinkStyle = ErrorBlinkStyle.NeverBlink;
+        }
 
+        private void registerAgentAdmin_Load(object sender, EventArgs e)
+        {
+            ConfigureFormForMode();
+        }
+
+        private void ConfigureFormForMode()
+        {
+            labelRegisterNewAgent.Text = EditMode ? "Editar Agente" : "Registrar Nuevo Agente";
+
+            if (EditMode && AgentData != null)
+            {
+                SetAgentData(AgentData);
+                DisablePasswordFields();
+            }
+            else
+            {
+                textBoxPaswordAgent.Enabled = true;
+                textBoxVerifyPasswordAgent.Enabled = true;
+            }
+        }
+
+        private void DisablePasswordFields()
+        {
+            textBoxPaswordAgent.Text = "********";
+            textBoxVerifyPasswordAgent.Text = "********";
+            textBoxPaswordAgent.Enabled = false;
+            textBoxVerifyPasswordAgent.Enabled = false;
         }
 
         private void btnSaveAgent_Click(object sender, EventArgs e)
         {
-            Agent agent = new Agent();
+            _registerAgentErrorProvider.Clear();
+            var agent = CreateAgentFromForm();
 
-            agent.FirstName = textBoxNameAgent.Text;
-            agent.LastName = textBoxLastNameAgent.Text;
-            agent.Email = textBoxEmailAgent.Text;
-            agent.Password = textBoxPaswordAgent.Text;
+            // Usar FluentValidation para validar el agente
+            ValidationResult validationResult = _validator.Validate(agent);
 
-            if (agent.Password != textBoxVerifyPasswordAgent.Text)
+            if (!validationResult.IsValid)
             {
-                MessageBox.Show("Las contraseñas no coinciden");
+                ShowValidationErrors(validationResult);
                 return;
             }
-            else if (agentService.VerifyEmailExist(agent.Email))
+
+            // Guardar o actualizar el agente
+            if (EditMode)
             {
-                MessageBox.Show("El correo ya esta registrado");
-                return;
+                agent.IdAgent = AgentData.IdAgent;
+                _agentService.UpdateAgent(agent);
+                MessageBox.Show("Agente actualizado exitosamente.");
             }
             else
             {
-                agentService.InsertAgent(agent);
-
-                MessageBox.Show("Usuario registrado exitosamente");
-                this.Close();
+                _agentService.InsertAgent(agent);
+                MessageBox.Show("Agente registrado exitosamente.");
             }
+
+            this.DialogResult = DialogResult.OK;
+            Close();
+        }
+
+        private Agent CreateAgentFromForm()
+        {
+            return new Agent
+            {
+                FirstName = textBoxNameAgent.Text,
+                LastName = textBoxLastNameAgent.Text,
+                Email = textBoxEmailAgent.Text,
+                Password = EditMode ? AgentData.Password : textBoxPaswordAgent.Text
+            };
+        }
+
+        private void ShowValidationErrors(ValidationResult validationResult)
+        {
+            foreach (var error in validationResult.Errors)
+            {
+                switch (error.PropertyName)
+                {
+                    case nameof(Agent.FirstName):
+                        _registerAgentErrorProvider.SetError(textBoxNameAgent, error.ErrorMessage);
+                        break;
+                    case nameof(Agent.LastName):
+                        _registerAgentErrorProvider.SetError(textBoxLastNameAgent, error.ErrorMessage);
+                        break;
+                    case nameof(Agent.Email):
+                        _registerAgentErrorProvider.SetError(textBoxEmailAgent, error.ErrorMessage);
+                        break;
+                    case nameof(Agent.Password):
+                        _registerAgentErrorProvider.SetError(textBoxPaswordAgent, error.ErrorMessage);
+                        break;
+                }
+            }
+        }
+
+        private void SetAgentData(Agent agent)
+        {
+            textBoxNameAgent.Text = agent.FirstName;
+            textBoxLastNameAgent.Text = agent.LastName;
+            textBoxEmailAgent.Text = agent.Email;
+        }
+
+        private void btnExitAgent_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

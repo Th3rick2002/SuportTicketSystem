@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(registerAgentAdmin));
             labelRegisterNewAgent = new Label();
             textBox1Agent = new TextBox();
@@ -47,10 +48,12 @@
             btnExitAgent = new Button();
             btnSaveAgent = new Button();
             pictureBoxRegisterAgent = new PictureBox();
+            RegisterAgentErrorProvider = new ErrorProvider(components);
             groupBoxRegisterAgent.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxRegisterAgent).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)RegisterAgentErrorProvider).BeginInit();
             SuspendLayout();
             // 
             // labelRegisterNewAgent
@@ -61,10 +64,8 @@
             labelRegisterNewAgent.ForeColor = SystemColors.ActiveCaptionText;
             labelRegisterNewAgent.Location = new Point(11, 9);
             labelRegisterNewAgent.Name = "labelRegisterNewAgent";
-            labelRegisterNewAgent.Size = new Size(511, 46);
+            labelRegisterNewAgent.Size = new Size(0, 46);
             labelRegisterNewAgent.TabIndex = 27;
-            labelRegisterNewAgent.Text = "Registro de Nuevo Agente";
-            labelRegisterNewAgent.Click += labelRegisterNewAgent_Click;
             // 
             // textBox1Agent
             // 
@@ -82,7 +83,7 @@
             labelNameAgent.BackColor = Color.FromArgb(207, 206, 242);
             labelNameAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelNameAgent.ForeColor = SystemColors.ActiveCaptionText;
-            labelNameAgent.Location = new Point(17, 19);
+            labelNameAgent.Location = new Point(12, 19);
             labelNameAgent.Name = "labelNameAgent";
             labelNameAgent.Size = new Size(80, 23);
             labelNameAgent.TabIndex = 13;
@@ -94,7 +95,7 @@
             labelFirstNameAgent.BackColor = Color.FromArgb(207, 206, 242);
             labelFirstNameAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelFirstNameAgent.ForeColor = SystemColors.ActiveCaptionText;
-            labelFirstNameAgent.Location = new Point(17, 88);
+            labelFirstNameAgent.Location = new Point(12, 88);
             labelFirstNameAgent.Name = "labelFirstNameAgent";
             labelFirstNameAgent.Size = new Size(77, 23);
             labelFirstNameAgent.TabIndex = 14;
@@ -106,7 +107,7 @@
             labelGmailAgent.BackColor = Color.FromArgb(207, 206, 242);
             labelGmailAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelGmailAgent.ForeColor = SystemColors.ActiveCaptionText;
-            labelGmailAgent.Location = new Point(17, 163);
+            labelGmailAgent.Location = new Point(12, 163);
             labelGmailAgent.Name = "labelGmailAgent";
             labelGmailAgent.Size = new Size(59, 23);
             labelGmailAgent.TabIndex = 16;
@@ -118,7 +119,7 @@
             labelPaswordAgent.BackColor = Color.FromArgb(207, 206, 242);
             labelPaswordAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelPaswordAgent.ForeColor = SystemColors.ActiveCaptionText;
-            labelPaswordAgent.Location = new Point(17, 235);
+            labelPaswordAgent.Location = new Point(12, 235);
             labelPaswordAgent.Name = "labelPaswordAgent";
             labelPaswordAgent.Size = new Size(97, 23);
             labelPaswordAgent.TabIndex = 18;
@@ -130,7 +131,7 @@
             labelVerifyPasswordAgent.BackColor = Color.FromArgb(207, 206, 242);
             labelVerifyPasswordAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
             labelVerifyPasswordAgent.ForeColor = SystemColors.ActiveCaptionText;
-            labelVerifyPasswordAgent.Location = new Point(17, 323);
+            labelVerifyPasswordAgent.Location = new Point(12, 323);
             labelVerifyPasswordAgent.Name = "labelVerifyPasswordAgent";
             labelVerifyPasswordAgent.Size = new Size(160, 23);
             labelVerifyPasswordAgent.TabIndex = 20;
@@ -138,7 +139,7 @@
             // 
             // textBoxNameAgent
             // 
-            textBoxNameAgent.Location = new Point(17, 45);
+            textBoxNameAgent.Location = new Point(12, 45);
             textBoxNameAgent.Margin = new Padding(3, 4, 3, 4);
             textBoxNameAgent.Name = "textBoxNameAgent";
             textBoxNameAgent.Size = new Size(350, 27);
@@ -146,7 +147,7 @@
             // 
             // textBoxVerifyPasswordAgent
             // 
-            textBoxVerifyPasswordAgent.Location = new Point(17, 349);
+            textBoxVerifyPasswordAgent.Location = new Point(12, 349);
             textBoxVerifyPasswordAgent.Margin = new Padding(3, 4, 3, 4);
             textBoxVerifyPasswordAgent.Name = "textBoxVerifyPasswordAgent";
             textBoxVerifyPasswordAgent.Size = new Size(350, 27);
@@ -155,7 +156,7 @@
             // 
             // textBoxLastNameAgent
             // 
-            textBoxLastNameAgent.Location = new Point(17, 115);
+            textBoxLastNameAgent.Location = new Point(12, 115);
             textBoxLastNameAgent.Margin = new Padding(3, 4, 3, 4);
             textBoxLastNameAgent.Name = "textBoxLastNameAgent";
             textBoxLastNameAgent.Size = new Size(350, 27);
@@ -163,7 +164,7 @@
             // 
             // textBoxEmailAgent
             // 
-            textBoxEmailAgent.Location = new Point(17, 189);
+            textBoxEmailAgent.Location = new Point(12, 189);
             textBoxEmailAgent.Margin = new Padding(3, 4, 3, 4);
             textBoxEmailAgent.Name = "textBoxEmailAgent";
             textBoxEmailAgent.Size = new Size(350, 27);
@@ -171,7 +172,7 @@
             // 
             // textBoxPaswordAgent
             // 
-            textBoxPaswordAgent.Location = new Point(17, 261);
+            textBoxPaswordAgent.Location = new Point(12, 261);
             textBoxPaswordAgent.Margin = new Padding(3, 4, 3, 4);
             textBoxPaswordAgent.Name = "textBoxPaswordAgent";
             textBoxPaswordAgent.Size = new Size(350, 27);
@@ -197,7 +198,7 @@
             groupBoxRegisterAgent.Controls.Add(textBoxPaswordAgent);
             groupBoxRegisterAgent.Location = new Point(59, 97);
             groupBoxRegisterAgent.Name = "groupBoxRegisterAgent";
-            groupBoxRegisterAgent.Size = new Size(382, 475);
+            groupBoxRegisterAgent.Size = new Size(412, 475);
             groupBoxRegisterAgent.TabIndex = 28;
             groupBoxRegisterAgent.TabStop = false;
             // 
@@ -234,6 +235,7 @@
             btnExitAgent.TabIndex = 21;
             btnExitAgent.Text = "Salir";
             btnExitAgent.UseVisualStyleBackColor = false;
+            btnExitAgent.Click += btnExitAgent_Click;
             // 
             // btnSaveAgent
             // 
@@ -259,6 +261,10 @@
             pictureBoxRegisterAgent.TabIndex = 29;
             pictureBoxRegisterAgent.TabStop = false;
             // 
+            // RegisterAgentErrorProvider
+            // 
+            RegisterAgentErrorProvider.ContainerControl = this;
+            // 
             // registerAgentAdmin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -271,18 +277,20 @@
             Controls.Add(pictureBoxRegisterAgent);
             Name = "registerAgentAdmin";
             Text = "registerAgentAdmin";
+            Load += registerAgentAdmin_Load;
             groupBoxRegisterAgent.ResumeLayout(false);
             groupBoxRegisterAgent.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxRegisterAgent).EndInit();
+            ((System.ComponentModel.ISupportInitialize)RegisterAgentErrorProvider).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label labelRegisterNewAgent;
+        public Label labelRegisterNewAgent;
         private TextBox textBox1Agent;
         private Label labelNameAgent;
         private Label labelFirstNameAgent;
@@ -300,5 +308,6 @@
         private Button btnExitAgent;
         private Button btnSaveAgent;
         private PictureBox pictureBoxRegisterAgent;
+        private ErrorProvider RegisterAgentErrorProvider;
     }
 }

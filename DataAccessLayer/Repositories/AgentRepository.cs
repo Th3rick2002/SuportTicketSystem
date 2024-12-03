@@ -55,13 +55,13 @@ public class AgentRepository : IAgentRepository
     {
         using (var connection = (SqlConnection)_dbConnection.GetConnection())
         {
-            string query = "UPDATE Agent SET FirstName = @FirstName, LastName = @LastName, Email = @Email, Password = @Password, availability = @availability WHERE Id = @Id";
+            string query = "UPDATE Agent SET FirstName = @FirstName, LastName = @LastName, Email = @Email, availability = @availability WHERE Id = @Id";
             SqlCommand command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@FirstName", agent.FirstName);
             command.Parameters.AddWithValue("@LastName", agent.LastName);
             command.Parameters.AddWithValue("@Email", agent.Email);
-            command.Parameters.AddWithValue("@Password", agent.Password);
             command.Parameters.AddWithValue("@availability", agent.availability);
+            command.Parameters.AddWithValue("@Id", agent.IdAgent);
             connection.Open();
             
             command.ExecuteNonQuery();

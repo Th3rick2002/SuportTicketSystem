@@ -29,98 +29,31 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAgentAdmin));
-            buttonDelete = new Button();
-            dataGridViewTicket = new DataGridView();
-            NameTicket = new DataGridViewTextBoxColumn();
-            DescriptionTicket = new DataGridViewTextBoxColumn();
-            Priority = new DataGridViewTextBoxColumn();
-            Status = new DataGridViewTextBoxColumn();
-            Categorie = new DataGridViewTextBoxColumn();
-            Tag = new DataGridViewTextBoxColumn();
-            FirstName = new DataGridViewTextBoxColumn();
+            buttonDeleteAgent = new Button();
             pictureAgent = new PictureBox();
-            btnUpdate = new Button();
-            btnAdd = new Button();
+            btnUpdateAgent = new Button();
+            btnAddAgent = new Button();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             label1 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).BeginInit();
+            dataGridViewAgents = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)pictureAgent).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewAgents).BeginInit();
             SuspendLayout();
             // 
-            // buttonDelete
+            // buttonDeleteAgent
             // 
-            buttonDelete.BackColor = Color.FromArgb(235, 239, 242);
-            buttonDelete.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            buttonDelete.ForeColor = Color.Black;
-            buttonDelete.Location = new Point(940, 450);
-            buttonDelete.Margin = new Padding(4, 5, 4, 5);
-            buttonDelete.Name = "buttonDelete";
-            buttonDelete.Size = new Size(161, 47);
-            buttonDelete.TabIndex = 55;
-            buttonDelete.Text = "Eliminar ";
-            buttonDelete.UseVisualStyleBackColor = false;
-            // 
-            // dataGridViewTicket
-            // 
-            dataGridViewTicket.BackgroundColor = Color.FromArgb(235, 239, 242);
-            dataGridViewTicket.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewTicket.Columns.AddRange(new DataGridViewColumn[] { NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, FirstName });
-            dataGridViewTicket.Location = new Point(24, 145);
-            dataGridViewTicket.Margin = new Padding(3, 4, 3, 4);
-            dataGridViewTicket.Name = "dataGridViewTicket";
-            dataGridViewTicket.RowHeadersWidth = 51;
-            dataGridViewTicket.Size = new Size(869, 531);
-            dataGridViewTicket.TabIndex = 54;
-            // 
-            // NameTicket
-            // 
-            NameTicket.HeaderText = "Nombre Ticket";
-            NameTicket.MinimumWidth = 6;
-            NameTicket.Name = "NameTicket";
-            NameTicket.Width = 125;
-            // 
-            // DescriptionTicket
-            // 
-            DescriptionTicket.HeaderText = "Descripcion Ticket";
-            DescriptionTicket.MinimumWidth = 6;
-            DescriptionTicket.Name = "DescriptionTicket";
-            DescriptionTicket.Width = 125;
-            // 
-            // Priority
-            // 
-            Priority.HeaderText = "Prioridad";
-            Priority.MinimumWidth = 6;
-            Priority.Name = "Priority";
-            Priority.Width = 90;
-            // 
-            // Status
-            // 
-            Status.HeaderText = "Estado";
-            Status.MinimumWidth = 6;
-            Status.Name = "Status";
-            Status.Width = 125;
-            // 
-            // Categorie
-            // 
-            Categorie.HeaderText = "Categoria";
-            Categorie.MinimumWidth = 6;
-            Categorie.Name = "Categorie";
-            Categorie.Width = 125;
-            // 
-            // Tag
-            // 
-            Tag.HeaderText = "Etiqueta";
-            Tag.MinimumWidth = 6;
-            Tag.Name = "Tag";
-            Tag.Width = 125;
-            // 
-            // FirstName
-            // 
-            FirstName.HeaderText = "Agente";
-            FirstName.MinimumWidth = 6;
-            FirstName.Name = "FirstName";
-            FirstName.Width = 125;
+            buttonDeleteAgent.BackColor = Color.FromArgb(235, 239, 242);
+            buttonDeleteAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            buttonDeleteAgent.ForeColor = Color.Black;
+            buttonDeleteAgent.Location = new Point(940, 450);
+            buttonDeleteAgent.Margin = new Padding(4, 5, 4, 5);
+            buttonDeleteAgent.Name = "buttonDeleteAgent";
+            buttonDeleteAgent.Size = new Size(161, 47);
+            buttonDeleteAgent.TabIndex = 55;
+            buttonDeleteAgent.Text = "Eliminar ";
+            buttonDeleteAgent.UseVisualStyleBackColor = false;
+            buttonDeleteAgent.Click += buttonDeleteAgent_Click;
             // 
             // pictureAgent
             // 
@@ -134,31 +67,33 @@
             pictureAgent.TabIndex = 53;
             pictureAgent.TabStop = false;
             // 
-            // btnUpdate
+            // btnUpdateAgent
             // 
-            btnUpdate.BackColor = Color.FromArgb(235, 239, 242);
-            btnUpdate.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnUpdate.ForeColor = Color.Black;
-            btnUpdate.Location = new Point(940, 354);
-            btnUpdate.Margin = new Padding(4, 5, 4, 5);
-            btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(161, 47);
-            btnUpdate.TabIndex = 52;
-            btnUpdate.Text = "Actualizar ";
-            btnUpdate.UseVisualStyleBackColor = false;
+            btnUpdateAgent.BackColor = Color.FromArgb(235, 239, 242);
+            btnUpdateAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            btnUpdateAgent.ForeColor = Color.Black;
+            btnUpdateAgent.Location = new Point(940, 354);
+            btnUpdateAgent.Margin = new Padding(4, 5, 4, 5);
+            btnUpdateAgent.Name = "btnUpdateAgent";
+            btnUpdateAgent.Size = new Size(161, 47);
+            btnUpdateAgent.TabIndex = 52;
+            btnUpdateAgent.Text = "Actualizar ";
+            btnUpdateAgent.UseVisualStyleBackColor = false;
+            btnUpdateAgent.Click += btnUpdateAgent_Click;
             // 
-            // btnAdd
+            // btnAddAgent
             // 
-            btnAdd.BackColor = Color.FromArgb(235, 239, 242);
-            btnAdd.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            btnAdd.ForeColor = Color.Black;
-            btnAdd.Location = new Point(940, 253);
-            btnAdd.Margin = new Padding(4, 5, 4, 5);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(161, 49);
-            btnAdd.TabIndex = 51;
-            btnAdd.Text = "Agregar ";
-            btnAdd.UseVisualStyleBackColor = false;
+            btnAddAgent.BackColor = Color.FromArgb(235, 239, 242);
+            btnAddAgent.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            btnAddAgent.ForeColor = Color.Black;
+            btnAddAgent.Location = new Point(940, 253);
+            btnAddAgent.Margin = new Padding(4, 5, 4, 5);
+            btnAddAgent.Name = "btnAddAgent";
+            btnAddAgent.Size = new Size(161, 49);
+            btnAddAgent.TabIndex = 51;
+            btnAddAgent.Text = "Agregar ";
+            btnAddAgent.UseVisualStyleBackColor = false;
+            btnAddAgent.Click += btnAddAgent_Click;
             // 
             // textBox1
             // 
@@ -195,44 +130,49 @@
             label1.TabIndex = 58;
             label1.Text = "PANEL DE AGENTE";
             // 
+            // dataGridViewAgents
+            // 
+            dataGridViewAgents.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            dataGridViewAgents.BackgroundColor = Color.FromArgb(235, 239, 242);
+            dataGridViewAgents.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewAgents.Location = new Point(12, 120);
+            dataGridViewAgents.Name = "dataGridViewAgents";
+            dataGridViewAgents.RowHeadersWidth = 51;
+            dataGridViewAgents.Size = new Size(890, 596);
+            dataGridViewAgents.TabIndex = 59;
+            // 
             // FormAgentAdmin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(170, 167, 242);
             ClientSize = new Size(1129, 730);
+            Controls.Add(dataGridViewAgents);
             Controls.Add(label1);
-            Controls.Add(buttonDelete);
-            Controls.Add(btnUpdate);
-            Controls.Add(btnAdd);
+            Controls.Add(buttonDeleteAgent);
+            Controls.Add(btnUpdateAgent);
+            Controls.Add(btnAddAgent);
             Controls.Add(pictureAgent);
             Controls.Add(textBox2);
-            Controls.Add(dataGridViewTicket);
             Controls.Add(textBox1);
             Name = "FormAgentAdmin";
             Text = "FormAgentAdmin";
-            ((System.ComponentModel.ISupportInitialize)dataGridViewTicket).EndInit();
+            Load += FormAgentAdmin_Load;
             ((System.ComponentModel.ISupportInitialize)pictureAgent).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewAgents).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button buttonDelete;
-        private DataGridView dataGridViewTicket;
-        private DataGridViewTextBoxColumn NameTicket;
-        private DataGridViewTextBoxColumn DescriptionTicket;
-        private DataGridViewTextBoxColumn Priority;
-        private DataGridViewTextBoxColumn Status;
-        private DataGridViewTextBoxColumn Categorie;
-        private DataGridViewTextBoxColumn Tag;
-        private DataGridViewTextBoxColumn FirstName;
+        private Button buttonDeleteAgent;
         private PictureBox pictureAgent;
-        private Button btnUpdate;
-        private Button btnAdd;
+        private Button btnUpdateAgent;
+        private Button btnAddAgent;
         private TextBox textBox1;
         private TextBox textBox2;
         private Label label1;
+        private DataGridView dataGridViewAgents;
     }
 }
