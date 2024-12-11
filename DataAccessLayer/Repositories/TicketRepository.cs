@@ -56,22 +56,25 @@ public class TicketRepository : ITicketRepository
     //metodo para agregar ticket
     public void AddTicked(Ticket ticket)
     {
-            using (var connection = (SqlConnection)_dbConnection.GetConnection())
-            {
-                string query = "INSERT INTO Ticket(NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Client, Id_Agent) VALUES (@NameTicket, @DescriptionTicket, @Priority, @Status, @Categorie, @Tag, @Id_Client, @Id_Agent)";
-                SqlCommand command = new SqlCommand(query, connection);
-                command.Parameters.AddWithValue("@NameTicket", ticket.NameTicket);
-                command.Parameters.AddWithValue("@DescriptionTicket", ticket.DescriptionTicket);
-                command.Parameters.AddWithValue("@Priority", ticket.Priority);
-                command.Parameters.AddWithValue("@Categorie", ticket.categorie);
-                command.Parameters.AddWithValue("@Tag", ticket.tag);
-                command.Parameters.AddWithValue("@Status", ticket.Status);
-                command.Parameters.AddWithValue("@Id_Client", ticket.IdClient);
-                command.Parameters.AddWithValue("@Id_Agent", ticket.IdAgent);
-                connection.Open();
+        using (var connection = (SqlConnection)_dbConnection.GetConnection())
+        {
+            string query = "INSERT INTO Ticket(NameTicket, DescriptionTicket, Priority, Status, Categorie, Tag, Id_Client, Id_Agent) " +
+                           "VALUES (@NameTicket, @DescriptionTicket, @Priority, @Status, @Categorie, @Tag, @Id_Client, @Id_Agent)";
 
-                command.ExecuteNonQuery();
-            }
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@NameTicket", ticket.NameTicket);
+            command.Parameters.AddWithValue("@DescriptionTicket", ticket.DescriptionTicket);
+            command.Parameters.AddWithValue("@Priority", ticket.Priority);
+            command.Parameters.AddWithValue("@Categorie", ticket.categorie);
+            command.Parameters.AddWithValue("@Tag", ticket.tag);
+            command.Parameters.AddWithValue("@Status", ticket.Status);
+            command.Parameters.AddWithValue("@Id_Client", ticket.IdClient);
+
+            command.Parameters.AddWithValue("@Id_Agent", ticket.IdAgent ?? (object)DBNull.Value);
+
+            connection.Open();
+            command.ExecuteNonQuery();
+        }
     }
 
     //metodo para actualizar ticket

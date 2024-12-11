@@ -63,7 +63,7 @@ public class AgentRepository : IAgentRepository
             command.Parameters.AddWithValue("@availability", agent.availability);
             command.Parameters.AddWithValue("@Id", agent.IdAgent);
             connection.Open();
-            
+
             command.ExecuteNonQuery();
         }
     }

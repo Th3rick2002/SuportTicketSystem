@@ -71,10 +71,20 @@ namespace PresentationLayer.forms.FormsAdmin
         private void LoadTickets()
         {
             var tickets = _TicketService.GetTickets();
-
             dataGridViewTicket.DataSource = null;
-
             dataGridViewTicket.DataSource = tickets;
+
+            // Ocultar columnas no deseadas
+            if (dataGridViewTicket.Columns.Contains("IdCategorie"))
+                dataGridViewTicket.Columns["IdCategorie"].Visible = false;
+            if (dataGridViewTicket.Columns.Contains("IdTag"))
+                dataGridViewTicket.Columns["IdTag"].Visible = false;
+            if (dataGridViewTicket.Columns.Contains("IdAgent"))
+                dataGridViewTicket.Columns["IdAgent"].Visible = false;
+            if (dataGridViewTicket.Columns.Contains("IdClient"))
+                dataGridViewTicket.Columns["IdClient"].Visible = false;
+            if (dataGridViewTicket.Columns.Contains("IdTicket"))
+                dataGridViewTicket.Columns["IdTicket"].Visible = false;
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)

@@ -64,6 +64,15 @@ namespace PresentationLayer.forms.FormsAdmin
             textBoxVerifyPasswordAgent.Enabled = false;
         }
 
+
+        private void ConfigurePasswordFieldsForEditMode()
+        {
+            textBoxPaswordAgent.PasswordChar = '*';
+            textBoxVerifyPasswordAgent.PasswordChar = '*';
+            textBoxPaswordAgent.Text = AgentData.Password;  
+            textBoxVerifyPasswordAgent.Text = AgentData.Password;
+        }
+
         private void btnSaveAgent_Click(object sender, EventArgs e)
         {
             _registerAgentErrorProvider.Clear();

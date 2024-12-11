@@ -13,6 +13,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Sockets;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,8 @@ namespace PresentationLayer.forms
         private ticketService _ticketService;
         private CategoryService _categoryService;
         private tagService _tagService;
+        private TicketRepository _ticketRepository;
+        private FormClient parentForm;
 
         public AddTicketClient(FormClient formClient, ITicketRepository ticketRepository, Client client)
         {
@@ -35,10 +38,12 @@ namespace PresentationLayer.forms
             this.StartPosition = FormStartPosition.CenterParent;
             this.Load += AddTicketClient_Load;
             this.formClient = formClient;
+            this.parentForm = formClient;
             _client = client;
             _categoryService = new CategoryService();
             _tagService = new tagService();
             _ticketService = new ticketService();
+            _ticketRepository = new TicketRepository();
         }
 
 
@@ -67,71 +72,87 @@ namespace PresentationLayer.forms
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            validationErrorTicketProvider.Clear();
-
+            // Crear el objeto Ticket con los datos del formulario
             Ticket ticket = new Ticket
             {
                 NameTicket = nameTicketTextBox.Text,
                 DescriptionTicket = DescriptionTicketTextBox.Text,
                 Priority = comboBoxPriority.SelectedItem?.ToString(),
                 Status = "activo",
-                categorie = comboBoxCategories.SelectedValue != null ? (int)comboBoxCategories.SelectedValue : 0,
-                tag = comboBoxTags.SelectedValue != null ? (int)comboBoxTags.SelectedValue : 0,
+                categorie = comboBoxCategories.SelectedIndex != -1 ? (int)comboBoxCategories.SelectedValue : 0,
+                tag = comboBoxTags.SelectedIndex != -1 ? (int)comboBoxTags.SelectedValue : 0,
                 IdClient = _client.IdClient,
                 IdAgent = null
             };
 
-            
-            TicketValidator validator = new TicketValidator();
+            // Validar ticket
+            var validator = new TicketValidator();
             var validationResult = validator.Validate(ticket);
 
-            
-            DisplayValidatorErrors(validationResult);
-
-            
             if (!validationResult.IsValid)
             {
+                DisplayValidatorErrors(validationResult);
                 return;
             }
 
             try
             {
+                // Llamar al servicio para agregar el ticket
                 _ticketService.AddTicked(ticket);
-                MessageBox.Show("El ticket ha sido creado exitosamente");
-                formClient.LoadTicketData();
+                MessageBox.Show("El ticket ha sido creado exitosamente.");
+
+                // Indicar que el formulario debe actualizar los tickets
                 this.DialogResult = DialogResult.OK;
+                this.Close();
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Ha ocurrido un error al crear el ticket");
+                MessageBox.Show($"Ha ocurrido un error al crear el ticket: {ex.Message}");
             }
         }
 
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            var formModal = new AddTicketClient(parentForm, _ticketRepository, _client);
+            if (formModal.ShowDialog(this) == DialogResult.OK)
+            {
+                LoadTicketData();
+            }
+        }
+
+
+        private void LoadTicketData()
+        {
+            // Implementar lógica para cargar los datos actualizados.
+        }
         private void DisplayValidatorErrors(ValidationResult result)
         {
+            // Limpiar errores previos
             validationErrorTicketProvider.Clear();
 
+            // Mostrar errores solo si hay fallos en la validación
             foreach (var error in result.Errors)
             {
-                switch (error.PropertyName)
+                var control = GetControlByPropertyName(error.PropertyName);
+                if (control != null)
                 {
-                    case nameof(Ticket.NameTicket):
-                        validationErrorTicketProvider.SetError(nameTicketTextBox, error.ErrorMessage);
-                        break;
-                    case nameof(Ticket.DescriptionTicket):
-                        validationErrorTicketProvider.SetError(DescriptionTicketTextBox, error.ErrorMessage);
-                        break;
-                    case nameof(Ticket.Priority):
-                        validationErrorTicketProvider.SetError(comboBoxPriority, error.ErrorMessage);
-                        break;
-                    case nameof(Ticket.categorie):
-                        validationErrorTicketProvider.SetError(comboBoxCategories, error.ErrorMessage);
-                        break;
-                    case nameof(Ticket.tag):
-                        validationErrorTicketProvider.SetError(comboBoxTags, error.ErrorMessage);
-                        break;
+                    validationErrorTicketProvider.SetError(control, error.ErrorMessage);
                 }
             }
+        }
+
+        // Obtiene el control asociado a una propiedad por nombre
+        private Control? GetControlByPropertyName(string propertyName)
+        {
+            return propertyName switch
+            {
+                nameof(Ticket.NameTicket) => nameTicketTextBox,
+                nameof(Ticket.DescriptionTicket) => DescriptionTicketTextBox,
+                nameof(Ticket.Priority) => comboBoxPriority,
+                nameof(Ticket.categorie) => comboBoxCategories,
+                nameof(Ticket.tag) => comboBoxTags,
+                _ => null
+            };
         }
 
         private void btnExit_Click(object sender, EventArgs e)

@@ -28,7 +28,9 @@ namespace PresentationLayer.Validations.ValidationsAgent
 
             RuleFor(agent => agent.Password)
                 .NotEmpty().WithMessage("La contraseña es obligatoria.")
-                .Equal(x => x.Password).When(x => !string.IsNullOrEmpty(x.Password)).WithMessage("Las contraseñas no coinciden.");
+                .MinimumLength(6).WithMessage("La contraseña debe tener al menos 6 caracteres.")
+                .Matches(@"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).+$").WithMessage("La contraseña debe incluir al menos una letra mayúscula, una minúscula y un número.");
+                
         }
     }
 }

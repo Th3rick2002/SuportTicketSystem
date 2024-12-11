@@ -77,7 +77,7 @@
             lblClient.Location = new Point(13, 17);
             lblClient.Margin = new Padding(4, 0, 4, 0);
             lblClient.Name = "lblClient";
-            lblClient.Size = new Size(317, 36);
+            lblClient.Size = new Size(400, 46);
             lblClient.TabIndex = 29;
             lblClient.Text = "PANEL DE CLIENTE";
             // 
@@ -96,6 +96,7 @@
             // 
             // dataGridViewTickets
             // 
+            dataGridViewTickets.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             dataGridViewTickets.BackgroundColor = Color.FromArgb(207, 206, 242);
             dataGridViewTickets.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewTickets.Location = new Point(66, 121);
@@ -127,7 +128,7 @@
             // 
             // FormClient
             // 
-            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleDimensions = new SizeF(10F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(170, 167, 242);
             ClientSize = new Size(1320, 749);

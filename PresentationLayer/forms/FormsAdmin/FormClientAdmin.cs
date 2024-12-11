@@ -29,13 +29,14 @@ namespace PresentationLayer.forms.FormsAdmin
             dataGridViewClients.DataSource = clients;
             dataGridViewClients.Columns["Id"].Visible = false;
             dataGridViewClients.Columns["Password"].Visible = false;
+            dataGridViewClients.Columns["IdRol"].Visible = false;
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             if (dataGridViewClients.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Debe seleccionar un ticket.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Debe seleccionar un cliente.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -60,34 +61,50 @@ namespace PresentationLayer.forms.FormsAdmin
             var clients = _clientService.GetAllClients();
             dataGridViewClients.DataSource = null;
             dataGridViewClients.DataSource = clients;
-        }
 
-        private void buttonDelete_Click_1(object sender, EventArgs e)
-        {
-
+            dataGridViewClients.Columns["Password"].Visible = false;
+            dataGridViewClients.Columns["Id"].Visible = false;
+            dataGridViewClients.Columns["IdRol"].Visible = false;
         }
 
         private void buttonDelete_Click(object sender, EventArgs e)
         {
-            try
+            // Verificar si se ha seleccionado una fila en el DataGridView
+            if (dataGridViewClients.SelectedRows.Count == 0)
             {
-                Agent agent = new Agent();
-
-                if (dataGridViewClients.SelectedRows.Count == 0)
-                {
-                    MessageBox.Show("Debe seleccionar un cliente.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
-                DataGridViewRow selectedRow = dataGridViewClients.SelectedRows[0];
-                int clientId = Convert.ToInt32(selectedRow.Cells["Id"].Value);
-                _clientService.DeleteClient(clientId);
-                MessageBox.Show("Cliente eliminado correctamente", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                LoadClients();
+                MessageBox.Show("Debe seleccionar un cliente para eliminar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            catch
+
+            // Obtener el cliente seleccionado
+            DataGridViewRow selectedRow = dataGridViewClients.CurrentRow;
+            int clientId = Convert.ToInt32(selectedRow.Cells["Id"].Value);
+
+            // Confirmar la eliminación
+            DialogResult dialogResult = MessageBox.Show(
+                "¿Estás seguro de que deseas eliminar este cliente?",
+                "Confirmación de eliminación",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning
+            );
+
+            if (dialogResult == DialogResult.Yes)
             {
-                MessageBox.Show("Error al eliminar el cliente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                try
+                {
+                    // Eliminar el cliente utilizando el servicio
+                    _clientService.DeleteClient(clientId);
+
+                    // Recargar los clientes en el DataGridView
+                    LoadClients();
+
+                    // Notificar al usuario
+                    MessageBox.Show("Cliente eliminado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al eliminar el cliente: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
     }

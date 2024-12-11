@@ -108,7 +108,7 @@
             textBox1.Location = new Point(0, 0);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(1023, 102);
+            textBox1.Size = new Size(973, 87);
             textBox1.TabIndex = 30;
             // 
             // PanelAgenttextBox
@@ -116,10 +116,10 @@
             PanelAgenttextBox.BackColor = Color.FromArgb(207, 206, 242);
             PanelAgenttextBox.BorderStyle = BorderStyle.None;
             PanelAgenttextBox.Dock = DockStyle.Right;
-            PanelAgenttextBox.Location = new Point(1023, 0);
+            PanelAgenttextBox.Location = new Point(973, 0);
             PanelAgenttextBox.Multiline = true;
             PanelAgenttextBox.Name = "PanelAgenttextBox";
-            PanelAgenttextBox.Size = new Size(187, 697);
+            PanelAgenttextBox.Size = new Size(237, 697);
             PanelAgenttextBox.TabIndex = 31;
             // 
             // pictureBox1
@@ -136,9 +136,10 @@
             // 
             // dataGridViewTickets
             // 
+            dataGridViewTickets.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             dataGridViewTickets.BackgroundColor = Color.FromArgb(207, 206, 242);
             dataGridViewTickets.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewTickets.Location = new Point(59, 122);
+            dataGridViewTickets.Location = new Point(23, 106);
             dataGridViewTickets.Margin = new Padding(3, 4, 3, 4);
             dataGridViewTickets.Name = "dataGridViewTickets";
             dataGridViewTickets.RowHeadersWidth = 51;
@@ -166,6 +167,7 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "AgentPanelForm";
             Text = "AgentForm";
+            Load += AgentPanelForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewTickets).EndInit();
             ResumeLayout(false);

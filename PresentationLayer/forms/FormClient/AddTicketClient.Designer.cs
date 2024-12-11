@@ -107,6 +107,7 @@
             // 
             // comboBoxTags
             // 
+            comboBoxTags.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxTags.FormattingEnabled = true;
             comboBoxTags.Location = new Point(162, 523);
             comboBoxTags.Name = "comboBoxTags";
@@ -115,6 +116,7 @@
             // 
             // comboBoxCategories
             // 
+            comboBoxCategories.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxCategories.FormattingEnabled = true;
             comboBoxCategories.Location = new Point(162, 443);
             comboBoxCategories.Name = "comboBoxCategories";
@@ -123,6 +125,7 @@
             // 
             // comboBoxPriority
             // 
+            comboBoxPriority.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxPriority.FormattingEnabled = true;
             comboBoxPriority.Location = new Point(162, 343);
             comboBoxPriority.Name = "comboBoxPriority";
@@ -279,6 +282,7 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "AddTicketClient";
             Text = "AddEditTicket";
+            Load += AddTicketClient_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
